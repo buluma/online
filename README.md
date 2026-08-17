@@ -1,6 +1,6 @@
-# The Nines
+# Online
 
-The Nines is a live uptime comparison of Claude and OpenAI, built with Vite and vanilla JavaScript.
+Online is a live uptime comparison of Claude and OpenAI, built with Vite and vanilla JavaScript.
 
 A GitHub Action fetches status data every hour from public Statuspage APIs and commits the result. Vercel picks up the push and redeploys.
 
