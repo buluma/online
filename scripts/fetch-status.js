@@ -2,51 +2,87 @@
 // Fetches Claude & OpenAI provider pages, preserves their native daily history,
 // and writes the normalized data shape the frontend expects.
 
-import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'fs';
-import { execFileSync } from 'child_process';
-import {
-  OPENAI_SERVICES,
-  liveOpenAIGroupStatus,
-} from './openai-groups.js';
+import { mkdirSync, readFileSync, writeFileSync, existsSync } from "fs";
+import { execFileSync } from "child_process";
+import { OPENAI_SERVICES, liveOpenAIGroupStatus } from "./openai-groups.js";
 import {
   extractClaudeHistory,
+  extractGitHubHistory,
   extractOpenAIHistory,
   openAIFeedGroups,
   parseOpenAIFeed,
-} from './provider-status.js';
+} from "./provider-status.js";
 
 const STATUS_MAP = {
-  operational: 'g',
-  degraded_performance: 'y',
-  partial_outage: 'o',
-  major_outage: 'r',
-  under_maintenance: 'b',
+  operational: "g",
+  degraded_performance: "y",
+  partial_outage: "o",
+  major_outage: "r",
+  under_maintenance: "b",
 };
 
 const PRIORITY = { g: 0, b: 1, y: 2, o: 3, r: 4 };
 const UPTIME_SCORES = { g: 100, y: 99.5, o: 98, r: 95, b: 99 };
 
 const CLAUDE_COMPONENT_MAP = {
-  'claude.ai': 'claude.ai',
-  'Claude Console (platform.claude.com)': 'platform.claude.com',
-  'platform.claude.com (formerly console.anthropic.com)': 'platform.claude.com',
-  'Claude API (api.anthropic.com)': 'Claude API',
-  'Claude Code': 'Claude Code',
-  'Claude Cowork': 'Claude Cowork',
-  'Claude for Government': 'Claude for Government',
+  "claude.ai": "claude.ai",
+  "Claude Console (platform.claude.com)": "platform.claude.com",
+  "platform.claude.com (formerly console.anthropic.com)": "platform.claude.com",
+  "Claude API (api.anthropic.com)": "Claude API",
+  "Claude Code": "Claude Code",
+  "Claude Cowork": "Claude Cowork",
+  "Claude for Government": "Claude for Government",
 };
 
 const CLAUDE_SERVICES = [
-  'Claude API',
-  'claude.ai',
-  'Claude Code',
-  'platform.claude.com',
-  'Claude Cowork',
-  'Claude for Government',
+  "Claude API",
+  "claude.ai",
+  "Claude Code",
+  "platform.claude.com",
+  "Claude Cowork",
+  "Claude for Government",
 ];
 
-const TRACKED_CLAUDE_SERVICES = new Set(['Claude API', 'claude.ai', 'Claude Code']);
-const TRACKED_OPENAI_SERVICES = new Set(['OpenAI APIs', 'ChatGPT', 'Codex']);
+const TRACKED_CLAUDE_SERVICES = new Set([
+  "Claude API",
+  "claude.ai",
+  "Claude Code",
+]);
+const TRACKED_OPENAI_SERVICES = new Set(["OpenAI APIs", "ChatGPT", "Codex"]);
+
+const GITHUB_COMPONENT_MAP = {
+  "API Requests": "GitHub API",
+  "Git Operations": "Git Operations",
+  Actions: "Actions",
+  Copilot: "Copilot",
+  Webhooks: "Webhooks",
+  Issues: "Issues",
+  "Pull Requests": "Pull Requests",
+  Packages: "Packages",
+  Pages: "Pages",
+  Codespaces: "Codespaces",
+  "Copilot AI Model Providers": "Copilot AI Model Providers",
+};
+
+const GITHUB_SERVICES = [
+  "GitHub API",
+  "Git Operations",
+  "Actions",
+  "Copilot",
+  "Webhooks",
+  "Issues",
+  "Pull Requests",
+  "Packages",
+  "Pages",
+  "Codespaces",
+  "Copilot AI Model Providers",
+];
+
+const TRACKED_GITHUB_SERVICES = new Set([
+  "GitHub API",
+  "Git Operations",
+  "Actions",
+]);
 
 function computeUptime(statusStr) {
   if (!statusStr?.length) return 100;
@@ -59,7 +95,7 @@ async function fetchText(url, retries = 3) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
       const res = await fetch(url, {
-        headers: { 'User-Agent': 'thenines-action/1.0' },
+        headers: { "User-Agent": "thenines-action/1.0" },
         signal: AbortSignal.timeout(15000),
       });
       if (!res.ok) {
@@ -70,28 +106,34 @@ async function fetchText(url, retries = 3) {
     } catch (err) {
       if (attempt === retries) throw err;
       const delay = 1000 * 2 ** (attempt - 1);
-      console.warn(`  Attempt ${attempt}/${retries} failed for ${url}: ${err.message}, retrying in ${delay}ms...`);
-      await new Promise(resolve => setTimeout(resolve, delay));
+      console.warn(
+        `  Attempt ${attempt}/${retries} failed for ${url}: ${err.message}, retrying in ${delay}ms...`,
+      );
+      await new Promise((resolve) => setTimeout(resolve, delay));
     }
   }
 }
 
 function fetchTextWithCurl(url) {
   console.warn(`  Node fetch received 405 for ${url}; retrying with curl.`);
-  return execFileSync('curl', [
-    '--fail',
-    '--silent',
-    '--show-error',
-    '--location',
-    '--max-time',
-    '15',
-    '--user-agent',
-    'thenines-action/1.0',
-    url,
-  ], {
-    encoding: 'utf8',
-    maxBuffer: 5 * 1024 * 1024,
-  });
+  return execFileSync(
+    "curl",
+    [
+      "--fail",
+      "--silent",
+      "--show-error",
+      "--location",
+      "--max-time",
+      "15",
+      "--user-agent",
+      "thenines-action/1.0",
+      url,
+    ],
+    {
+      encoding: "utf8",
+      maxBuffer: 5 * 1024 * 1024,
+    },
+  );
 }
 
 async function fetchJSON(url, retries = 3) {
@@ -100,19 +142,23 @@ async function fetchJSON(url, retries = 3) {
 }
 
 async function main() {
-  console.log('Fetching provider status pages...');
+  console.log("Fetching provider status pages...");
   const [
     claudeSummary,
     openaiSummary,
+    githubSummary,
     claudeHtml,
     openaiHtml,
     openaiFeedXml,
+    githubHtml,
   ] = await Promise.all([
-    fetchJSON('https://status.claude.com/api/v2/summary.json'),
-    fetchJSON('https://status.openai.com/api/v2/summary.json'),
-    fetchText('https://status.claude.com/'),
-    fetchText('https://status.openai.com/'),
-    fetchText('https://status.openai.com/feed.atom'),
+    fetchJSON("https://status.claude.com/api/v2/summary.json"),
+    fetchJSON("https://status.openai.com/api/v2/summary.json"),
+    fetchJSON("https://www.githubstatus.com/api/v2/summary.json"),
+    fetchText("https://status.claude.com/"),
+    fetchText("https://status.openai.com/"),
+    fetchText("https://status.openai.com/feed.atom"),
+    fetchText("https://www.githubstatus.com/"),
   ]);
 
   const claudeHistory = extractClaudeHistory(claudeHtml);
@@ -126,15 +172,17 @@ async function main() {
   const uptime = {};
 
   for (const serviceName of CLAUDE_SERVICES) {
-    claudeDaily[serviceName] = 'g'.repeat(dates.length);
+    claudeDaily[serviceName] = "g".repeat(dates.length);
     claudeDetails[serviceName] = {};
   }
 
-  for (const [sourceName, history] of Object.entries(claudeHistory.historyBySource)) {
+  for (const [sourceName, history] of Object.entries(
+    claudeHistory.historyBySource,
+  )) {
     const serviceName = CLAUDE_COMPONENT_MAP[sourceName];
     if (!serviceName) continue;
 
-    const statuses = history.days.map(day => day.status).join('');
+    const statuses = history.days.map((day) => day.status).join("");
     claudeDaily[serviceName] = statuses;
     uptime[serviceName] = history.uptime ?? computeUptime(statuses);
 
@@ -155,7 +203,8 @@ async function main() {
 
   for (const component of claudeSummary.components || []) {
     const serviceName = CLAUDE_COMPONENT_MAP[component.name];
-    if (serviceName) currentStatus[serviceName] = STATUS_MAP[component.status] || 'g';
+    if (serviceName)
+      currentStatus[serviceName] = STATUS_MAP[component.status] || "g";
   }
 
   const openaiHistory = extractOpenAIHistory(openaiHtml, dates.length);
@@ -165,9 +214,10 @@ async function main() {
 
   for (const serviceName of OPENAI_SERVICES) {
     const history = openaiHistory[serviceName];
-    openaiDaily[serviceName] = history?.statuses || 'g'.repeat(dates.length);
+    openaiDaily[serviceName] = history?.statuses || "g".repeat(dates.length);
     openaiDetails[serviceName] = {};
-    uptime[serviceName] = history?.uptime ?? computeUptime(openaiDaily[serviceName]);
+    uptime[serviceName] =
+      history?.uptime ?? computeUptime(openaiDaily[serviceName]);
     currentStatus[serviceName] = liveOpenAIGroupStatus(
       openaiSummary.components || [],
       serviceName,
@@ -195,6 +245,51 @@ async function main() {
     }
   }
 
+  const githubHistory = extractGitHubHistory(githubHtml);
+  const githubDaily = {};
+  const githubDetails = {};
+  const githubIncidents = {};
+
+  for (const serviceName of GITHUB_SERVICES) {
+    githubDaily[serviceName] = "g".repeat(dates.length);
+    githubDetails[serviceName] = {};
+  }
+
+  for (const [sourceName, history] of Object.entries(
+    githubHistory.historyBySource,
+  )) {
+    const serviceName = GITHUB_COMPONENT_MAP[sourceName];
+    if (!serviceName) continue;
+
+    const statuses = history.days.map((day) => day.status).join("");
+    githubDaily[serviceName] = statuses;
+    uptime[serviceName] = history.uptime ?? computeUptime(statuses);
+
+    for (const day of history.days) {
+      const totalMinutes = (day.partialMinutes || 0) + (day.majorMinutes || 0);
+      if (totalMinutes > 0 || day.relatedEvents.length > 0) {
+        githubDetails[serviceName][day.date] = {
+          partialMinutes: day.partialMinutes || 0,
+          majorMinutes: day.majorMinutes || 0,
+          events: day.relatedEvents,
+        };
+      }
+      if (TRACKED_GITHUB_SERVICES.has(serviceName) && totalMinutes > 0) {
+        const titles = githubIncidents[day.date] || [];
+        for (const event of day.relatedEvents) {
+          if (!titles.includes(event)) titles.push(event);
+        }
+        if (titles.length > 0) githubIncidents[day.date] = titles;
+      }
+    }
+  }
+
+  for (const component of githubSummary.components || []) {
+    const serviceName = GITHUB_COMPONENT_MAP[component.name];
+    if (serviceName)
+      currentStatus[serviceName] = STATUS_MAP[component.status] || "g";
+  }
+
   const data = {
     updated: new Date().toISOString(),
     startDate: dates[0],
@@ -202,31 +297,36 @@ async function main() {
     currentStatus,
     claudeDaily,
     openaiDaily,
+    githubDaily,
     uptime,
     oaiIncidents,
+    githubIncidents,
     claudeMinutes,
     claudeDetails,
     openaiDetails,
+    githubDetails,
   };
 
-  mkdirSync('public/data', { recursive: true });
-  const outPath = 'public/data/status.json';
+  mkdirSync("public/data", { recursive: true });
+  const outPath = "public/data/status.json";
 
   if (existsSync(outPath)) {
-    const prev = JSON.parse(readFileSync(outPath, 'utf8'));
+    const prev = JSON.parse(readFileSync(outPath, "utf8"));
     const { updated: _prevUpdated, ...prevData } = prev;
     const { updated: _newUpdated, ...newData } = data;
     if (JSON.stringify(prevData) === JSON.stringify(newData)) {
-      console.log('No changes detected, skipping write.');
+      console.log("No changes detected, skipping write.");
       process.exit(0);
     }
   }
 
   writeFileSync(outPath, JSON.stringify(data, null, 2));
-  console.log(`Wrote ${outPath} (${(JSON.stringify(data).length / 1024).toFixed(1)} KB)`);
+  console.log(
+    `Wrote ${outPath} (${(JSON.stringify(data).length / 1024).toFixed(1)} KB)`,
+  );
 }
 
-main().catch(err => {
+main().catch((err) => {
   console.error(err);
   process.exit(1);
 });

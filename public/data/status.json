@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T03:48:54.641Z",
+  "updated": "2026-08-17T15:04:05.533Z",
   "startDate": "05-20",
   "dates": [
     "05-20",
@@ -104,14 +104,25 @@
     "ChatGPT": "g",
     "Codex": "g",
     "Sora": "g",
-    "FedRAMP": "g"
+    "FedRAMP": "g",
+    "Git Operations": "g",
+    "Webhooks": "o",
+    "GitHub API": "r",
+    "Issues": "r",
+    "Pull Requests": "r",
+    "Actions": "r",
+    "Packages": "g",
+    "Pages": "g",
+    "Copilot": "r",
+    "Codespaces": "g",
+    "Copilot AI Model Providers": "g"
   },
   "claudeDaily": {
-    "Claude API": "ygoggygoooggyoygoyyyyyogyyyoyyyyyooyyyyyyyyyyygyoyoyggygyooggyrygyooogroyggyoyggggggyoogog",
-    "claude.ai": "ygoggygoooyyyoygoyyyyyogyyyoyoyyyooyyyyyyyyyyygroyoyggyoyooggyryyyooogroyggyoyggggggyooorg",
-    "Claude Code": "ygoggyyoooggyoogoyyyyyogyyyoyyyyyooyyyyyyyyyyygyoyoyggygyooggyryyyooogroyggyoyggggggyoogrg",
+    "Claude API": "ygoggygoooggyoygoyyyyyogyyyoyyyyyooyyyyyyyyyyygyoyoyggygyooggyrygyooogroyggyoyggggggyoogoy",
+    "claude.ai": "ygoggygoooyyyoygoyyyyyogyyyoyoyyyooyyyyyyyyyyygroyoyggyoyooggyryyyooogroyggyoyggggggyooory",
+    "Claude Code": "ygoggyyoooggyoogoyyyyyogyyyoyyyyyooyyyyyyyyyyygyoyoyggygyooggyryyyooogroyggyoyggggggyoogry",
     "platform.claude.com": "ygoggyggooyyyoyggyyyggggggygygyyggoygggggyggyggggggyggygyooggyrygygogggggggyygggggggggggrg",
-    "Claude Cowork": "ygoggygoooggygggoyyyyyogyyyoyyyyyooyyyyyyyyyyygyoyoyggygyooggyrygyooogroyggyoyggggggyoogrg",
+    "Claude Cowork": "ygoggygoooggygggoyyyyyogyyyoyyyyyooyyyyyyyyyyygyoyoyggygyooggyrygyooogroyggyoyggggggyoogry",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggygggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
@@ -120,6 +131,19 @@
     "Codex": "ggyygggyyggggyoyggggggyggggyggggggggyygggggggggggggggggggggygyggyyyggggggggggggggggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "ggggggyyggggggggggggggggggyyyyyyyyyyyyggyyyyyyyyyyyyyggggggggggggggggggggggggggggggggggggg"
+  },
+  "githubDaily": {
+    "GitHub API": "gggggggygggggggggggggrgggggggggggggggggggggggggggggggggggyygyogggyggyggggggggggggggygggggr",
+    "Git Operations": "gggggogygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggg",
+    "Actions": "ygggggrggggggggggggyggggggggggggggggogggggggggggygrgggogggggyogyoorgggogggggggrrgggggggggr",
+    "Copilot": "ggggggygygggggggggggggggggggrgggggggggggggyggggggggggggggggggggggygggggggggygggggggggggggr",
+    "Webhooks": "ggggggggygggggggggggggygggygggggggggyggggggggggggggggggyggggggggyggggggggggggggggggggygggo",
+    "Issues": "gggggggygggggggggggrgyggggggggggggggygggggggggggggggggggggggyyggyyggggggggggggggggggyygggr",
+    "Pull Requests": "gggggggygggggggggggyggggggggggggggggygggggggggggggggggggggggggggyrggggggggggggggggggyygggr",
+    "Packages": "gggggggggggggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggg",
+    "Pages": "ggggggyggggggggggggggggggggggggggggggggggggyggggggygggygggggyygggyggggggggggggrrgggggggggg",
+    "Codespaces": "ggggggggggggggggggggggggggggggggggggggggggggggggoggggggygggggggggggggggggggggggggggggggggg",
+    "Copilot AI Model Providers": "ggggggggrggggggggggygggggggogggggggggggggggggggggggggggggygggyggggogggyygygggggggggggygggg"
   },
   "uptime": {
     "claude.ai": 99.35,
@@ -132,7 +156,18 @@
     "ChatGPT": 99.68,
     "Codex": 99.98,
     "Sora": 100,
-    "FedRAMP": 100
+    "FedRAMP": 100,
+    "Git Operations": 99.99,
+    "Webhooks": 99.99,
+    "GitHub API": 99.91,
+    "Issues": 99.97,
+    "Pull Requests": 99.97,
+    "Actions": 99.42,
+    "Packages": 100,
+    "Pages": 99.65,
+    "Copilot": 99.93,
+    "Codespaces": 99.97,
+    "Copilot AI Model Providers": 99.88
   },
   "oaiIncidents": {
     "08-13": [
@@ -321,6 +356,48 @@
       "API users may see increased error rates for GPT-5.4 and GPT-5.5"
     ]
   },
+  "githubIncidents": {
+    "06-10": [
+      "Authentication issues related to API requests"
+    ],
+    "07-20": [
+      "Incident with GitHub Actions"
+    ],
+    "08-17": [
+      "Incident with GitHub.com"
+    ],
+    "05-26": [
+      "Incident with Actions and Pages"
+    ],
+    "06-25": [
+      "Degradation with Webhooks, Pull Requests and Actions"
+    ],
+    "07-09": [
+      "Delays starting Actions runs"
+    ],
+    "07-13": [
+      "Actions runs are experiencing failures to start"
+    ],
+    "07-23": [
+      "Latency issues across a number of services"
+    ],
+    "07-24": [
+      "Disruption with some GitHub services"
+    ],
+    "07-25": [
+      "Actions run failures and delays",
+      "Incident with Actions"
+    ],
+    "07-29": [
+      "Incident with Actions"
+    ],
+    "08-06": [
+      "Incident with Actions"
+    ],
+    "08-07": [
+      "Incident with Actions"
+    ]
+  },
   "claudeMinutes": {
     "05-22": 336,
     "05-27": 258,
@@ -358,16 +435,16 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Haiku 4.5",
-          "Elevated errors on Claude Opus 4.7"
+          "Elevated errors on Claude Opus 4.7",
+          "Elevated errors on Claude Haiku 4.5"
         ]
       },
       "05-22": {
         "partialMinutes": 112,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Opus 4.7",
-          "Elevated error rate on multiple models"
+          "Elevated error rate on multiple models",
+          "Elevated errors on Claude Opus 4.7"
         ]
       },
       "05-25": {
@@ -403,11 +480,11 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
+          "Elevated errors on Claude Sonnet 4.6",
+          "Elevated errors for Claude Opus 4.7",
           "Sonnet 4.5 elevated errors",
           "Opus 4.7 elevated errors",
-          "Elevated errors on Claude Sonnet 4.6",
-          "Degraded performance for Claude Sonnet 4.6",
-          "Elevated errors for Claude Opus 4.7"
+          "Degraded performance for Claude Sonnet 4.6"
         ]
       },
       "06-02": {
@@ -441,8 +518,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Opus 4.7",
-          "Degraded performance for multiple models"
+          "Degraded performance for multiple models",
+          "Elevated errors on Claude Opus 4.7"
         ]
       },
       "06-08": {
@@ -503,9 +580,9 @@
         "partialMinutes": 46,
         "majorMinutes": 0,
         "events": [
-          "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
           "Elevated errors across many models",
-          "Elevated errors for Claude Opus 4.8"
+          "Elevated errors for Claude Opus 4.8",
+          "We’ve suspended access to Claude Mythos 5 and Claude Fable 5"
         ]
       },
       "06-17": {
@@ -539,8 +616,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-          "Opus 4.8 errors"
+          "Opus 4.8 errors",
+          "We’ve suspended access to Claude Mythos 5 and Claude Fable 5"
         ]
       },
       "06-21": {
@@ -669,8 +746,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Sonnet 5",
-          "Elevated errors on multiple models"
+          "Elevated errors on multiple models",
+          "Elevated errors on Claude Sonnet 5"
         ]
       },
       "07-09": {
@@ -723,19 +800,19 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
+          "Elevated errors for Claude Opus 4.8",
           "Elevated error rates for Opus 4.5",
-          "Elevated errors on Haiku 4.5",
-          "Elevated errors for Claude Opus 4.8"
+          "Elevated errors on Haiku 4.5"
         ]
       },
       "07-21": {
         "partialMinutes": 76,
         "majorMinutes": 22,
         "events": [
+          "Elevated errors on Haiku 4.5",
           "Elevated errors across models",
           "Elevated errors on several models",
           "Elevated errors across Fable 5",
-          "Elevated errors on Haiku 4.5",
           "Elevated errors on Haiku 4.5"
         ]
       },
@@ -759,8 +836,8 @@
         "partialMinutes": 98,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
-          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models"
+          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
+          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5"
         ]
       },
       "07-26": {
@@ -850,6 +927,13 @@
         "events": [
           "Service disruption on Claude services"
         ]
+      },
+      "08-17": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Opus 5, Claude Sonnet 5"
+        ]
       }
     },
     "claude.ai": {
@@ -857,16 +941,16 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Haiku 4.5",
-          "Elevated errors on Claude Opus 4.7"
+          "Elevated errors on Claude Opus 4.7",
+          "Elevated errors on Claude Haiku 4.5"
         ]
       },
       "05-22": {
         "partialMinutes": 112,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Opus 4.7",
-          "Elevated error rate on multiple models"
+          "Elevated error rate on multiple models",
+          "Elevated errors on Claude Opus 4.7"
         ]
       },
       "05-25": {
@@ -916,11 +1000,11 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
+          "Elevated errors on Claude Sonnet 4.6",
+          "Elevated errors for Claude Opus 4.7",
           "Sonnet 4.5 elevated errors",
           "Opus 4.7 elevated errors",
-          "Elevated errors on Claude Sonnet 4.6",
-          "Degraded performance for Claude Sonnet 4.6",
-          "Elevated errors for Claude Opus 4.7"
+          "Degraded performance for Claude Sonnet 4.6"
         ]
       },
       "06-02": {
@@ -954,8 +1038,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Opus 4.7",
-          "Degraded performance for multiple models"
+          "Degraded performance for multiple models",
+          "Elevated errors on Claude Opus 4.7"
         ]
       },
       "06-08": {
@@ -1017,10 +1101,10 @@
         "partialMinutes": 46,
         "majorMinutes": 0,
         "events": [
-          "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
           "Elevated errors across many models",
-          "Opus 4.8 errors",
-          "Elevated errors for Claude Opus 4.8"
+          "Elevated errors for Claude Opus 4.8",
+          "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+          "Opus 4.8 errors"
         ]
       },
       "06-17": {
@@ -1185,8 +1269,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Sonnet 5",
-          "Elevated errors on multiple models"
+          "Elevated errors on multiple models",
+          "Elevated errors on Claude Sonnet 5"
         ]
       },
       "07-09": {
@@ -1247,18 +1331,18 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Haiku 4.5",
-          "Elevated errors for Claude Opus 4.8"
+          "Elevated errors for Claude Opus 4.8",
+          "Elevated errors on Haiku 4.5"
         ]
       },
       "07-21": {
         "partialMinutes": 76,
         "majorMinutes": 22,
         "events": [
+          "Elevated errors on Haiku 4.5",
           "Elevated errors across models",
           "Elevated errors on several models",
           "Elevated errors across Fable 5",
-          "Elevated errors on Haiku 4.5",
           "Elevated errors on Haiku 4.5"
         ]
       },
@@ -1290,8 +1374,8 @@
         "partialMinutes": 98,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
-          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models"
+          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
+          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5"
         ]
       },
       "07-26": {
@@ -1388,6 +1472,13 @@
         "events": [
           "Service disruption on Claude services"
         ]
+      },
+      "08-17": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Opus 5, Claude Sonnet 5"
+        ]
       }
     },
     "Claude Code": {
@@ -1395,16 +1486,16 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Haiku 4.5",
-          "Elevated errors on Claude Opus 4.7"
+          "Elevated errors on Claude Opus 4.7",
+          "Elevated errors on Claude Haiku 4.5"
         ]
       },
       "05-22": {
         "partialMinutes": 112,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Opus 4.7",
-          "Elevated error rate on multiple models"
+          "Elevated error rate on multiple models",
+          "Elevated errors on Claude Opus 4.7"
         ]
       },
       "05-25": {
@@ -1447,11 +1538,11 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
+          "Elevated errors on Claude Sonnet 4.6",
+          "Elevated errors for Claude Opus 4.7",
           "Sonnet 4.5 elevated errors",
           "Opus 4.7 elevated errors",
-          "Elevated errors on Claude Sonnet 4.6",
-          "Degraded performance for Claude Sonnet 4.6",
-          "Elevated errors for Claude Opus 4.7"
+          "Degraded performance for Claude Sonnet 4.6"
         ]
       },
       "06-02": {
@@ -1486,8 +1577,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Opus 4.7",
-          "Degraded performance for multiple models"
+          "Degraded performance for multiple models",
+          "Elevated errors on Claude Opus 4.7"
         ]
       },
       "06-08": {
@@ -1550,10 +1641,10 @@
         "partialMinutes": 47,
         "majorMinutes": 0,
         "events": [
-          "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
           "Elevated errors across many models",
-          "Opus 4.8 errors",
-          "Elevated errors for Claude Opus 4.8"
+          "Elevated errors for Claude Opus 4.8",
+          "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+          "Opus 4.8 errors"
         ]
       },
       "06-17": {
@@ -1709,8 +1800,8 @@
         "partialMinutes": 118,
         "majorMinutes": 0,
         "events": [
-          "Claude Tag seeing elevated GitHub operation failures",
           "Elevated errors on Claude Sonnet 5",
+          "Claude Tag seeing elevated GitHub operation failures",
           "Elevated errors for some models"
         ]
       },
@@ -1718,9 +1809,9 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Sonnet 5",
           "Elevated errors on multiple models",
-          "Degraded performance for Claude Code on the web, Cowork Remote, Claude Tag, and Claude Code Review sessions"
+          "Degraded performance for Claude Code on the web, Cowork Remote, Claude Tag, and Claude Code Review sessions",
+          "Elevated errors on Claude Sonnet 5"
         ]
       },
       "07-09": {
@@ -1773,10 +1864,10 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
+          "Elevated errors for Claude Opus 4.8",
           "Elevated error rates for Opus 4.5",
           "Fable 5 requiring usage credits on Max plans",
-          "Elevated errors on Haiku 4.5",
-          "Elevated errors for Claude Opus 4.8"
+          "Elevated errors on Haiku 4.5"
         ]
       },
       "07-21": {
@@ -1784,10 +1875,10 @@
         "majorMinutes": 45,
         "events": [
           "Service disruption on Claude services",
+          "Elevated errors on Haiku 4.5",
           "Elevated errors across models",
           "Elevated errors on several models",
           "Elevated errors across Fable 5",
-          "Elevated errors on Haiku 4.5",
           "Elevated errors on Haiku 4.5"
         ]
       },
@@ -1819,8 +1910,8 @@
         "partialMinutes": 98,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
-          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models"
+          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
+          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5"
         ]
       },
       "07-26": {
@@ -1910,6 +2001,13 @@
         "events": [
           "Service disruption on Claude services"
         ]
+      },
+      "08-17": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Opus 5, Claude Sonnet 5"
+        ]
       }
     },
     "platform.claude.com": {
@@ -1924,8 +2022,8 @@
         "partialMinutes": 112,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Opus 4.7",
-          "Elevated error rate on multiple models"
+          "Elevated error rate on multiple models",
+          "Elevated errors on Claude Opus 4.7"
         ]
       },
       "05-25": {
@@ -1965,9 +2063,9 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
+          "Elevated errors on Claude Sonnet 4.6",
           "Sonnet 4.5 elevated errors",
           "Opus 4.7 elevated errors",
-          "Elevated errors on Claude Sonnet 4.6",
           "Degraded performance for Claude Sonnet 4.6"
         ]
       },
@@ -2109,17 +2207,17 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
+          "Elevated errors for Claude Opus 4.8",
           "Elevated error rates for Opus 4.5",
-          "Elevated errors on Haiku 4.5",
-          "Elevated errors for Claude Opus 4.8"
+          "Elevated errors on Haiku 4.5"
         ]
       },
       "07-21": {
         "partialMinutes": 0,
         "majorMinutes": 5,
         "events": [
-          "Elevated errors across Fable 5",
           "Elevated errors on Haiku 4.5",
+          "Elevated errors across Fable 5",
           "Elevated errors on Haiku 4.5"
         ]
       },
@@ -2173,16 +2271,16 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Haiku 4.5",
-          "Elevated errors on Claude Opus 4.7"
+          "Elevated errors on Claude Opus 4.7",
+          "Elevated errors on Claude Haiku 4.5"
         ]
       },
       "05-22": {
         "partialMinutes": 112,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Opus 4.7",
-          "Elevated error rate on multiple models"
+          "Elevated error rate on multiple models",
+          "Elevated errors on Claude Opus 4.7"
         ]
       },
       "05-25": {
@@ -2219,8 +2317,8 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors on Claude Sonnet 4.6",
-          "Degraded performance for Claude Sonnet 4.6",
-          "Elevated errors for Claude Opus 4.7"
+          "Elevated errors for Claude Opus 4.7",
+          "Degraded performance for Claude Sonnet 4.6"
         ]
       },
       "06-05": {
@@ -2301,9 +2399,9 @@
         "partialMinutes": 47,
         "majorMinutes": 0,
         "events": [
-          "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
           "Elevated errors across many models",
-          "Elevated errors for Claude Opus 4.8"
+          "Elevated errors for Claude Opus 4.8",
+          "We’ve suspended access to Claude Mythos 5 and Claude Fable 5"
         ]
       },
       "06-17": {
@@ -2337,8 +2435,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-          "Opus 4.8 errors"
+          "Opus 4.8 errors",
+          "We’ve suspended access to Claude Mythos 5 and Claude Fable 5"
         ]
       },
       "06-21": {
@@ -2466,8 +2564,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Sonnet 5",
-          "Elevated errors on multiple models"
+          "Elevated errors on multiple models",
+          "Elevated errors on Claude Sonnet 5"
         ]
       },
       "07-09": {
@@ -2520,9 +2618,9 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
+          "Elevated errors for Claude Opus 4.8",
           "Elevated error rates for Opus 4.5",
-          "Elevated errors on Haiku 4.5",
-          "Elevated errors for Claude Opus 4.8"
+          "Elevated errors on Haiku 4.5"
         ]
       },
       "07-21": {
@@ -2530,10 +2628,10 @@
         "majorMinutes": 45,
         "events": [
           "Service disruption on Claude services",
+          "Elevated errors on Haiku 4.5",
           "Elevated errors across models",
           "Elevated errors on several models",
           "Elevated errors across Fable 5",
-          "Elevated errors on Haiku 4.5",
           "Elevated errors on Haiku 4.5"
         ]
       },
@@ -2557,8 +2655,8 @@
         "partialMinutes": 98,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
-          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models"
+          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
+          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5"
         ]
       },
       "07-26": {
@@ -2614,8 +2712,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Degraded performance of multiple models",
-          "Degraded performance for Claude Opus 5"
+          "Degraded performance for Claude Opus 5",
+          "Degraded performance of multiple models"
         ]
       },
       "08-12": {
@@ -2645,6 +2743,13 @@
         "majorMinutes": 36,
         "events": [
           "Service disruption on Claude services"
+        ]
+      },
+      "08-17": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Opus 5, Claude Sonnet 5"
         ]
       }
     },
@@ -3170,6 +3275,639 @@
       "05-27": {
         "titles": [
           "Login issues for FedRAMP users who recently logged out"
+        ]
+      }
+    }
+  },
+  "githubDetails": {
+    "GitHub API": {
+      "05-27": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Pull Requests, Issues, Git Operations and API Requests"
+        ]
+      },
+      "06-10": {
+        "partialMinutes": 0,
+        "majorMinutes": 72,
+        "events": [
+          "Authentication issues related to API requests"
+        ]
+      },
+      "07-16": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded REST API Availability"
+        ]
+      },
+      "07-17": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded REST API Availability"
+        ]
+      },
+      "07-19": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with GitHub Actions"
+        ]
+      },
+      "07-20": {
+        "partialMinutes": 136,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with GitHub Actions"
+        ]
+      },
+      "07-24": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with some GitHub services"
+        ]
+      },
+      "07-27": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with GraphQL API Requests"
+        ]
+      },
+      "08-11": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with GraphQL API Requests"
+        ]
+      },
+      "08-17": {
+        "partialMinutes": 0,
+        "majorMinutes": 2,
+        "events": [
+          "Incident with GitHub.com"
+        ]
+      }
+    },
+    "Git Operations": {
+      "05-25": {
+        "partialMinutes": 9,
+        "majorMinutes": 0,
+        "events": []
+      },
+      "05-27": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Pull Requests, Issues, Git Operations and API Requests"
+        ]
+      },
+      "08-13": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Webhooks"
+        ]
+      }
+    },
+    "Actions": {
+      "05-20": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions"
+        ]
+      },
+      "05-26": {
+        "partialMinutes": 0,
+        "majorMinutes": 59,
+        "events": [
+          "Incident with Actions and Pages"
+        ]
+      },
+      "06-08": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Pull Requests and Issues unavailable for signed-out users"
+        ]
+      },
+      "06-25": {
+        "partialMinutes": 15,
+        "majorMinutes": 0,
+        "events": [
+          "Degradation with Webhooks, Pull Requests and Actions"
+        ]
+      },
+      "07-07": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Actions and Codespaces APIs experiencing partial failures"
+        ]
+      },
+      "07-09": {
+        "partialMinutes": 182,
+        "majorMinutes": 30,
+        "events": [
+          "Delays starting Actions runs"
+        ]
+      },
+      "07-13": {
+        "partialMinutes": 7,
+        "majorMinutes": 0,
+        "events": [
+          "Actions runs are experiencing failures to start"
+        ]
+      },
+      "07-19": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with GitHub Actions"
+        ]
+      },
+      "07-20": {
+        "partialMinutes": 193,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with GitHub Actions"
+        ]
+      },
+      "07-22": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with actions hosted runners"
+        ]
+      },
+      "07-23": {
+        "partialMinutes": 86,
+        "majorMinutes": 0,
+        "events": [
+          "Latency issues across a number of services"
+        ]
+      },
+      "07-24": {
+        "partialMinutes": 13,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with some GitHub services"
+        ]
+      },
+      "07-25": {
+        "partialMinutes": 0,
+        "majorMinutes": 28,
+        "events": [
+          "Actions run failures and delays",
+          "Incident with Actions"
+        ]
+      },
+      "07-29": {
+        "partialMinutes": 14,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions"
+        ]
+      },
+      "08-06": {
+        "partialMinutes": 52,
+        "majorMinutes": 446,
+        "events": [
+          "Incident with Actions"
+        ]
+      },
+      "08-07": {
+        "partialMinutes": 0,
+        "majorMinutes": 5,
+        "events": [
+          "Incident with Actions"
+        ]
+      },
+      "08-17": {
+        "partialMinutes": 0,
+        "majorMinutes": 5,
+        "events": [
+          "Incident with GitHub.com"
+        ]
+      }
+    },
+    "Copilot": {
+      "05-26": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with some GitHub services"
+        ]
+      },
+      "05-28": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with OpenAI Models"
+        ]
+      },
+      "06-17": {
+        "partialMinutes": 0,
+        "majorMinutes": 54,
+        "events": [
+          "Incident with Copilot Availability"
+        ]
+      },
+      "07-01": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Delays in copilot budget limits resets for some users"
+        ]
+      },
+      "07-24": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with some GitHub services"
+        ]
+      },
+      "08-03": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Copilot"
+        ]
+      },
+      "08-17": {
+        "partialMinutes": 0,
+        "majorMinutes": 32,
+        "events": [
+          "Incident with GitHub.com"
+        ]
+      }
+    },
+    "Webhooks": {
+      "05-28": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Webhook APIs and UI Degraded"
+        ]
+      },
+      "06-11": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Webhooks"
+        ]
+      },
+      "06-15": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Increased latency with webhooks"
+        ]
+      },
+      "06-25": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degradation with Webhooks, Pull Requests and Actions"
+        ]
+      },
+      "07-14": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Webhooks"
+        ]
+      },
+      "07-23": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Latency issues across a number of services"
+        ]
+      },
+      "08-13": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Webhooks"
+        ]
+      },
+      "08-17": {
+        "partialMinutes": 5,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with GitHub.com"
+        ]
+      }
+    },
+    "Issues": {
+      "05-27": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Pull Requests, Issues, Git Operations and API Requests"
+        ]
+      },
+      "06-08": {
+        "partialMinutes": 0,
+        "majorMinutes": 17,
+        "events": [
+          "Pull Requests and Issues unavailable for signed-out users"
+        ]
+      },
+      "06-10": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Authentication issues related to API requests"
+        ]
+      },
+      "06-25": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degradation with Webhooks, Pull Requests and Actions"
+        ]
+      },
+      "07-19": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with GitHub Actions"
+        ]
+      },
+      "07-20": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with GitHub Actions"
+        ]
+      },
+      "07-23": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Latency issues across a number of services"
+        ]
+      },
+      "07-24": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with some GitHub services"
+        ]
+      },
+      "08-12": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Pull Requests and Issues"
+        ]
+      },
+      "08-13": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Webhooks"
+        ]
+      },
+      "08-17": {
+        "partialMinutes": 0,
+        "majorMinutes": 14,
+        "events": [
+          "Incident with GitHub.com"
+        ]
+      }
+    },
+    "Pull Requests": {
+      "05-27": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Pull Requests, Issues, Git Operations and API Requests"
+        ]
+      },
+      "06-08": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Pull Requests and Issues unavailable for signed-out users"
+        ]
+      },
+      "06-25": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degradation with Webhooks, Pull Requests and Actions"
+        ]
+      },
+      "07-23": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Latency issues across a number of services"
+        ]
+      },
+      "07-24": {
+        "partialMinutes": 0,
+        "majorMinutes": 19,
+        "events": [
+          "Incident with Pull Requests",
+          "Disruption with some GitHub services"
+        ]
+      },
+      "08-12": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Pull Requests and Issues"
+        ]
+      },
+      "08-13": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Webhooks"
+        ]
+      },
+      "08-17": {
+        "partialMinutes": 8,
+        "majorMinutes": 9,
+        "events": [
+          "Incident with GitHub.com"
+        ]
+      }
+    },
+    "Packages": {
+      "06-06": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with some GitHub services in the EU region"
+        ]
+      },
+      "08-13": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Webhooks"
+        ]
+      }
+    },
+    "Pages": {
+      "05-26": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions and Pages"
+        ]
+      },
+      "07-02": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Pages"
+        ]
+      },
+      "07-09": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Delays starting Actions runs"
+        ]
+      },
+      "07-13": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Actions runs are experiencing failures to start"
+        ]
+      },
+      "07-19": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with GitHub Actions"
+        ]
+      },
+      "07-20": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with GitHub Actions"
+        ]
+      },
+      "07-24": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with some GitHub services"
+        ]
+      },
+      "08-06": {
+        "partialMinutes": 0,
+        "majorMinutes": 446,
+        "events": [
+          "Incident with Pages - Deployment Lag",
+          "Incident with Actions"
+        ]
+      },
+      "08-07": {
+        "partialMinutes": 0,
+        "majorMinutes": 5,
+        "events": [
+          "Incident with Actions"
+        ]
+      }
+    },
+    "Codespaces": {
+      "07-07": {
+        "partialMinutes": 89,
+        "majorMinutes": 0,
+        "events": [
+          "Actions and Codespaces APIs experiencing partial failures"
+        ]
+      },
+      "07-14": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with some GitHub services"
+        ]
+      }
+    },
+    "Copilot AI Model Providers": {
+      "05-28": {
+        "partialMinutes": 0,
+        "majorMinutes": 134,
+        "events": []
+      },
+      "06-08": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with Claude Opus 4.7"
+        ]
+      },
+      "06-16": {
+        "partialMinutes": 15,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with some GitHub services"
+        ]
+      },
+      "07-16": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Claude Fable 5 experiencing degraded performance"
+        ]
+      },
+      "07-20": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with GPT 5.3 Codex"
+        ]
+      },
+      "07-25": {
+        "partialMinutes": 22,
+        "majorMinutes": 0,
+        "events": [
+          "Several GPT models degraded"
+        ]
+      },
+      "07-29": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Copilot AI Model Providers"
+        ]
+      },
+      "07-30": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Copilot model Claude Fable 5 experiencing elevated errors"
+        ]
+      },
+      "08-01": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Copilot AI Model Providers",
+          "Degraded availability GPT 5.6 Luna"
+        ]
+      },
+      "08-13": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Errors with the Fable 5 Model in Copilot"
         ]
       }
     }
