@@ -8,8 +8,9 @@ export const OPENAI_COMPONENT_GROUPS = {
     'Login', 'Conversations', 'Voice mode', 'GPTs', 'Image Generation',
     'Deep Research', 'Agent', 'Connectors/Apps', 'App', 'Apps', 'ChatGPT Atlas',
     'Search', 'File uploads', 'Files', 'Shopping Research', 'Feed',
+    'Sites',
   ],
-  'Codex': ['Codex Web', 'CLI', 'VS Code extension'],
+  'Codex': ['Codex Web', 'CLI', 'VS Code extension', 'Codex in ChatGPT Desktop'],
   'Sora': ['Sora', 'Video viewing', 'Video generation'],
   'FedRAMP': [],
 };
