@@ -97,7 +97,7 @@ export function buildUtcDateRange(days, endDate = new Date()) {
 }
 
 export function extractClaudeHistory(html) {
-  const raw = extractJsonObjectAfter(html, 'var uptimeData = ');
+  const raw = extractJsonObjectAfter(html, 'window.uptimeData = ');
   const uptimeData = JSON.parse(raw);
 
   const dates = Object.values(uptimeData)[0].days.map(day => dateKeyFromIso(day.date));
