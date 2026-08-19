@@ -1589,7 +1589,7 @@ async function refreshCurrentStatus(shouldRender) {
 
 async function loadLiveData() {
   try {
-    const res = await fetch("/data/status.json");
+    const res = await fetch(import.meta.env.BASE_URL + "data/status.json");
     if (!res.ok) throw new Error(res.status);
     const data = await res.json();
     applyLiveData(data);
