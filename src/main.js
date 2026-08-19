@@ -1,8 +1,16 @@
 import { SEED_DATA } from "./data.js";
+import {
+  TOTAL_DAYS,
+  DEFAULT_DAYS,
+  LIVE_REFRESH_MS,
+  STATUS_SCORE,
+  UPTIME_SCORE,
+  STATUS_PRIORITY,
+  C_WEIGHTS,
+  O_WEIGHTS,
+  G_WEIGHTS,
+} from "./config.js";
 
-const TOTAL_DAYS = 90;
-const DEFAULT_DAYS = 60;
-const LIVE_REFRESH_MS = 120000;
 const STATUS_URLS = {
   c: "https://status.claude.com",
   o: "https://status.openai.com",
@@ -15,7 +23,6 @@ const STATUS_LABELS = {
   r: "Major Outage",
   b: "Maintenance",
 };
-const STATUS_PRIORITY = { r: 4, o: 3, y: 2, b: 1, g: 0 };
 const STATUS_COLORS = {
   g: "var(--green)",
   y: "var(--yellow)",
@@ -23,8 +30,6 @@ const STATUS_COLORS = {
   r: "var(--red)",
   b: "var(--blue)",
 };
-const STATUS_SCORE = { g: 1, y: 0.6, o: 0.3, r: 0, b: 0.8 };
-const UPTIME_SCORE = { g: 100, y: 99.5, o: 98, r: 95, b: 99 };
 const API_STATUS_MAP = {
   operational: "g",
   degraded_performance: "y",
@@ -58,9 +63,6 @@ const G_NAMES = [
   "Pull Requests",
   "Webhooks",
 ];
-const C_WEIGHTS = [3, 3, 2];
-const O_WEIGHTS = [3, 3, 2];
-const G_WEIGHTS = [3, 3, 2, 1, 1];
 
 // Mutable data — initialized from seed, replaced by live Worker data when available
 let CLAUDE_DAILY = { ...SEED_DATA.claudeDaily };
@@ -1594,14 +1596,16 @@ async function loadLiveData() {
     const data = await res.json();
     applyLiveData(data);
     setCachedData(data);
-    return true;
+    return { source: "live", error: null };
   } catch (e) {
     const cached = getCachedData();
     if (cached) {
       applyLiveData(cached);
-      return true;
+      const age = Date.now() - new Date(cached.updated).getTime();
+      const stale = age > 6 * 60 * 60 * 1000;
+      return { source: "cache", error: stale ? "stale" : null };
     }
-    return false;
+    return { source: "seed", error: "offline" };
   }
 }
 
@@ -1621,15 +1625,37 @@ async function start() {
   createTooltip();
   bindDayInteractions();
   bindChromeInteractions();
-  await loadLiveData();
+  const dataResult = await loadLiveData();
   await refreshCurrentStatus(false);
   render();
   updateTimestamp();
+  showDataSource(dataResult);
   els.loader.classList.add("hidden");
   applyDays(DEFAULT_DAYS);
   window.setInterval(function () {
     void refreshCurrentStatus(true);
   }, LIVE_REFRESH_MS);
+}
+
+function showDataSource(result) {
+  const loader = document.getElementById("loader");
+  if (result.error === "offline") {
+    loader.classList.add("error");
+    loader.querySelector("span").textContent = "offline — using fallback data";
+  } else if (result.error === "stale") {
+    const note = document.createElement("div");
+    note.className = "data-source stale";
+    note.textContent = "using cached data (may be outdated)";
+    document.querySelector(".container")?.prepend(note);
+  } else if (result.source === "seed") {
+    loader.classList.add("error");
+    const seedAge = Math.floor(
+      (Date.now() - new Date(SEED_DATA.updated).getTime()) /
+        (1000 * 60 * 60 * 24),
+    );
+    loader.querySelector("span").textContent =
+      `offline — using ${seedAge}-day-old fallback data`;
+  }
 }
 
 if (document.readyState === "loading") {

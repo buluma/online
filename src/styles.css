@@ -183,6 +183,10 @@
     border-right-color:var(--openai);border-bottom-color:var(--github);border-radius:50%;animation:spin .6s linear infinite}
   @keyframes spin{to{transform:rotate(360deg)}}
   .loading span{font-size:.6rem;color:var(--muted)}
+  .loading.error .spinner{display:none}
+  .loading.error span{color:var(--orange)}
+  .data-source{font-size:.45rem;color:var(--muted);text-align:center;margin-top:.5rem;opacity:.7}
+  .data-source.stale{color:var(--orange)}
   /* Controls bar — inside scoreboard on desktop */
   .controls{display:flex;align-items:center;gap:0;border-top:1px solid var(--border);padding:0;width:100%;box-sizing:border-box}
   .ctrl-group{display:flex;align-items:center;gap:0;flex:1}

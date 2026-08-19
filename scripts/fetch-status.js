@@ -24,6 +24,61 @@ const STATUS_MAP = {
 const PRIORITY = { g: 0, b: 1, y: 2, o: 3, r: 4 };
 const UPTIME_SCORES = { g: 100, y: 99.5, o: 98, r: 95, b: 99 };
 
+const REQUIRED_DAILY_KEYS = ["claudeDaily", "openaiDaily", "githubDaily"];
+
+const VALID_STATUS_CHARS = new Set(["g", "y", "o", "r", "b"]);
+
+function validateData(data) {
+  const errors = [];
+
+  if (!data.updated || isNaN(Date.parse(data.updated))) {
+    errors.push("missing or invalid 'updated' timestamp");
+  }
+
+  if (!Array.isArray(data.dates) || data.dates.length < 30) {
+    errors.push(
+      `dates array too short (${data.dates?.length ?? 0} days, need 30+)`,
+    );
+  }
+
+  if (!data.startDate) {
+    errors.push("missing 'startDate'");
+  }
+
+  for (const key of REQUIRED_DAILY_KEYS) {
+    const group = data[key];
+    if (!group || typeof group !== "object") {
+      errors.push(`missing '${key}' object`);
+      continue;
+    }
+    for (const [service, str] of Object.entries(group)) {
+      if (typeof str !== "string") {
+        errors.push(`${key}.${service} is not a string`);
+        continue;
+      }
+      if (str.length !== data.dates.length) {
+        errors.push(
+          `${key}.${service} length ${str.length} != dates length ${data.dates.length}`,
+        );
+      }
+      for (let i = 0; i < str.length; i++) {
+        if (!VALID_STATUS_CHARS.has(str[i])) {
+          errors.push(
+            `${key}.${service} invalid char '${str[i]}' at index ${i}`,
+          );
+          break;
+        }
+      }
+    }
+  }
+
+  if (!data.uptime || typeof data.uptime !== "object") {
+    errors.push("missing 'uptime' object");
+  }
+
+  return errors;
+}
+
 const CLAUDE_COMPONENT_MAP = {
   "claude.ai": "claude.ai",
   "Claude Console (platform.claude.com)": "platform.claude.com",
@@ -309,6 +364,13 @@ async function main() {
 
   mkdirSync("public/data", { recursive: true });
   const outPath = "public/data/status.json";
+
+  const validationErrors = validateData(data);
+  if (validationErrors.length > 0) {
+    console.error("Data validation failed:");
+    for (const err of validationErrors) console.error(`  - ${err}`);
+    process.exit(1);
+  }
 
   if (existsSync(outPath)) {
     const prev = JSON.parse(readFileSync(outPath, "utf8"));
