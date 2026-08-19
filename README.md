@@ -1,24 +1,19 @@
 # Online
 
-Online is a live uptime comparison of Claude, OpenAI, and GitHub, built with
-Vite and vanilla JavaScript.
+Online is a live uptime comparison of Claude, OpenAI, and GitHub, built with Vite and vanilla JavaScript.
 
-A GitHub Action fetches status data every 3 hours from public Statuspage APIs
-and commits the result. GitHub Pages picks up the push and redeploys.
+A GitHub Action fetches status data every 3 hours from public Statuspage APIs and commits the result. GitHub Pages picks up the push and redeploys.
 
 ## How It Works
 
-The site pulls a 90-day rolling window of per-service status from
-`status.claude.com`, `status.openai.com`, and `githubstatus.com`. Daily statuses
-are normalized into compact status strings and turned into:
+The site pulls a 90-day rolling window of per-service status from `status.claude.com`, `status.openai.com`, and `githubstatus.com`. Daily statuses are normalized into compact status strings and turned into:
 
 - aggregate health bars
 - per-category comparison cards
 - weighted daily winners
 - streaks, ties, and comeback moments
 
-Historical cells are day-bucketed. Today's cell is refreshed from the current
-component summary so the live page and the latest bar stay aligned.
+Historical cells are day-bucketed. Today's cell is refreshed from the current component summary so the live page and the latest bar stay aligned.
 
 API and chat products are weighted more heavily than coding products.
 
@@ -28,8 +23,7 @@ API and chat products are weighted more heavily than coding products.
 - OpenAI source: `status.openai.com`
 - GitHub source: `githubstatus.com`
 - Window: 90 days (rolling)
-- Status classes: operational, degraded, partial outage, major outage,
-  maintenance
+- Status classes: operational, degraded, partial outage, major outage, maintenance
 - Daily scoring:
   - operational = 100%
   - degraded = 60%
@@ -70,18 +64,14 @@ npm run dev     # start Vite dev server
 npm run fetch && npm test
 ```
 
-The smoke test validates structure, uptime math, incident attribution, real-time
-status alignment, and component coverage.
+The smoke test validates structure, uptime math, incident attribution, real-time status alignment, and component coverage.
 
 ## Limitations
 
 - Daily rollups compress incidents into a simpler comparison model.
-- Some source systems expose richer data than others, so the comparison involves
-  normalization.
-- This is an independent interpretation of public status data, not an official
-  benchmark.
-- GitHub Pages doesn't support custom caching headers, so `status.json` is
-  fetched on every page load.
+- Some source systems expose richer data than others, so the comparison involves normalization.
+- This is an independent interpretation of public status data, not an official benchmark.
+- GitHub Pages doesn't support custom caching headers, so `status.json` is fetched on every page load.
 
 ## License
 
