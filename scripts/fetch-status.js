@@ -7,6 +7,7 @@ import { execFileSync } from "child_process";
 import { OPENAI_SERVICES, liveOpenAIGroupStatus } from "./openai-groups.js";
 import {
   extractClaudeHistory,
+  extractUptimeComponentCodes,
   extractGitHubHistory,
   extractOpenAIHistory,
   openAIFeedGroups,
@@ -216,7 +217,13 @@ async function main() {
     fetchText("https://www.githubstatus.com/"),
   ]);
 
-  const claudeHistory = extractClaudeHistory(claudeHtml);
+  const claudeUptimeCodes = extractUptimeComponentCodes(claudeHtml);
+  const claudeShowcase = claudeUptimeCodes.length
+    ? await fetchJSON(
+        `https://status.claude.com/uptime_showcase?components=${encodeURIComponent(claudeUptimeCodes.join(","))}`,
+      )
+    : null;
+  const claudeHistory = extractClaudeHistory(claudeHtml, claudeShowcase);
   const dates = claudeHistory.dates;
   const dateSet = new Set(dates);
 
@@ -300,7 +307,13 @@ async function main() {
     }
   }
 
-  const githubHistory = extractGitHubHistory(githubHtml);
+  const githubUptimeCodes = extractUptimeComponentCodes(githubHtml);
+  const githubShowcase = githubUptimeCodes.length
+    ? await fetchJSON(
+        `https://www.githubstatus.com/uptime_showcase?components=${encodeURIComponent(githubUptimeCodes.join(","))}`,
+      )
+    : null;
+  const githubHistory = extractGitHubHistory(githubHtml, githubShowcase);
   const githubDaily = {};
   const githubDetails = {};
   const githubIncidents = {};

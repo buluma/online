@@ -10,6 +10,7 @@ import {
 } from './openai-groups.js';
 import {
   extractClaudeHistory,
+  extractUptimeComponentCodes,
   extractOpenAIHistory,
 } from './provider-status.js';
 
@@ -121,7 +122,13 @@ async function main() {
     fetchText('https://status.openai.com/'),
   ]);
 
-  const claudeHistory = extractClaudeHistory(claudeHtml);
+  const claudeUptimeCodes = extractUptimeComponentCodes(claudeHtml);
+  const claudeShowcase = claudeUptimeCodes.length
+    ? await fetchJSON(
+        `https://status.claude.com/uptime_showcase?components=${encodeURIComponent(claudeUptimeCodes.join(','))}`,
+      )
+    : null;
+  const claudeHistory = extractClaudeHistory(claudeHtml, claudeShowcase);
   const openaiHistory = extractOpenAIHistory(openaiHtml, days);
 
   console.log('\n── Date Range Alignment ──');
