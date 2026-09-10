@@ -133,9 +133,31 @@ export function buildUtcDateRange(days, endDate = new Date()) {
   return dates;
 }
 
-export function extractClaudeHistory(html) {
-  const raw = extractJsonObjectAfter(html, "window.uptimeData = ");
-  const uptimeData = JSON.parse(raw);
+export function extractUptimeComponentCodes(html) {
+  return [
+    ...new Set(
+      [...html.matchAll(/data-uptime-lazy="([a-z0-9]+)"/g)].map(
+        (match) => match[1],
+      ),
+    ),
+  ];
+}
+
+export function extractClaudeHistory(html, showcase = null) {
+  let uptimeData;
+  let uptimeHtml = html;
+
+  if (showcase) {
+    uptimeData = showcase.timelines || {};
+    uptimeHtml += `\n${Object.values(showcase.components || {}).join("\n")}`;
+  } else {
+    const raw = extractJsonObjectAfter(html, "window.uptimeData = ");
+    uptimeData = JSON.parse(raw);
+  }
+
+  if (Object.keys(uptimeData).length === 0) {
+    throw new Error("Claude uptime history is empty");
+  }
 
   const dates = Object.values(uptimeData)[0].days.map((day) =>
     dateKeyFromIso(day.date),
@@ -144,7 +166,7 @@ export function extractClaudeHistory(html) {
 
   for (const value of Object.values(uptimeData)) {
     const code = value.component.code;
-    const uptimeMatch = html.match(
+    const uptimeMatch = uptimeHtml.match(
       new RegExp(
         `id="uptime-percent-${escapeRegExp(code)}"[\\s\\S]*?<var data-var="uptime-percent">([\\d.]+)</var>`,
       ),
@@ -219,9 +241,21 @@ export function parseOpenAIFeed(xml) {
   return entries;
 }
 
-export function extractGitHubHistory(html) {
-  const raw = extractJsonObjectAfter(html, "window.uptimeData = ");
-  const uptimeData = JSON.parse(raw);
+export function extractGitHubHistory(html, showcase = null) {
+  let uptimeData;
+  let uptimeHtml = html;
+
+  if (showcase) {
+    uptimeData = showcase.timelines || {};
+    uptimeHtml += `\n${Object.values(showcase.components || {}).join("\n")}`;
+  } else {
+    const raw = extractJsonObjectAfter(html, "window.uptimeData = ");
+    uptimeData = JSON.parse(raw);
+  }
+
+  if (Object.keys(uptimeData).length === 0) {
+    throw new Error("GitHub uptime history is empty");
+  }
 
   const dates = Object.values(uptimeData)[0].days.map((day) =>
     dateKeyFromIso(day.date),
@@ -230,7 +264,7 @@ export function extractGitHubHistory(html) {
 
   for (const value of Object.values(uptimeData)) {
     const code = value.component.code;
-    const uptimeMatch = html.match(
+    const uptimeMatch = uptimeHtml.match(
       new RegExp(
         `id="uptime-percent-${escapeRegExp(code)}"[\\s\\S]*?<var data-var="uptime-percent">([\\d.]+)</var>`,
       ),

@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "fetch": "node scripts/fetch-status.js",
-    "test": "node --test scripts/openai-groups.test.js && node scripts/smoke-test.js"
+    "test": "node --test scripts/*.test.js && node scripts/smoke-test.js"
   },
   "devDependencies": {
     "vite": "^6.4.3"
