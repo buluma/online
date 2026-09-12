@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T20:31:13.347Z",
+  "updated": "2026-09-12T23:02:01.408Z",
   "startDate": "06-15",
   "dates": [
     "06-15",
@@ -98,7 +98,7 @@
     "platform.claude.com": "g",
     "Claude API": "g",
     "Claude Code": "g",
-    "Claude Cowork": "o",
+    "Claude Cowork": "y",
     "Claude for Government": "g",
     "OpenAI APIs": "g",
     "ChatGPT": "g",
@@ -122,7 +122,7 @@
     "claude.ai": "yoyoyyyooyyyyyyyyyyygroyoyggyoyooggyryyyooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggog",
     "Claude Code": "yoyyyyyooyyyyyyyyyyygyoyoyggygyooggyryyyooogroyggyoyggggggyoogryyyogggogggoggygoogggggggog",
     "platform.claude.com": "ygygyyggoygggggyggyggggggyggygyooggyrygygogggggggyygggggggggggrgggggggggggggggyygggggggggg",
-    "Claude Cowork": "yoyyyyyooyyyyyyyyyyygyoyoyggygyooggyrygyooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyo",
+    "Claude Cowork": "yoyyyyyooyyyyyyyyyyygyoyoyggygyooggyrygyooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyy",
     "Claude for Government": "gggggggggggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
@@ -150,7 +150,7 @@
     "platform.claude.com": 99.93,
     "Claude API": 99.5,
     "Claude Code": 99.44,
-    "Claude Cowork": 99.15,
+    "Claude Cowork": 99.43,
     "Claude for Government": 100,
     "OpenAI APIs": 99.94,
     "ChatGPT": 99.64,
@@ -363,8 +363,8 @@
       "Disruption with some GitHub services"
     ],
     "07-25": [
-      "Incident with Actions",
-      "Actions run failures and delays"
+      "Actions run failures and delays",
+      "Incident with Actions"
     ],
     "07-29": [
       "Incident with Actions"
@@ -376,8 +376,8 @@
       "Incident with Actions"
     ],
     "08-26": [
-      "Incident with Actions and Pull Requests",
-      "Incident with Actions"
+      "Incident with Actions",
+      "Incident with Actions and Pull Requests"
     ]
   },
   "claudeMinutes": {
@@ -424,8 +424,8 @@
         "majorMinutes": 0,
         "events": [
           "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-          "Elevated errors across many models",
-          "Elevated errors for Claude Opus 4.8"
+          "Elevated errors for Claude Opus 4.8",
+          "Elevated errors across many models"
         ]
       },
       "06-17": {
@@ -433,8 +433,8 @@
         "majorMinutes": 0,
         "events": [
           "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-          "Elevated errors for Claude Opus 4.8",
           "Elevated errors on Claude Sonnet 4.6 and Opus 4.8",
+          "Elevated errors for Claude Opus 4.8",
           "Elevated errors for Claude Opus 4.8",
           "Elevated errors for Claude Opus 4.8"
         ]
@@ -625,8 +625,8 @@
         "partialMinutes": 205,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Sonnet 5",
-          "Elevated errors for Claude Opus 4.7"
+          "Elevated errors for Claude Opus 4.7",
+          "Elevated errors on Claude Sonnet 5"
         ]
       },
       "07-17": {
@@ -643,9 +643,9 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for Claude Opus 4.8",
           "Elevated error rates for Opus 4.5",
-          "Elevated errors on Haiku 4.5"
+          "Elevated errors on Haiku 4.5",
+          "Elevated errors for Claude Opus 4.8"
         ]
       },
       "07-21": {
@@ -679,8 +679,8 @@
         "partialMinutes": 98,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
-          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5"
+          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
+          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models"
         ]
       },
       "07-26": {
@@ -818,8 +818,8 @@
         "partialMinutes": 187,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for multiple models",
-          "Elevated errors for Claude Sonnet 5"
+          "Elevated errors for Claude Sonnet 5",
+          "Elevated errors for multiple models"
         ]
       },
       "09-10": {
@@ -851,8 +851,8 @@
         "majorMinutes": 0,
         "events": [
           "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-          "Elevated errors across many models",
           "Elevated errors for Claude Opus 4.8",
+          "Elevated errors across many models",
           "Opus 4.8 errors"
         ]
       },
@@ -861,8 +861,8 @@
         "majorMinutes": 0,
         "events": [
           "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-          "Elevated errors for Claude Opus 4.8",
           "Elevated errors on Claude Sonnet 4.6 and Opus 4.8",
+          "Elevated errors for Claude Opus 4.8",
           "Elevated errors for Claude Opus 4.8",
           "Elevated errors for Claude Opus 4.8"
         ]
@@ -1061,8 +1061,8 @@
         "partialMinutes": 268,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on Claude Sonnet 5",
           "Elevated errors for Claude Opus 4.7",
+          "Elevated errors on Claude Sonnet 5",
           "Enterprise SSO sign-in failures"
         ]
       },
@@ -1080,8 +1080,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for Claude Opus 4.8",
-          "Elevated errors on Haiku 4.5"
+          "Elevated errors on Haiku 4.5",
+          "Elevated errors for Claude Opus 4.8"
         ]
       },
       "07-21": {
@@ -1123,8 +1123,8 @@
         "partialMinutes": 98,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
-          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5"
+          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
+          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models"
         ]
       },
       "07-26": {
@@ -1264,8 +1264,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Degraded performance on claude.ai",
-          "Degraded performance on claude.ai and Claude Code"
+          "Degraded performance on claude.ai and Claude Code",
+          "Degraded performance on claude.ai"
         ]
       },
       "09-01": {
@@ -1287,8 +1287,8 @@
         "partialMinutes": 187,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for multiple models",
-          "Elevated errors for Claude Sonnet 5"
+          "Elevated errors for Claude Sonnet 5",
+          "Elevated errors for multiple models"
         ]
       },
       "09-11": {
@@ -1313,8 +1313,8 @@
         "majorMinutes": 0,
         "events": [
           "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-          "Elevated errors across many models",
           "Elevated errors for Claude Opus 4.8",
+          "Elevated errors across many models",
           "Opus 4.8 errors"
         ]
       },
@@ -1323,8 +1323,8 @@
         "majorMinutes": 0,
         "events": [
           "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-          "Elevated errors for Claude Opus 4.8",
           "Elevated errors on Claude Sonnet 4.6 and Opus 4.8",
+          "Elevated errors for Claude Opus 4.8",
           "Elevated errors for Claude Opus 4.8",
           "Elevated errors for Claude Opus 4.8"
         ]
@@ -1481,8 +1481,8 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors on multiple models",
-          "Elevated errors on Claude Sonnet 5",
-          "Degraded performance for Claude Code on the web, Cowork Remote, Claude Tag, and Claude Code Review sessions"
+          "Degraded performance for Claude Code on the web, Cowork Remote, Claude Tag, and Claude Code Review sessions",
+          "Elevated errors on Claude Sonnet 5"
         ]
       },
       "07-09": {
@@ -1535,10 +1535,10 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for Claude Opus 4.8",
           "Elevated error rates for Opus 4.5",
           "Fable 5 requiring usage credits on Max plans",
-          "Elevated errors on Haiku 4.5"
+          "Elevated errors on Haiku 4.5",
+          "Elevated errors for Claude Opus 4.8"
         ]
       },
       "07-21": {
@@ -1581,8 +1581,8 @@
         "partialMinutes": 98,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
-          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5"
+          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
+          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models"
         ]
       },
       "07-26": {
@@ -1735,8 +1735,8 @@
         "partialMinutes": 187,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for multiple models",
-          "Elevated errors for Claude Sonnet 5"
+          "Elevated errors for Claude Sonnet 5",
+          "Elevated errors for multiple models"
         ]
       },
       "09-11": {
@@ -1759,8 +1759,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for Claude Opus 4.8",
           "Elevated errors on Claude Sonnet 4.6 and Opus 4.8",
+          "Elevated errors for Claude Opus 4.8",
           "Elevated errors for Claude Opus 4.8",
           "Elevated errors for Claude Opus 4.8"
         ]
@@ -1834,9 +1834,9 @@
         "partialMinutes": 64,
         "majorMinutes": 0,
         "events": [
+          "Elevated errors for Claude Opus 4.7",
           "Enterprise SSO sign-in failures",
-          "Elevated errors on Claude Sonnet 5",
-          "Elevated errors for Claude Opus 4.7"
+          "Elevated errors on Claude Sonnet 5"
         ]
       },
       "07-17": {
@@ -1851,9 +1851,9 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for Claude Opus 4.8",
           "Elevated error rates for Opus 4.5",
-          "Elevated errors on Haiku 4.5"
+          "Elevated errors on Haiku 4.5",
+          "Elevated errors for Claude Opus 4.8"
         ]
       },
       "07-21": {
@@ -1939,8 +1939,8 @@
         "majorMinutes": 0,
         "events": [
           "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-          "Elevated errors across many models",
-          "Elevated errors for Claude Opus 4.8"
+          "Elevated errors for Claude Opus 4.8",
+          "Elevated errors across many models"
         ]
       },
       "06-17": {
@@ -1948,8 +1948,8 @@
         "majorMinutes": 0,
         "events": [
           "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-          "Elevated errors for Claude Opus 4.8",
           "Elevated errors on Claude Sonnet 4.6 and Opus 4.8",
+          "Elevated errors for Claude Opus 4.8",
           "Elevated errors for Claude Opus 4.8",
           "Elevated errors for Claude Opus 4.8"
         ]
@@ -2157,9 +2157,9 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for Claude Opus 4.8",
           "Elevated error rates for Opus 4.5",
-          "Elevated errors on Haiku 4.5"
+          "Elevated errors on Haiku 4.5",
+          "Elevated errors for Claude Opus 4.8"
         ]
       },
       "07-21": {
@@ -2194,8 +2194,8 @@
         "partialMinutes": 98,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
-          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5"
+          "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
+          "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models"
         ]
       },
       "07-26": {
@@ -2339,8 +2339,8 @@
         "partialMinutes": 187,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors for multiple models",
-          "Elevated errors for Claude Sonnet 5"
+          "Elevated errors for Claude Sonnet 5",
+          "Elevated errors for multiple models"
         ]
       },
       "09-10": {
@@ -2360,7 +2360,7 @@
         ]
       },
       "09-12": {
-        "partialMinutes": 1231,
+        "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
           "Degraded functionality for Claude Cowork on Windows"
@@ -2964,8 +2964,8 @@
         "partialMinutes": 0,
         "majorMinutes": 28,
         "events": [
-          "Incident with Actions",
-          "Actions run failures and delays"
+          "Actions run failures and delays",
+          "Incident with Actions"
         ]
       },
       "07-29": {
@@ -3007,8 +3007,8 @@
         "partialMinutes": 0,
         "majorMinutes": 163,
         "events": [
-          "Incident with Actions and Pull Requests",
-          "Incident with Actions"
+          "Incident with Actions",
+          "Incident with Actions and Pull Requests"
         ]
       },
       "08-27": {
@@ -3177,8 +3177,8 @@
         "partialMinutes": 0,
         "majorMinutes": 19,
         "events": [
-          "Disruption with some GitHub services",
-          "Incident with Pull Requests"
+          "Incident with Pull Requests",
+          "Disruption with some GitHub services"
         ]
       },
       "08-12": {
