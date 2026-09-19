@@ -4,6 +4,7 @@ import assert from "node:assert/strict";
 import {
   extractClaudeHistory,
   extractUptimeComponentCodes,
+  openAIFeedGroups,
 } from "./provider-status.js";
 
 const timeline = {
@@ -69,4 +70,32 @@ test("keeps compatibility with inline uptime data", () => {
     extractClaudeHistory(html).historyBySource["Claude API"].uptime,
     99.5,
   );
+});
+
+test("maps every known OpenAI feed component to its group", () => {
+  const expected = {
+    "OpenAI APIs": [
+      "Responses", "Chat Completions", "Embeddings", "Fine-tuning", "Images",
+      "Batch", "Audio", "Moderations", "Compliance API", "Realtime",
+      "Audit Logs", "Ads API", "Ads Manager",
+    ],
+    ChatGPT: [
+      "Login", "Conversations", "Voice mode", "GPTs", "Image Generation",
+      "Deep Research", "Agent", "Connectors/Apps", "App", "Apps",
+      "ChatGPT Atlas", "File uploads", "Files", "Search", "Shopping Research",
+    ],
+    Codex: [
+      "Codex Web", "CLI", "VS Code extension", "Codex Cloud", "Codex Github",
+      "Codex",
+    ],
+    Sora: ["Sora", "Video viewing", "Video generation", "Sora API"],
+    FedRAMP: ["FedRAMP"],
+  };
+
+  for (const [group, components] of Object.entries(expected)) {
+    for (const component of components) {
+      const groups = openAIFeedGroups({ title: "", components: [component] });
+      assert.ok(groups.has(group), `${component} should map to ${group}`);
+    }
+  }
 });

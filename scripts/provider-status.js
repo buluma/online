@@ -15,49 +15,6 @@ const OPENAI_PILL_TO_STATUS = {
   FullOutage: "r",
 };
 
-const OPENAI_FEED_COMPONENT_GROUPS = {
-  "OpenAI APIs": [
-    "Responses",
-    "Chat Completions",
-    "Embeddings",
-    "Fine-tuning",
-    "Images",
-    "Batch",
-    "Audio",
-    "Moderations",
-    "Compliance API",
-    "Realtime",
-    "Audit Logs",
-  ],
-  ChatGPT: [
-    "Login",
-    "Conversations",
-    "Voice mode",
-    "GPTs",
-    "Image Generation",
-    "Deep Research",
-    "Agent",
-    "Connectors/Apps",
-    "App",
-    "Apps",
-    "ChatGPT Atlas",
-    "File uploads",
-    "Files",
-    "Search",
-    "Shopping Research",
-  ],
-  Codex: [
-    "Codex Web",
-    "CLI",
-    "VS Code extension",
-    "Codex Cloud",
-    "Codex Github",
-    "Codex",
-  ],
-  Sora: ["Sora", "Video viewing", "Video generation", "Sora API"],
-  FedRAMP: ["FedRAMP"],
-};
-
 function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
@@ -296,11 +253,6 @@ export function openAIFeedGroups(entry) {
 
   for (const component of entry.components || []) {
     for (const [groupName, names] of Object.entries(OPENAI_COMPONENT_GROUPS)) {
-      if (names.includes(component)) groups.add(groupName);
-    }
-    for (const [groupName, names] of Object.entries(
-      OPENAI_FEED_COMPONENT_GROUPS,
-    )) {
       if (names.includes(component)) groups.add(groupName);
     }
     if (/fedramp/i.test(component)) groups.add("FedRAMP");
