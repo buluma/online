@@ -12,10 +12,11 @@ concurrency:
 permissions:
   contents: write
   actions: write
+  issues: write
 
 jobs:
   fetch:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
 
@@ -48,5 +49,28 @@ jobs:
       - name: Trigger Pages deploy
         if: steps.commit.outputs.changed == 'true'
         run: gh workflow run deploy.yml
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # A failed run skips the commit step, so data silently goes stale.
+      # Keep one open issue while runs fail and close it on the next success.
+      - name: Open issue on failure
+        if: failure()
+        run: |
+          if [ -z "$(gh issue list --state open --label fetch-failure --json number --jq '.[0].number')" ]; then
+            gh label create fetch-failure --color B60205 --description "Scheduled status fetch is failing" 2>/dev/null || true
+            gh issue create --label fetch-failure \
+              --title "Fetch Status Data is failing" \
+              --body "Status data is not being refreshed. First failing run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Close failure issue on success
+        if: success()
+        run: |
+          for n in $(gh issue list --state open --label fetch-failure --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "Fetch recovered: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          done
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

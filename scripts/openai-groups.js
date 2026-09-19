@@ -10,8 +10,11 @@ export const OPENAI_COMPONENT_GROUPS = {
     'Search', 'File uploads', 'Files', 'Shopping Research', 'Feed',
     'Sites',
   ],
-  'Codex': ['Codex Web', 'CLI', 'VS Code extension', 'Codex in ChatGPT Desktop'],
-  'Sora': ['Sora', 'Video viewing', 'Video generation'],
+  'Codex': [
+    'Codex Web', 'CLI', 'VS Code extension', 'Codex in ChatGPT Desktop',
+    'Codex Cloud', 'Codex Github', 'Codex',
+  ],
+  'Sora': ['Sora', 'Video viewing', 'Video generation', 'Sora API'],
   'FedRAMP': [],
 };
 

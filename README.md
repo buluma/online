@@ -44,11 +44,23 @@ public/
   og.png, favicon.svg   static assets
 scripts/
   fetch-status.js       fetches APIs, normalizes, writes status.json
-  smoke-test.js         validates output against live APIs
+  openai-groups.js      maps OpenAI status components to tracked groups
+  provider-status.js    parses provider pages and feeds
+  smoke-test.js         validates status.json (--offline skips live checks)
 .github/workflows/
   fetch-status.yml      3-hourly cron action
+  ci.yml                unit tests and offline smoke test
   deploy.yml            GitHub Pages deployment
 ```
+
+## Data Pipeline
+
+1. `fetch-status.yml` runs every 3 hours (or manually) and writes `public/data/status.json`.
+2. The full smoke test compares that file against the live provider pages. If it fails, nothing is committed.
+3. On success the file is committed to `master` and a Pages deploy is triggered.
+4. If a run fails, the workflow opens a `fetch-failure` issue and closes it when a later run succeeds. The site also shows a banner when the data is more than 12 hours old.
+
+If OpenAI adds a status component, the smoke test warns that it is unassigned. Add it to `OPENAI_COMPONENT_GROUPS` in `scripts/openai-groups.js`.
 
 ## Running Locally
 
@@ -61,10 +73,11 @@ npm run dev     # start Vite dev server
 ## Testing
 
 ```bash
-npm run fetch && npm test
+npm test            # unit tests + offline smoke test (no network)
+npm run test:live   # also compares status.json to the live provider pages
 ```
 
-The smoke test validates structure, uptime math, incident attribution, real-time status alignment, and component coverage.
+`npm test` validates structure and internal consistency, so it does not depend on live provider state. `npm run test:live` additionally checks history alignment and real-time status against the providers, and is only meaningful right after `npm run fetch`.
 
 ## Limitations
 
