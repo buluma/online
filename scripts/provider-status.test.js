@@ -99,3 +99,27 @@ test("maps every known OpenAI feed component to its group", () => {
     }
   }
 });
+
+test("does not attribute customer support delays to the API group", () => {
+  for (const title of ["Delayed support responses", "Delays in customer support responses"]) {
+    assert.equal(openAIFeedGroups({ title, components: [] }).size, 0, title);
+  }
+});
+
+test("attributes title-only feed entries to the surface they name", () => {
+  const cases = [
+    ["Realtime API errors", "OpenAI APIs"],
+    ["Audit logs delayed", "OpenAI APIs"],
+    ["Elevated errors on Chat Completions", "OpenAI APIs"],
+    ["Search not working in ChatGPT", "ChatGPT"],
+    ["File uploads failing", "ChatGPT"],
+    ["Shopping research unavailable", "ChatGPT"],
+    ["Codex CLI errors", "Codex"],
+    ["Sora video generation delays", "Sora"],
+    ["FedRAMP environment unavailable", "FedRAMP"],
+  ];
+
+  for (const [title, group] of cases) {
+    assert.ok(openAIFeedGroups({ title, components: [] }).has(group), `${title} -> ${group}`);
+  }
+});

@@ -1,4 +1,4 @@
-import { OPENAI_COMPONENT_GROUPS } from "./openai-groups.js";
+import { inferOpenAIIncidentGroups } from "./openai-groups.js";
 
 const OPENAI_HISTORY_LABEL_TO_SERVICE = {
   APIs: "OpenAI APIs",
@@ -249,33 +249,8 @@ export function extractGitHubHistory(html, showcase = null) {
 }
 
 export function openAIFeedGroups(entry) {
-  const groups = new Set();
-
-  for (const component of entry.components || []) {
-    for (const [groupName, names] of Object.entries(OPENAI_COMPONENT_GROUPS)) {
-      if (names.includes(component)) groups.add(groupName);
-    }
-    if (/fedramp/i.test(component)) groups.add("FedRAMP");
-  }
-
-  if (groups.size > 0) return groups;
-
-  const text = [entry.title, ...(entry.components || [])].join(" ");
-  if (
-    /\b(api|responses?|chat completions?|realtime|embeddings?|fine[- ]tuning|moderations?|audio|images?|batch|compliance|audit logs)\b/i.test(
-      text,
-    )
-  )
-    groups.add("OpenAI APIs");
-  if (
-    /\b(chatgpt|conversations?|gpts|voice|deep research|agent|connectors?|apps|atlas|login|workspace|sso|search|files?|uploads?|shopping|artifact)\b/i.test(
-      text,
-    )
-  )
-    groups.add("ChatGPT");
-  if (/\b(codex|cli|vs code|vscode|extension)\b/i.test(text))
-    groups.add("Codex");
-  if (/\b(sora|video)\b/i.test(text)) groups.add("Sora");
-  if (/\bfedramp\b/i.test(text)) groups.add("FedRAMP");
-  return groups;
+  return inferOpenAIIncidentGroups({
+    name: entry.title,
+    components: (entry.components || []).map((name) => ({ name })),
+  });
 }

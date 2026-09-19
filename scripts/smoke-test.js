@@ -6,6 +6,7 @@
 // consistency), so CI results don't depend on live provider state.
 
 import { readFileSync } from 'fs';
+import { SEED_DATA } from '../src/data.js';
 import {
   OPENAI_SERVICES,
   liveOpenAIGroupStatus,
@@ -124,6 +125,14 @@ async function main() {
     assert(typeof str === 'string', `${svc} exists in openaiDaily`);
     assert(str?.length === days, `${svc} has ${days} days (got ${str?.length})`);
     assert([...(str || '')].every(ch => VALID_STATUS_CHARS.has(ch)), `${svc} contains only valid status chars`);
+  }
+
+  console.log('\n── Fallback Seed ──');
+  assert(Array.isArray(SEED_DATA.dates) && SEED_DATA.dates.length === days, `seed has ${days} dates`);
+  for (const [group, rows] of [['claudeDaily', SEED_DATA.claudeDaily], ['openaiDaily', SEED_DATA.openaiDaily], ['githubDaily', SEED_DATA.githubDaily]]) {
+    for (const [name, str] of Object.entries(rows)) {
+      assert(str.length === SEED_DATA.dates.length, `seed ${group}["${name}"] length matches seed dates`);
+    }
   }
 
   console.log('\n── Aggregate Detail Consistency ──');
