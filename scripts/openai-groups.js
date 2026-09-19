@@ -2,7 +2,7 @@ export const OPENAI_COMPONENT_GROUPS = {
   'OpenAI APIs': [
     'Fine-tuning', 'Embeddings', 'Images', 'Batch', 'Audio', 'Moderations',
     'Compliance API', 'Codex API', 'Responses', 'Chat Completions', 'Realtime',
-    'Audit Logs', 'Ads API',
+    'Audit Logs', 'Ads API', 'Ads Manager',
   ],
   'ChatGPT': [
     'Login', 'Conversations', 'Voice mode', 'GPTs', 'Image Generation',
