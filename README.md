@@ -2,7 +2,7 @@
 
 Online is a live uptime comparison of Claude, OpenAI, and GitHub, built with Vite and vanilla JavaScript.
 
-A GitHub Action fetches status data every 3 hours from public Statuspage APIs and commits the result. GitHub Pages picks up the push and redeploys.
+A GitHub Action fetches status data every 3 hours from the providers' public status APIs, pages, and feeds, and commits the result. The workflow then triggers a GitHub Pages deploy.
 
 ## How It Works
 
@@ -35,8 +35,10 @@ API and chat products are weighted more heavily than coding products.
 
 ```
 index.html              page structure and metadata
+vite.config.js          Vite config (base path /online/, dev and preview ports)
 src/
   main.js               app logic, scoring, rendering
+  config.js             scoring weights and constants
   styles.css            layout, theme, responsive styles
   data.js               offline fallback data (generated, see below)
 public/
@@ -48,6 +50,7 @@ scripts/
   provider-status.js    parses provider pages and feeds
   refresh-seed.js       regenerates src/data.js from status.json
   smoke-test.js         validates status.json (--offline skips live checks)
+  *.test.js             unit tests (node --test)
 .github/workflows/
   fetch-status.yml      3-hourly cron action
   ci.yml                unit tests and offline smoke test
@@ -72,6 +75,8 @@ npm install
 npm run fetch   # pull latest status data
 npm run dev     # start Vite dev server
 ```
+
+The site is served under `/online/`, so open http://localhost:3000/online/ (override the port with `VITE_DEV_PORT`). `npm run build` writes to `dist/`, and `npm run preview` serves it on port 4173 (`VITE_PREVIEW_PORT`). CI runs on Node 22, 24, and 26.
 
 ## Testing
 
