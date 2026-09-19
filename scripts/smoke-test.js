@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 // Smoke test: validates public/data/status.json against the providers'
 // native historical uptime bars and live current-status summaries.
+//
+// --offline runs only the checks that need no network (structure and internal
+// consistency), so CI results don't depend on live provider state.
 
 import { readFileSync } from 'fs';
 import {
@@ -48,6 +51,8 @@ const STATUS_MAP = {
 
 const PRIORITY = { g: 0, b: 1, y: 2, o: 3, r: 4 };
 
+const OFFLINE = process.argv.includes('--offline');
+
 let passed = 0;
 let failed = 0;
 
@@ -75,6 +80,14 @@ async function fetchJSON(url) {
 
 function uniqueSorted(values) {
   return [...new Set(values)].sort();
+}
+
+function report() {
+  console.log(`\n${'═'.repeat(40)}`);
+  console.log(`  ${passed} passed, ${failed} failed`);
+  console.log(`${'═'.repeat(40)}`);
+
+  if (failed > 0) process.exit(1);
 }
 
 async function main() {
@@ -111,6 +124,25 @@ async function main() {
     assert(typeof str === 'string', `${svc} exists in openaiDaily`);
     assert(str?.length === days, `${svc} has ${days} days (got ${str?.length})`);
     assert([...(str || '')].every(ch => VALID_STATUS_CHARS.has(ch)), `${svc} contains only valid status chars`);
+  }
+
+  console.log('\n── Aggregate Detail Consistency ──');
+  for (const [date, minutes] of Object.entries(data.claudeMinutes)) {
+    const total = TRACKED_CLAUDE_SERVICES.reduce((sum, serviceName) => {
+      const detail = data.claudeDetails?.[serviceName]?.[date];
+      return sum + ((detail?.partialMinutes || 0) + (detail?.majorMinutes || 0));
+    }, 0);
+    assert(minutes === total, `claudeMinutes["${date}"] matches tracked Claude row details`);
+  }
+
+  for (const [date, titles] of Object.entries(data.oaiIncidents)) {
+    const aggregate = uniqueSorted(TRACKED_OPENAI_SERVICES.flatMap(serviceName => data.openaiDetails?.[serviceName]?.[date]?.titles || []));
+    assert(JSON.stringify(uniqueSorted(titles)) === JSON.stringify(aggregate), `oaiIncidents["${date}"] matches tracked OpenAI row details`);
+  }
+
+  if (OFFLINE) {
+    report();
+    return;
   }
 
   console.log('\n── Live Provider Data ──');
@@ -171,21 +203,11 @@ async function main() {
   console.log('\n── OpenAI Component Coverage ──');
   for (const component of openaiSummary.components || []) {
     const groups = openAIComponentGroups(component.name || '');
-    assert(groups.length > 0 || /fedramp/i.test(component.name || ''), `OpenAI component "${component.name}" is assigned to a tracked group`);
-  }
-
-  console.log('\n── Aggregate Detail Consistency ──');
-  for (const [date, minutes] of Object.entries(data.claudeMinutes)) {
-    const total = TRACKED_CLAUDE_SERVICES.reduce((sum, serviceName) => {
-      const detail = data.claudeDetails?.[serviceName]?.[date];
-      return sum + ((detail?.partialMinutes || 0) + (detail?.majorMinutes || 0));
-    }, 0);
-    assert(minutes === total, `claudeMinutes["${date}"] matches tracked Claude row details`);
-  }
-
-  for (const [date, titles] of Object.entries(data.oaiIncidents)) {
-    const aggregate = uniqueSorted(TRACKED_OPENAI_SERVICES.flatMap(serviceName => data.openaiDetails?.[serviceName]?.[date]?.titles || []));
-    assert(JSON.stringify(uniqueSorted(titles)) === JSON.stringify(aggregate), `oaiIncidents["${date}"] matches tracked OpenAI row details`);
+    // Warn only: a new upstream component must not block data refreshes.
+    // Add it to OPENAI_COMPONENT_GROUPS in scripts/openai-groups.js.
+    if (groups.length === 0 && !/fedramp/i.test(component.name || '')) {
+      console.warn(`  WARN: OpenAI component "${component.name}" is not assigned to a tracked group`);
+    }
   }
 
   console.log('\n── Freshness ──');
@@ -198,11 +220,7 @@ async function main() {
     console.log(`  OK: Data is ${ageHours}h old`);
   }
 
-  console.log(`\n${'═'.repeat(40)}`);
-  console.log(`  ${passed} passed, ${failed} failed`);
-  console.log(`${'═'.repeat(40)}`);
-
-  if (failed > 0) process.exit(1);
+  report();
 }
 
 main().catch(err => {
