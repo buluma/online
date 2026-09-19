@@ -59,7 +59,7 @@ scripts/
 1. `fetch-status.yml` runs every 3 hours (or manually) and writes `public/data/status.json`.
 2. The full smoke test compares that file against the live provider pages. If it fails, nothing is committed.
 3. On success the file is committed to `master` and a Pages deploy is triggered.
-4. If a run fails, the workflow opens a `fetch-failure` issue and closes it when a later run succeeds. The site also shows a banner when the data is more than 12 hours old.
+4. If a run fails, the workflow opens a `fetch-failure` issue and closes it when a later run succeeds. The site also shows a banner when the data is more than 24 hours old. `status.json` is only rewritten when the content changes, so a shorter threshold would false-alarm during quiet stretches.
 
 `src/data.js` is the fallback shown when `status.json` and the browser cache are both unavailable. It is a snapshot and does not update itself. Refresh it occasionally with `npm run fetch && npm run seed`, then commit.
 

@@ -43,7 +43,15 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update status data"
-          git push
+          # Someone may push to the branch while we fetch; rebase and retry.
+          for attempt in 1 2 3; do
+            git push && break
+            if [ "$attempt" = 3 ]; then
+              echo "Push failed after $attempt attempts"
+              exit 1
+            fi
+            git pull --rebase origin "$GITHUB_REF_NAME"
+          done
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Trigger Pages deploy

@@ -3,8 +3,9 @@
 export const TOTAL_DAYS = 90;
 export const DEFAULT_DAYS = 60;
 export const LIVE_REFRESH_MS = 120000;
-// The fetch job runs every 3h; older than this means refreshes are failing.
-export const DATA_OUTDATED_MS = 12 * 60 * 60 * 1000;
+// status.json is only rewritten when content changes, so healthy quiet
+// stretches exceed 12h. Older than this means refreshes are failing.
+export const DATA_OUTDATED_MS = 24 * 60 * 60 * 1000;
 
 export const STATUS_SCORE = { g: 1, y: 0.6, o: 0.3, r: 0, b: 0.8 };
 export const UPTIME_SCORE = { g: 100, y: 99.5, o: 98, r: 95, b: 99 };
