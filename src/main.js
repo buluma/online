@@ -3,6 +3,7 @@ import {
   TOTAL_DAYS,
   DEFAULT_DAYS,
   LIVE_REFRESH_MS,
+  DATA_OUTDATED_MS,
   STATUS_SCORE,
   UPTIME_SCORE,
   STATUS_PRIORITY,
@@ -1596,7 +1597,9 @@ async function loadLiveData() {
     const data = await res.json();
     applyLiveData(data);
     setCachedData(data);
-    return { source: "live", error: null };
+    const outdated =
+      Date.now() - new Date(data.updated).getTime() > DATA_OUTDATED_MS;
+    return { source: "live", error: outdated ? "outdated" : null };
   } catch (e) {
     const cached = getCachedData();
     if (cached) {
@@ -1642,6 +1645,14 @@ function showDataSource(result) {
   if (result.error === "offline") {
     loader.classList.add("error");
     loader.querySelector("span").textContent = "offline — using fallback data";
+  } else if (result.error === "outdated") {
+    const hours = Math.floor(
+      (Date.now() - new Date(DATA_UPDATED).getTime()) / (60 * 60 * 1000),
+    );
+    const note = document.createElement("div");
+    note.className = "data-source stale";
+    note.textContent = `data not refreshed in ${hours}h — may be outdated`;
+    document.querySelector(".container")?.prepend(note);
   } else if (result.error === "stale") {
     const note = document.createElement("div");
     note.className = "data-source stale";
