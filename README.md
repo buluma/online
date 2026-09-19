@@ -38,7 +38,7 @@ index.html              page structure and metadata
 src/
   main.js               app logic, scoring, rendering
   styles.css            layout, theme, responsive styles
-  data.js               seed/fallback data
+  data.js               offline fallback data (generated, see below)
 public/
   data/status.json      live status (committed by CI)
   og.png, favicon.svg   static assets
@@ -46,6 +46,7 @@ scripts/
   fetch-status.js       fetches APIs, normalizes, writes status.json
   openai-groups.js      maps OpenAI status components to tracked groups
   provider-status.js    parses provider pages and feeds
+  refresh-seed.js       regenerates src/data.js from status.json
   smoke-test.js         validates status.json (--offline skips live checks)
 .github/workflows/
   fetch-status.yml      3-hourly cron action
@@ -59,6 +60,8 @@ scripts/
 2. The full smoke test compares that file against the live provider pages. If it fails, nothing is committed.
 3. On success the file is committed to `master` and a Pages deploy is triggered.
 4. If a run fails, the workflow opens a `fetch-failure` issue and closes it when a later run succeeds. The site also shows a banner when the data is more than 12 hours old.
+
+`src/data.js` is the fallback shown when `status.json` and the browser cache are both unavailable. It is a snapshot and does not update itself. Refresh it occasionally with `npm run fetch && npm run seed`, then commit.
 
 If OpenAI adds a status component, the smoke test warns that it is unassigned. Add it to `OPENAI_COMPONENT_GROUPS` in `scripts/openai-groups.js`.
 
