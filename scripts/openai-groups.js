@@ -21,9 +21,12 @@ export const OPENAI_COMPONENT_GROUPS = {
 export const OPENAI_SERVICES = ['OpenAI APIs', 'ChatGPT', 'Codex', 'Sora', 'FedRAMP'];
 export const TRACKED_OPENAI_COMPONENT_NAMES = Object.values(OPENAI_COMPONENT_GROUPS).flat();
 
+// Fallback for entries whose components match no known group. Patterns are
+// deliberately specific: bare "responses" or "images" would misfile support
+// delays as API incidents and image generation as API.
 const OPENAI_TITLE_GROUP_RULES = [
-  { group: 'OpenAI APIs', pattern: /\b(api|endpoint|embeddings?|fine[- ]tuning|batch|audio|moderations?|compliance|completions?)\b|\/v\d\/responses\b|responses api|images api/i },
-  { group: 'ChatGPT', pattern: /\b(chatgpt|conversations?|gpts|voice|deep research|agent|connectors?|apps|atlas|dictation|workspace|sso|login|web)\b/i },
+  { group: 'OpenAI APIs', pattern: /\b(api|endpoint|realtime|embeddings?|fine[- ]tuning|batch|audio|moderations?|compliance|completions?|audit logs)\b|\/v\d\/responses\b|responses api|images api/i },
+  { group: 'ChatGPT', pattern: /\b(chatgpt|conversations?|gpts|voice|deep research|agent|connectors?|apps|atlas|dictation|workspace|sso|login|web|search|files?|uploads?|shopping|artifact)\b/i },
   { group: 'Codex', pattern: /\b(codex|cli|vs code|vscode|extension)\b/i },
   { group: 'Sora', pattern: /\b(sora|video viewing|video generation|video)\b/i },
   { group: 'FedRAMP', pattern: /\bfedramp\b/i },
