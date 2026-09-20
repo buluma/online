@@ -181,6 +181,7 @@ let els;
 let tooltip;
 let dataRows = [];
 let chartIdSeed = 0;
+/** @type {{ cPerDay: any[], oPerDay: any[], dayWinners: any } | null} */
 let tlDayData = null;
 let currentDays = DEFAULT_DAYS;
 
@@ -1641,10 +1642,10 @@ async function start() {
 }
 
 function showDataSource(result) {
-  const loader = document.getElementById("loader");
+  const loader = /** @type {HTMLElement} */ (document.getElementById("loader"));
   if (result.error === "offline") {
     loader.classList.add("error");
-    loader.querySelector("span").textContent = "offline — using fallback data";
+    /** @type {HTMLElement} */ (loader.querySelector("span")).textContent = "offline — using fallback data";
   } else if (result.error === "outdated") {
     const hours = Math.floor(
       (Date.now() - new Date(DATA_UPDATED).getTime()) / (60 * 60 * 1000),
@@ -1664,7 +1665,7 @@ function showDataSource(result) {
       (Date.now() - new Date(SEED_DATA.updated).getTime()) /
         (1000 * 60 * 60 * 24),
     );
-    loader.querySelector("span").textContent =
+    /** @type {HTMLElement} */ (loader.querySelector("span")).textContent =
       `offline — using ${seedAge}-day-old fallback data`;
   }
 }

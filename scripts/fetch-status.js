@@ -194,7 +194,7 @@ function fetchTextWithCurl(url) {
 
 async function fetchJSON(url, retries = 3) {
   const text = await fetchText(url, retries);
-  return JSON.parse(text);
+  return JSON.parse(/** @type {string} */ (text));
 }
 
 async function main() {

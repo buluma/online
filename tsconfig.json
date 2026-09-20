@@ -9,6 +9,7 @@
     "checkJs": true,
     "noEmit": true,
     "strict": false,
+    "strictNullChecks": true,
     "skipLibCheck": true
   },
   "include": ["src", "scripts", "vite.config.js"]

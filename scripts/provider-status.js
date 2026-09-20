@@ -100,6 +100,7 @@ export function extractUptimeComponentCodes(html) {
   ];
 }
 
+/** @param {any} [showcase] */
 export function extractClaudeHistory(html, showcase = null) {
   let uptimeData;
   let uptimeHtml = html;
@@ -198,6 +199,7 @@ export function parseOpenAIFeed(xml) {
   return entries;
 }
 
+/** @param {any} [showcase] */
 export function extractGitHubHistory(html, showcase = null) {
   let uptimeData;
   let uptimeHtml = html;
