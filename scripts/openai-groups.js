@@ -1,3 +1,4 @@
+/** @type {Record<string, string[]>} */
 export const OPENAI_COMPONENT_GROUPS = {
   'OpenAI APIs': [
     'Fine-tuning', 'Embeddings', 'Images', 'Batch', 'Audio', 'Moderations',
