@@ -658,7 +658,7 @@ function bindDayInteractions() {
       showCatTip(catRow);
       return;
     }
-    if (!SUPPORTS_HOVER && !event.target.closest(".tip")) hideTip();
+    if (!SUPPORTS_HOVER && !(/** @type {Element} */ (event.target)).closest(".tip")) hideTip();
   });
 
   if (!SUPPORTS_HOVER) return;
@@ -1547,7 +1547,7 @@ function setCachedData(data) {
 
 async function fetchJSON(url) {
   const res = await fetch(url);
-  if (!res.ok) throw new Error(res.status);
+  if (!res.ok) throw new Error(String(res.status));
   return res.json();
 }
 
@@ -1593,7 +1593,7 @@ async function refreshCurrentStatus(shouldRender) {
 async function loadLiveData() {
   try {
     const res = await fetch(import.meta.env.BASE_URL + "data/status.json?t=" + Date.now(), { cache: "no-store" });
-    if (!res.ok) throw new Error(res.status);
+    if (!res.ok) throw new Error(String(res.status));
     const data = await res.json();
     applyLiveData(data);
     setCachedData(data);
@@ -1615,7 +1615,7 @@ async function loadLiveData() {
 function updateTimestamp() {
   const age = Date.now() - new Date(DATA_UPDATED).getTime();
   const stale = age > 60 * 60 * 1000;
-  const liveDot = document.querySelector(".hero .live");
+  const liveDot = /** @type {HTMLElement | null} */ (document.querySelector(".hero .live"));
   if (liveDot) liveDot.style.background = stale ? "var(--yellow)" : "";
   els.timestamp.textContent =
     "snapshot through " + fmtShortDate(DATES[DATES.length - 1]) + " UTC";
