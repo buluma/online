@@ -1,4 +1,5 @@
 import { SEED_DATA } from "./data.js";
+/** @typedef {import("./types.js").StatusData} StatusData */
 import {
   TOTAL_DAYS,
   DEFAULT_DAYS,
@@ -66,16 +67,27 @@ const G_NAMES = [
 ];
 
 // Mutable data — initialized from seed, replaced by live Worker data when available
+/** @type {StatusData["claudeDaily"]} */
 let CLAUDE_DAILY = { ...SEED_DATA.claudeDaily };
+/** @type {StatusData["openaiDaily"]} */
 let OPENAI_DAILY = { ...SEED_DATA.openaiDaily };
+/** @type {StatusData["githubDaily"]} */
 let GITHUB_DAILY = { ...SEED_DATA.githubDaily };
+/** @type {StatusData["uptime"]} */
 let UPTIME = { ...SEED_DATA.uptime };
+/** @type {StatusData["oaiIncidents"]} */
 let OAI_INCIDENTS = { ...SEED_DATA.oaiIncidents };
+/** @type {StatusData["githubIncidents"]} */
 let GITHUB_INCIDENTS = { ...SEED_DATA.githubIncidents };
+/** @type {StatusData["claudeMinutes"]} */
 let CLAUDE_MINUTES = { ...SEED_DATA.claudeMinutes };
+/** @type {StatusData["currentStatus"]} */
 let CURRENT_STATUS = { ...SEED_DATA.currentStatus };
+/** @type {StatusData["claudeDetails"]} */
 let CLAUDE_DETAILS = { ...SEED_DATA.claudeDetails };
+/** @type {StatusData["openaiDetails"]} */
 let OPENAI_DETAILS = { ...SEED_DATA.openaiDetails };
+/** @type {StatusData["githubDetails"]} */
 let GITHUB_DETAILS = { ...SEED_DATA.githubDetails };
 let DATA_UPDATED = SEED_DATA.updated;
 const RACES = [
@@ -1506,6 +1518,7 @@ function render() {
   dataRows = Array.from(document.querySelectorAll(".bars, .ov-bars"));
 }
 
+/** @param {Partial<StatusData>} data */
 function applyLiveData(data) {
   CLAUDE_DAILY = { ...SEED_DATA.claudeDaily, ...(data.claudeDaily || {}) };
   OPENAI_DAILY = { ...SEED_DATA.openaiDaily, ...(data.openaiDaily || {}) };
@@ -1540,6 +1553,7 @@ function getCachedData() {
   }
 }
 
+/** @param {Partial<StatusData>} data */
 function setCachedData(data) {
   try {
     localStorage.setItem(LS_KEY, JSON.stringify(data));
