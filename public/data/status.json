@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T18:03:43.503Z",
+  "updated": "2026-09-29T22:12:11.717Z",
   "startDate": "07-02",
   "dates": [
     "07-02",
@@ -171,7 +171,7 @@
   },
   "oaiIncidents": {
     "09-29": [
-      "Elevated errors across ChatGPT, Codex, and the API"
+      "Elevated errors across ChatGPT, Codex, and the API including the Agents API"
     ],
     "09-25": [
       "Issues with Codex"
@@ -1879,7 +1879,7 @@
     "OpenAI APIs": {
       "09-29": {
         "titles": [
-          "Elevated errors across ChatGPT, Codex, and the API"
+          "Elevated errors across ChatGPT, Codex, and the API including the Agents API"
         ]
       },
       "09-25": {
@@ -1996,7 +1996,7 @@
     "ChatGPT": {
       "09-29": {
         "titles": [
-          "Elevated errors across ChatGPT, Codex, and the API"
+          "Elevated errors across ChatGPT, Codex, and the API including the Agents API"
         ]
       },
       "09-23": {
@@ -2239,7 +2239,7 @@
     "Codex": {
       "09-29": {
         "titles": [
-          "Elevated errors across ChatGPT, Codex, and the API"
+          "Elevated errors across ChatGPT, Codex, and the API including the Agents API"
         ]
       },
       "09-25": {
