@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T12:29:53.687Z",
+  "updated": "2026-09-30T19:59:29.657Z",
   "startDate": "07-03",
   "dates": [
     "07-03",
@@ -100,7 +100,7 @@
     "Claude Code": "g",
     "Claude Cowork": "g",
     "Claude for Government": "g",
-    "OpenAI APIs": "g",
+    "OpenAI APIs": "y",
     "ChatGPT": "g",
     "Codex": "g",
     "Sora": "g",
@@ -126,7 +126,7 @@
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "ggggggggggggggggggggygygygygggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyg",
+    "OpenAI APIs": "ggggggggggggggggggggygygygygggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyy",
     "ChatGPT": "gggggggggygoogggogggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyy",
     "Codex": "gggggggggggggggggyggyyygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggyg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
@@ -171,8 +171,9 @@
   },
   "oaiIncidents": {
     "09-30": [
-      "Elevated error rates for ChatGPT Pro and Plus users",
-      "Elevated errors in ChatGPT Space Pages"
+      "Elevated latency for some API requests",
+      "Elevated errors in ChatGPT Space Pages",
+      "Elevated error rates for ChatGPT Pro and Plus users"
     ],
     "09-29": [
       "Elevated errors across ChatGPT, Codex, and the API including the Agents API"
@@ -1853,6 +1854,11 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
+      "09-30": {
+        "titles": [
+          "Elevated latency for some API requests"
+        ]
+      },
       "09-29": {
         "titles": [
           "Elevated errors across ChatGPT, Codex, and the API including the Agents API"
@@ -1972,8 +1978,8 @@
     "ChatGPT": {
       "09-30": {
         "titles": [
-          "Elevated error rates for ChatGPT Pro and Plus users",
-          "Elevated errors in ChatGPT Space Pages"
+          "Elevated errors in ChatGPT Space Pages",
+          "Elevated error rates for ChatGPT Pro and Plus users"
         ]
       },
       "09-29": {
