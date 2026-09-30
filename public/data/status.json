@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T05:28:23.905Z",
+  "updated": "2026-09-30T12:29:53.687Z",
   "startDate": "07-03",
   "dates": [
     "07-03",
@@ -127,7 +127,7 @@
   },
   "openaiDaily": {
     "OpenAI APIs": "ggggggggggggggggggggygygygygggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyg",
-    "ChatGPT": "gggggggggygoogggogggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyg",
+    "ChatGPT": "gggggggggygoogggogggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyy",
     "Codex": "gggggggggggggggggyggyyygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggyg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "yyyyyyyyyggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
@@ -171,6 +171,7 @@
   },
   "oaiIncidents": {
     "09-30": [
+      "Elevated error rates for ChatGPT Pro and Plus users",
       "Elevated errors in ChatGPT Space Pages"
     ],
     "09-29": [
@@ -1971,6 +1972,7 @@
     "ChatGPT": {
       "09-30": {
         "titles": [
+          "Elevated error rates for ChatGPT Pro and Plus users",
           "Elevated errors in ChatGPT Space Pages"
         ]
       },
