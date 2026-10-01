@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T00:32:08.552Z",
+  "updated": "2026-10-01T18:24:16.496Z",
   "startDate": "07-04",
   "dates": [
     "07-04",
@@ -118,10 +118,10 @@
     "Copilot AI Model Providers": "g"
   },
   "claudeDaily": {
-    "Claude API": "ygyoyoyggygyooggyrygyooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygg",
+    "Claude API": "ygyoyoyggygyooggyrygyooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygy",
     "claude.ai": "ygroyoyggyoyooggyryyyooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogg",
     "Claude Code": "ygyoyoyggygyooggyryyyooogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogg",
-    "platform.claude.com": "ggggggyggygyooggyrygygogggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygg",
+    "platform.claude.com": "ggggggyggygyooggyrygygogggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygy",
     "Claude Cowork": "ygyoyoyggygyooggyrygyooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogg",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
@@ -135,7 +135,7 @@
   "githubDaily": {
     "GitHub API": "ggggggggggggyygyogggyggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyyggggggg",
     "Git Operations": "ggggggggggggggggggggggggggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggg",
-    "Actions": "gggygrgggogggggyogyoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggg",
+    "Actions": "gggygrgggogggggyogyoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggy",
     "Copilot": "ggggggggggggggggggggygggggggggygggggggggggggrggggggggggggggggggggggggggggggggggggggggggggg",
     "Webhooks": "ggggggggggyggggggggyggggggggggggggggggggygggoggggggggggggggggggggggggggggggggggggggggggggg",
     "Issues": "gggggggggggggggyyggyyggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggg",
@@ -170,9 +170,11 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "10-01": [
+      "Elevated errors in ChatGPT Space Pages"
+    ],
     "09-30": [
       "Elevated latency for some API requests",
-      "Elevated errors in ChatGPT Space Pages",
       "Elevated error rates for ChatGPT Pro and Plus users"
     ],
     "09-29": [
@@ -712,6 +714,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API"
+        ]
+      },
+      "10-01": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Delayed credits on the Claude Platform"
         ]
       }
     },
@@ -1483,6 +1492,13 @@
         "events": [
           "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API"
         ]
+      },
+      "10-01": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Delayed credits on the Claude Platform"
+        ]
       }
     },
     "Claude Cowork": {
@@ -1937,9 +1953,13 @@
       }
     },
     "ChatGPT": {
+      "10-01": {
+        "titles": [
+          "Elevated errors in ChatGPT Space Pages"
+        ]
+      },
       "09-30": {
         "titles": [
-          "Elevated errors in ChatGPT Space Pages",
           "Elevated error rates for ChatGPT Pro and Plus users"
         ]
       },
@@ -2496,6 +2516,13 @@
         "majorMinutes": 0,
         "events": [
           "Incident with several GitHub Services"
+        ]
+      },
+      "10-01": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Actions Job Delays"
         ]
       }
     },
