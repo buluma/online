@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T00:45:09.215Z",
+  "updated": "2026-10-02T17:51:14.332Z",
   "startDate": "07-05",
   "dates": [
     "07-05",
@@ -130,7 +130,7 @@
     "ChatGPT": "gggggggygoogggogggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyygg",
     "Codex": "gggggggggggggggyggyyygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggyggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "yyyyyyyggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+    "FedRAMP": "yyyyyyyggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggy"
   },
   "githubDaily": {
     "GitHub API": "gggggggggggyygyogggyggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggg",
@@ -2272,6 +2272,11 @@
       }
     },
     "FedRAMP": {
+      "10-02": {
+        "titles": [
+          "Issues with data analysis and file creation in ChatGPT"
+        ]
+      },
       "07-11": {
         "titles": [
           "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces"
