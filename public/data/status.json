@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T14:30:35.239Z",
+  "updated": "2026-10-05T21:59:41.823Z",
   "startDate": "07-08",
   "dates": [
     "07-08",
@@ -101,7 +101,7 @@
     "Claude Cowork": "g",
     "Claude for Government": "g",
     "OpenAI APIs": "g",
-    "ChatGPT": "g",
+    "ChatGPT": "y",
     "Codex": "y",
     "Sora": "g",
     "FedRAMP": "g",
@@ -112,7 +112,7 @@
     "Pull Requests": "g",
     "Actions": "g",
     "Packages": "g",
-    "Pages": "g",
+    "Pages": "y",
     "Copilot": "g",
     "Codespaces": "g",
     "Copilot AI Model Providers": "g"
@@ -127,21 +127,21 @@
   },
   "openaiDaily": {
     "OpenAI APIs": "gggggggggggggggygygygygggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyyggggg",
-    "ChatGPT": "ggggygoogggogggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyyggggg",
+    "ChatGPT": "ggggygoogggogggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyyggggy",
     "Codex": "ggggggggggggyggyyygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "yyyyggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggg"
+    "FedRAMP": "yyyyggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggy"
   },
   "githubDaily": {
     "GitHub API": "ggggggggyygyogggyggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyyggggggggggg",
     "Git Operations": "ggggggggggggggggggggggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Actions": "grgggogggggyogyoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggg",
+    "Actions": "grgggogggggyogyoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggr",
     "Copilot": "ggggggggggggggggygggggggggygggggggggggggrggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Webhooks": "ggggggyggggggggyggggggggggggggggggggygggoggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Issues": "gggggggggggyyggyyggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggg",
     "Pull Requests": "gggggggggggggggyrggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggyggggggggggggggg",
     "Packages": "ggggggggggggggggggggggggggggggggggggyggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Pages": "gygggygggggyygggyggggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggg",
+    "Pages": "gygggygggggyygggyggggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggy",
     "Codespaces": "ggggggyggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Copilot AI Model Providers": "ggggggggygggyggggogggyygygggggggggggyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggg"
   },
@@ -162,7 +162,7 @@
     "GitHub API": 99.86,
     "Issues": 99.89,
     "Pull Requests": 99.83,
-    "Actions": 99.26,
+    "Actions": 99.22,
     "Packages": 100,
     "Pages": 99.65,
     "Copilot": 99.68,
@@ -171,6 +171,8 @@
   },
   "oaiIncidents": {
     "10-05": [
+      "Elevated error rates in Codex Cloud",
+      "Elevated errors in ChatGPT conversations",
       "Elevated Work Mode errors"
     ],
     "10-01": [
@@ -391,6 +393,9 @@
     "08-26": [
       "Incident with Actions",
       "Incident with Actions and Pull Requests"
+    ],
+    "10-05": [
+      "Incident with Actions"
     ]
   },
   "claudeMinutes": {
@@ -1896,6 +1901,11 @@
       }
     },
     "ChatGPT": {
+      "10-05": {
+        "titles": [
+          "Elevated errors in ChatGPT conversations"
+        ]
+      },
       "10-01": {
         "titles": [
           "Elevated errors in ChatGPT Space Pages",
@@ -2147,6 +2157,7 @@
     "Codex": {
       "10-05": {
         "titles": [
+          "Elevated error rates in Codex Cloud",
           "Elevated Work Mode errors"
         ]
       },
@@ -2237,6 +2248,11 @@
       }
     },
     "FedRAMP": {
+      "10-05": {
+        "titles": [
+          "Elevated errors in ChatGPT conversations"
+        ]
+      },
       "10-02": {
         "titles": [
           "Issues with data analysis and file creation in ChatGPT"
@@ -2465,6 +2481,13 @@
         "majorMinutes": 0,
         "events": [
           "Actions Job Delays"
+        ]
+      },
+      "10-05": {
+        "partialMinutes": 0,
+        "majorMinutes": 44,
+        "events": [
+          "Incident with Actions"
         ]
       }
     },
@@ -2731,6 +2754,13 @@
         "majorMinutes": 0,
         "events": [
           "Incident with several GitHub Services"
+        ]
+      },
+      "10-05": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions"
         ]
       }
     },
