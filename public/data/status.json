@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T05:33:48.531Z",
+  "updated": "2026-10-05T14:30:35.239Z",
   "startDate": "07-08",
   "dates": [
     "07-08",
@@ -102,7 +102,7 @@
     "Claude for Government": "g",
     "OpenAI APIs": "g",
     "ChatGPT": "g",
-    "Codex": "g",
+    "Codex": "y",
     "Sora": "g",
     "FedRAMP": "g",
     "Git Operations": "g",
@@ -118,11 +118,11 @@
     "Copilot AI Model Providers": "g"
   },
   "claudeDaily": {
-    "Claude API": "yoyggygyooggyrygyooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggg",
-    "claude.ai": "yoyggyoyooggyryyyooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggg",
-    "Claude Code": "yoyggygyooggyryyyooogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggg",
+    "Claude API": "yoyggygyooggyrygyooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggo",
+    "claude.ai": "yoyggyoyooggyryyyooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggo",
+    "Claude Code": "yoyggygyooggyryyyooogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggo",
     "platform.claude.com": "ggyggygyooggyrygygogggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggg",
-    "Claude Cowork": "yoyggygyooggyrygyooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggg",
+    "Claude Cowork": "yoyggygyooggyrygyooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggo",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
@@ -170,6 +170,9 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "10-05": [
+      "Elevated Work Mode errors"
+    ],
     "10-01": [
       "Elevated errors in ChatGPT Space Pages",
       "Issues with login, signup, and ads"
@@ -414,6 +417,7 @@
     "09-15": 258,
     "09-22": 222,
     "09-29": 100,
+    "10-05": 48,
     "08-28": 102
   },
   "claudeDetails": {
@@ -695,6 +699,13 @@
         "majorMinutes": 0,
         "events": [
           "Delayed credits on the Claude Platform"
+        ]
+      },
+      "10-05": {
+        "partialMinutes": 16,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1"
         ]
       }
     },
@@ -1003,6 +1014,13 @@
         "events": [
           "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API"
         ]
+      },
+      "10-05": {
+        "partialMinutes": 16,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1"
+        ]
       }
     },
     "Claude Code": {
@@ -1295,6 +1313,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API"
+        ]
+      },
+      "10-05": {
+        "partialMinutes": 16,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1"
         ]
       }
     },
@@ -1731,6 +1756,13 @@
         "events": [
           "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API"
         ]
+      },
+      "10-05": {
+        "partialMinutes": 16,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1"
+        ]
       }
     },
     "Claude for Government": {}
@@ -2113,6 +2145,11 @@
       }
     },
     "Codex": {
+      "10-05": {
+        "titles": [
+          "Elevated Work Mode errors"
+        ]
+      },
       "09-29": {
         "titles": [
           "Elevated errors across ChatGPT, Codex, and the API including the Agents API"
