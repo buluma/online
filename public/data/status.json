@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T06:16:25.116Z",
+  "updated": "2026-10-06T13:20:27.157Z",
   "startDate": "07-09",
   "dates": [
     "07-09",
@@ -102,7 +102,7 @@
     "Claude for Government": "g",
     "OpenAI APIs": "g",
     "ChatGPT": "g",
-    "Codex": "y",
+    "Codex": "g",
     "Sora": "g",
     "FedRAMP": "g",
     "Git Operations": "g",
@@ -118,11 +118,11 @@
     "Copilot AI Model Providers": "g"
   },
   "claudeDaily": {
-    "Claude API": "oyggygyooggyrygyooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggog",
-    "claude.ai": "oyggyoyooggyryyyooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggog",
-    "Claude Code": "oyggygyooggyryyyooogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggog",
+    "Claude API": "oyggygyooggyrygyooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggoo",
+    "claude.ai": "oyggyoyooggyryyyooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggoo",
+    "Claude Code": "oyggygyooggyryyyooogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggoo",
     "platform.claude.com": "gyggygyooggyrygygogggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygyggggg",
-    "Claude Cowork": "oyggygyooggyrygyooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggog",
+    "Claude Cowork": "oyggygyooggyrygyooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggoo",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
@@ -149,8 +149,8 @@
     "claude.ai": 99.46,
     "platform.claude.com": 99.95,
     "Claude API": 99.54,
-    "Claude Code": 99.47,
-    "Claude Cowork": 99.46,
+    "Claude Code": 99.46,
+    "Claude Cowork": 99.45,
     "Claude for Government": 100,
     "OpenAI APIs": 99.96,
     "ChatGPT": 99.65,
@@ -171,13 +171,12 @@
   },
   "oaiIncidents": {
     "10-06": [
+      "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
       "Elevated errors affecting multiple products including ChatGPT (conversations), Image generations, Spaces and Pages, API rehydration, and Dots.",
+      "Elevated Work Mode errors",
       "Elevated errors in API Platform login and administration APIs.",
-      "Elevated errors in ChatGPT conversations"
-    ],
-    "10-05": [
-      "Elevated error rates in Codex Cloud",
-      "Elevated Work Mode errors"
+      "Elevated errors in ChatGPT conversations",
+      "Elevated error rates in Codex Cloud"
     ],
     "10-01": [
       "Elevated errors in ChatGPT Space Pages",
@@ -186,9 +185,6 @@
     "09-30": [
       "Elevated latency for some API requests",
       "Elevated error rates for ChatGPT Pro and Plus users"
-    ],
-    "09-29": [
-      "Elevated errors across ChatGPT, Codex, and the API including the Agents API"
     ],
     "09-25": [
       "Issues with Codex"
@@ -427,6 +423,7 @@
     "09-22": 222,
     "09-29": 100,
     "10-05": 48,
+    "10-06": 57,
     "08-28": 102
   },
   "claudeDetails": {
@@ -707,6 +704,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1"
+        ]
+      },
+      "10-06": {
+        "partialMinutes": 19,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Opus 5.5"
         ]
       }
     },
@@ -1014,6 +1018,13 @@
         "events": [
           "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1"
         ]
+      },
+      "10-06": {
+        "partialMinutes": 19,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Opus 5.5"
+        ]
       }
     },
     "Claude Code": {
@@ -1304,6 +1315,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1"
+        ]
+      },
+      "10-06": {
+        "partialMinutes": 19,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Opus 5.5"
         ]
       }
     },
@@ -1739,12 +1757,24 @@
         "events": [
           "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1"
         ]
+      },
+      "10-06": {
+        "partialMinutes": 19,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Opus 5.5"
+        ]
       }
     },
     "Claude for Government": {}
   },
   "openaiDetails": {
     "OpenAI APIs": {
+      "10-06": {
+        "titles": [
+          "Elevated errors across ChatGPT, Codex, and the API including the Agents API"
+        ]
+      },
       "10-01": {
         "titles": [
           "Issues with login, signup, and ads"
@@ -1753,11 +1783,6 @@
       "09-30": {
         "titles": [
           "Elevated latency for some API requests"
-        ]
-      },
-      "09-29": {
-        "titles": [
-          "Elevated errors across ChatGPT, Codex, and the API including the Agents API"
         ]
       },
       "09-25": {
@@ -1874,6 +1899,7 @@
     "ChatGPT": {
       "10-06": {
         "titles": [
+          "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
           "Elevated errors affecting multiple products including ChatGPT (conversations), Image generations, Spaces and Pages, API rehydration, and Dots.",
           "Elevated errors in API Platform login and administration APIs.",
           "Elevated errors in ChatGPT conversations"
@@ -1888,11 +1914,6 @@
       "09-30": {
         "titles": [
           "Elevated error rates for ChatGPT Pro and Plus users"
-        ]
-      },
-      "09-29": {
-        "titles": [
-          "Elevated errors across ChatGPT, Codex, and the API including the Agents API"
         ]
       },
       "09-23": {
@@ -2128,15 +2149,11 @@
       }
     },
     "Codex": {
-      "10-05": {
+      "10-06": {
         "titles": [
-          "Elevated error rates in Codex Cloud",
-          "Elevated Work Mode errors"
-        ]
-      },
-      "09-29": {
-        "titles": [
-          "Elevated errors across ChatGPT, Codex, and the API including the Agents API"
+          "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
+          "Elevated Work Mode errors",
+          "Elevated error rates in Codex Cloud"
         ]
       },
       "09-25": {
