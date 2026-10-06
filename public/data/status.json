@@ -1,8 +1,7 @@
 {
-  "updated": "2026-10-05T21:59:41.823Z",
-  "startDate": "07-08",
+  "updated": "2026-10-06T06:16:25.116Z",
+  "startDate": "07-09",
   "dates": [
-    "07-08",
     "07-09",
     "07-10",
     "07-11",
@@ -91,7 +90,8 @@
     "10-02",
     "10-03",
     "10-04",
-    "10-05"
+    "10-05",
+    "10-06"
   ],
   "currentStatus": {
     "claude.ai": "g",
@@ -101,7 +101,7 @@
     "Claude Cowork": "g",
     "Claude for Government": "g",
     "OpenAI APIs": "g",
-    "ChatGPT": "y",
+    "ChatGPT": "g",
     "Codex": "y",
     "Sora": "g",
     "FedRAMP": "g",
@@ -112,38 +112,38 @@
     "Pull Requests": "g",
     "Actions": "g",
     "Packages": "g",
-    "Pages": "y",
+    "Pages": "g",
     "Copilot": "g",
     "Codespaces": "g",
     "Copilot AI Model Providers": "g"
   },
   "claudeDaily": {
-    "Claude API": "yoyggygyooggyrygyooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggo",
-    "claude.ai": "yoyggyoyooggyryyyooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggo",
-    "Claude Code": "yoyggygyooggyryyyooogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggo",
-    "platform.claude.com": "ggyggygyooggyrygygogggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggg",
-    "Claude Cowork": "yoyggygyooggyrygyooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggo",
+    "Claude API": "oyggygyooggyrygyooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggog",
+    "claude.ai": "oyggyoyooggyryyyooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggog",
+    "Claude Code": "oyggygyooggyryyyooogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggog",
+    "platform.claude.com": "gyggygyooggyrygygogggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygyggggg",
+    "Claude Cowork": "oyggygyooggyrygyooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggog",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "gggggggggggggggygygygygggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyyggggg",
-    "ChatGPT": "ggggygoogggogggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyyggggy",
-    "Codex": "ggggggggggggyggyyygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggg",
+    "OpenAI APIs": "ggggggggggggggygygygygggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggg",
+    "ChatGPT": "gggygoogggogggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyyggggyy",
+    "Codex": "gggggggggggyggyyygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggyggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "yyyyggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggy"
+    "FedRAMP": "yyyggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggyy"
   },
   "githubDaily": {
-    "GitHub API": "ggggggggyygyogggyggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyyggggggggggg",
-    "Git Operations": "ggggggggggggggggggggggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Actions": "grgggogggggyogyoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggr",
-    "Copilot": "ggggggggggggggggygggggggggygggggggggggggrggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Webhooks": "ggggggyggggggggyggggggggggggggggggggygggoggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Issues": "gggggggggggyyggyyggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggg",
-    "Pull Requests": "gggggggggggggggyrggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggyggggggggggggggg",
-    "Packages": "ggggggggggggggggggggggggggggggggggggyggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Pages": "gygggygggggyygggyggggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggy",
-    "Codespaces": "ggggggyggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "ggggggggygggyggggogggyygygggggggggggyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggg"
+    "GitHub API": "gggggggyygyogggyggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggg",
+    "Git Operations": "gggggggggggggggggggggggggggggggggggygggygggggggggggggggggggggggggggggggggggggggggggggggggg",
+    "Actions": "rgggogggggyogyoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrg",
+    "Copilot": "gggggggggggggggygggggggggygggggggggggggrgggggggggggggggggggggggggggggggggggggggggggggggggg",
+    "Webhooks": "gggggyggggggggyggggggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggg",
+    "Issues": "ggggggggggyyggyyggggggggggggggggggyygggrggggggggggggggggggggggggggyggggggggggggggggggggggg",
+    "Pull Requests": "ggggggggggggggyrggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggg",
+    "Packages": "gggggggggggggggggggggggggggggggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+    "Pages": "ygggygggggyygggyggggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggyg",
+    "Codespaces": "gggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+    "Copilot AI Model Providers": "gggggggygggyggggogggyygygggggggggggyggggggggggoggrgggyggygggggggggggyoyggggggggggggggggggg"
   },
   "uptime": {
     "claude.ai": 99.46,
@@ -170,9 +170,13 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "10-06": [
+      "Elevated errors affecting multiple products including ChatGPT (conversations), Image generations, Spaces and Pages, API rehydration, and Dots.",
+      "Elevated errors in API Platform login and administration APIs.",
+      "Elevated errors in ChatGPT conversations"
+    ],
     "10-05": [
       "Elevated error rates in Codex Cloud",
-      "Elevated errors in ChatGPT conversations",
       "Elevated Work Mode errors"
     ],
     "10-01": [
@@ -427,14 +431,6 @@
   },
   "claudeDetails": {
     "Claude API": {
-      "07-08": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Elevated errors on Claude Sonnet 5",
-          "Elevated errors on multiple models"
-        ]
-      },
       "07-09": {
         "partialMinutes": 22,
         "majorMinutes": 0,
@@ -715,14 +711,6 @@
       }
     },
     "claude.ai": {
-      "07-08": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Elevated errors on Claude Sonnet 5",
-          "Elevated errors on multiple models"
-        ]
-      },
       "07-09": {
         "partialMinutes": 22,
         "majorMinutes": 0,
@@ -1029,15 +1017,6 @@
       }
     },
     "Claude Code": {
-      "07-08": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Elevated errors on Claude Sonnet 5",
-          "Elevated errors on multiple models",
-          "Degraded performance for Claude Code on the web, Cowork Remote, Claude Tag, and Claude Code Review sessions"
-        ]
-      },
       "07-09": {
         "partialMinutes": 22,
         "majorMinutes": 0,
@@ -1460,14 +1439,6 @@
       }
     },
     "Claude Cowork": {
-      "07-08": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Elevated errors on Claude Sonnet 5",
-          "Elevated errors on multiple models"
-        ]
-      },
       "07-09": {
         "partialMinutes": 22,
         "majorMinutes": 0,
@@ -1901,8 +1872,10 @@
       }
     },
     "ChatGPT": {
-      "10-05": {
+      "10-06": {
         "titles": [
+          "Elevated errors affecting multiple products including ChatGPT (conversations), Image generations, Spaces and Pages, API rehydration, and Dots.",
+          "Elevated errors in API Platform login and administration APIs.",
           "Elevated errors in ChatGPT conversations"
         ]
       },
@@ -2248,7 +2221,7 @@
       }
     },
     "FedRAMP": {
-      "10-05": {
+      "10-06": {
         "titles": [
           "Elevated errors in ChatGPT conversations"
         ]
