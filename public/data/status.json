@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T10:11:41.164Z",
+  "updated": "2026-10-07T18:55:35.087Z",
   "startDate": "07-10",
   "dates": [
     "07-10",
@@ -95,14 +95,14 @@
   ],
   "currentStatus": {
     "claude.ai": "g",
-    "platform.claude.com": "g",
+    "platform.claude.com": "o",
     "Claude API": "g",
     "Claude Code": "g",
     "Claude Cowork": "g",
     "Claude for Government": "g",
     "OpenAI APIs": "g",
     "ChatGPT": "g",
-    "Codex": "o",
+    "Codex": "g",
     "Sora": "g",
     "FedRAMP": "g",
     "Git Operations": "g",
@@ -134,12 +134,12 @@
   },
   "githubDaily": {
     "GitHub API": "ggggggyygyogggyggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyyggggggggggggg",
-    "Git Operations": "ggggggggggggggggggggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Actions": "gggogggggyogyoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgg",
+    "Git Operations": "ggggggggggggggggggggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggr",
+    "Actions": "gggogggggyogyoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgr",
     "Copilot": "ggggggggggggggygggggggggygggggggggggggrggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Webhooks": "ggggyggggggggyggggggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyg",
-    "Issues": "gggggggggyyggyyggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggg",
-    "Pull Requests": "gggggggggggggyrggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyg",
+    "Webhooks": "ggggyggggggggyggggggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyr",
+    "Issues": "gggggggggyyggyyggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggy",
+    "Pull Requests": "gggggggggggggyrggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyr",
     "Packages": "ggggggggggggggggggggggggggggggggggyggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Pages": "gggygggggyygggyggggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygg",
     "Codespaces": "ggggyggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
@@ -147,22 +147,22 @@
   },
   "uptime": {
     "claude.ai": 99.46,
-    "platform.claude.com": 99.93,
+    "platform.claude.com": 99.85,
     "Claude API": 99.54,
     "Claude Code": 99.47,
     "Claude Cowork": 99.46,
     "Claude for Government": 100,
     "OpenAI APIs": 99.96,
-    "ChatGPT": 99.59,
+    "ChatGPT": 99.57,
     "Codex": 99.95,
     "Sora": 100,
     "FedRAMP": 100,
-    "Git Operations": 100,
-    "Webhooks": 99.99,
+    "Git Operations": 99.99,
+    "Webhooks": 99.98,
     "GitHub API": 99.86,
     "Issues": 99.89,
-    "Pull Requests": 99.83,
-    "Actions": 99.22,
+    "Pull Requests": 99.82,
+    "Actions": 99.2,
     "Packages": 100,
     "Pages": 99.65,
     "Copilot": 99.68,
@@ -171,6 +171,8 @@
   },
   "oaiIncidents": {
     "10-07": [
+      "Degraded performance in Codex and Work mode: Dot turn failures, delayed responses, and reduced proactivity",
+      "Dot in Codex may fail to create new threads",
       "Unable to create new ChatGPT Work threads in latest version of desktop app",
       "Workspace Agents Degraded and Responses Impacted"
     ],
@@ -365,6 +367,10 @@
     ]
   },
   "githubIncidents": {
+    "10-07": [
+      "Incident with Git Operations, Issues, Actions and Pull Requests",
+      "Incident with Git Operations, Pull Requests and Actions"
+    ],
     "07-20": [
       "Incident with GitHub Actions"
     ],
@@ -1437,10 +1443,11 @@
         ]
       },
       "10-07": {
-        "partialMinutes": 73,
+        "partialMinutes": 404,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors loading usage data on platform.claude.com"
+          "Elevated errors loading usage data on platform.claude.com",
+          "Elevated errors on platform.claude.com"
         ]
       }
     },
@@ -2139,6 +2146,8 @@
     "Codex": {
       "10-07": {
         "titles": [
+          "Degraded performance in Codex and Work mode: Dot turn failures, delayed responses, and reduced proactivity",
+          "Dot in Codex may fail to create new threads",
           "Unable to create new ChatGPT Work threads in latest version of desktop app"
         ]
       },
@@ -2342,6 +2351,14 @@
         "events": [
           "Incident with GitHub.com"
         ]
+      },
+      "10-07": {
+        "partialMinutes": 0,
+        "majorMinutes": 7,
+        "events": [
+          "Incident with Git Operations, Issues, Actions and Pull Requests",
+          "Incident with Git Operations, Pull Requests and Actions"
+        ]
       }
     },
     "Actions": {
@@ -2465,6 +2482,14 @@
         "events": [
           "Incident with Actions"
         ]
+      },
+      "10-07": {
+        "partialMinutes": 0,
+        "majorMinutes": 17,
+        "events": [
+          "Incident with Git Operations, Issues, Actions and Pull Requests",
+          "Incident with Git Operations, Pull Requests and Actions"
+        ]
       }
     },
     "Copilot": {
@@ -2525,6 +2550,13 @@
         "events": [
           "Several services are degraded"
         ]
+      },
+      "10-07": {
+        "partialMinutes": 0,
+        "majorMinutes": 11,
+        "events": [
+          "Incident with Git Operations, Pull Requests and Actions"
+        ]
       }
     },
     "Issues": {
@@ -2582,6 +2614,14 @@
         "majorMinutes": 0,
         "events": [
           "Incident with several GitHub Services"
+        ]
+      },
+      "10-07": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Git Operations, Issues, Actions and Pull Requests",
+          "Incident with Git Operations, Pull Requests and Actions"
         ]
       }
     },
@@ -2662,6 +2702,14 @@
         "majorMinutes": 0,
         "events": [
           "Several services are degraded"
+        ]
+      },
+      "10-07": {
+        "partialMinutes": 0,
+        "majorMinutes": 11,
+        "events": [
+          "Incident with Git Operations, Issues, Actions and Pull Requests",
+          "Incident with Git Operations, Pull Requests and Actions"
         ]
       }
     },
