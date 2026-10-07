@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T00:39:51.126Z",
+  "updated": "2026-10-07T10:11:41.164Z",
   "startDate": "07-10",
   "dates": [
     "07-10",
@@ -102,7 +102,7 @@
     "Claude for Government": "g",
     "OpenAI APIs": "g",
     "ChatGPT": "g",
-    "Codex": "g",
+    "Codex": "o",
     "Sora": "g",
     "FedRAMP": "g",
     "Git Operations": "g",
@@ -121,7 +121,7 @@
     "Claude API": "yggygyooggyrygyooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggoog",
     "claude.ai": "yggyoyooggyryyyooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggoog",
     "Claude Code": "yggygyooggyryyyooogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggoog",
-    "platform.claude.com": "yggygyooggyrygygogggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggg",
+    "platform.claude.com": "yggygyooggyrygygogggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggo",
     "Claude Cowork": "yggygyooggyrygyooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggoog",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
@@ -147,13 +147,13 @@
   },
   "uptime": {
     "claude.ai": 99.46,
-    "platform.claude.com": 99.95,
+    "platform.claude.com": 99.93,
     "Claude API": 99.54,
     "Claude Code": 99.47,
     "Claude Cowork": 99.46,
     "Claude for Government": 100,
     "OpenAI APIs": 99.96,
-    "ChatGPT": 99.65,
+    "ChatGPT": 99.59,
     "Codex": 99.95,
     "Sora": 100,
     "FedRAMP": 100,
@@ -170,6 +170,10 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "10-07": [
+      "Unable to create new ChatGPT Work threads in latest version of desktop app",
+      "Workspace Agents Degraded and Responses Impacted"
+    ],
     "10-06": [
       "Errors processing large PDFs in the Responses API",
       "Elevated error rates in ChatGPT Go conversations",
@@ -1431,6 +1435,13 @@
         "events": [
           "Delayed credits on the Claude Platform"
         ]
+      },
+      "10-07": {
+        "partialMinutes": 73,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors loading usage data on platform.claude.com"
+        ]
       }
     },
     "Claude Cowork": {
@@ -1868,6 +1879,11 @@
       }
     },
     "ChatGPT": {
+      "10-07": {
+        "titles": [
+          "Workspace Agents Degraded and Responses Impacted"
+        ]
+      },
       "10-06": {
         "titles": [
           "Elevated error rates in ChatGPT Go conversations",
@@ -2121,6 +2137,11 @@
       }
     },
     "Codex": {
+      "10-07": {
+        "titles": [
+          "Unable to create new ChatGPT Work threads in latest version of desktop app"
+        ]
+      },
       "10-06": {
         "titles": [
           "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
