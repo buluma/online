@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T00:57:51.115Z",
+  "updated": "2026-10-08T10:30:06.535Z",
   "startDate": "07-11",
   "dates": [
     "07-11",
@@ -127,7 +127,7 @@
   },
   "openaiDaily": {
     "OpenAI APIs": "ggggggggggggygygygygggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggg",
-    "ChatGPT": "gygoogggogggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyyggggyygg",
+    "ChatGPT": "gygoogggogggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyyggggyygy",
     "Codex": "gggggggggyggyyygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggyggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "yggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggyyyg"
@@ -170,6 +170,9 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "10-08": [
+      "Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs."
+    ],
     "10-07": [
       "Degraded performance in Codex and Work mode: Dot turn failures, delayed responses, and reduced proactivity",
       "Dot in Codex may fail to create new threads",
@@ -1858,6 +1861,11 @@
       }
     },
     "ChatGPT": {
+      "10-08": {
+        "titles": [
+          "Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs."
+        ]
+      },
       "10-07": {
         "titles": [
           "Workspace Agents Degraded and Responses Impacted"
