@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T01:11:58.955Z",
+  "updated": "2026-10-09T18:20:01.015Z",
   "startDate": "07-12",
   "dates": [
     "07-12",
@@ -100,7 +100,7 @@
     "Claude Code": "g",
     "Claude Cowork": "g",
     "Claude for Government": "g",
-    "OpenAI APIs": "g",
+    "OpenAI APIs": "y",
     "ChatGPT": "g",
     "Codex": "g",
     "Sora": "g",
@@ -170,6 +170,9 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "10-09": [
+      "Delayed Costs data in the Compliance API"
+    ],
     "10-08": [
       "Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs."
     ],
@@ -1737,6 +1740,11 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
+      "10-09": {
+        "titles": [
+          "Delayed Costs data in the Compliance API"
+        ]
+      },
       "10-06": {
         "titles": [
           "Errors processing large PDFs in the Responses API",
