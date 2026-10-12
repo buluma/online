@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T00:30:37.132Z",
+  "updated": "2026-10-12T21:15:01.342Z",
   "startDate": "07-15",
   "dates": [
     "07-15",
@@ -100,7 +100,7 @@
     "Claude Code": "g",
     "Claude Cowork": "g",
     "Claude for Government": "g",
-    "OpenAI APIs": "y",
+    "OpenAI APIs": "g",
     "ChatGPT": "g",
     "Codex": "g",
     "Sora": "g",
@@ -135,11 +135,11 @@
   "githubDaily": {
     "GitHub API": "gyygyogggyggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggg",
     "Git Operations": "gggggggggggggggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggg",
-    "Actions": "ggggyogyoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggg",
+    "Actions": "ggggyogyoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggy",
     "Copilot": "gggggggggygggggggggygggggggggggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Webhooks": "ggggggggyggggggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrggggg",
-    "Issues": "ggggyyggyyggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggg",
-    "Pull Requests": "ggggggggyrggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggg",
+    "Issues": "ggggyyggyyggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggy",
+    "Pull Requests": "ggggggggyrggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggy",
     "Packages": "gggggggggggggggggggggggggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Pages": "ggggyygggyggggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggyggggggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
@@ -170,12 +170,14 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "10-12": [
+      "Delayed Costs data in the Compliance API"
+    ],
     "10-10": [
       "Some ChatGPT content may be unavailable on Android"
     ],
     "10-09": [
-      "Workspace admins may be unable to manage plugins",
-      "Delayed Costs data in the Compliance API"
+      "Workspace admins may be unable to manage plugins"
     ],
     "10-08": [
       "Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs."
@@ -1709,7 +1711,7 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
-      "10-09": {
+      "10-12": {
         "titles": [
           "Delayed Costs data in the Compliance API"
         ]
@@ -2427,6 +2429,13 @@
           "Incident with Git Operations, Issues, Actions and Pull Requests",
           "Incident with Git Operations, Pull Requests and Actions"
         ]
+      },
+      "10-12": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions, Pull Requests and Issues"
+        ]
       }
     },
     "Copilot": {
@@ -2553,6 +2562,13 @@
           "Incident with Git Operations, Issues, Actions and Pull Requests",
           "Incident with Git Operations, Pull Requests and Actions"
         ]
+      },
+      "10-12": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions, Pull Requests and Issues"
+        ]
       }
     },
     "Pull Requests": {
@@ -2640,6 +2656,13 @@
         "events": [
           "Incident with Git Operations, Issues, Actions and Pull Requests",
           "Incident with Git Operations, Pull Requests and Actions"
+        ]
+      },
+      "10-12": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions, Pull Requests and Issues"
         ]
       }
     },
