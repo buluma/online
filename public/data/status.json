@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T02:34:36.837Z",
+  "updated": "2026-10-13T10:30:09.079Z",
   "startDate": "07-16",
   "dates": [
     "07-16",
@@ -128,7 +128,7 @@
   "openaiDaily": {
     "OpenAI APIs": "gggggggygygygygggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyyggggggggggggg",
     "ChatGPT": "gggogggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyyggggyygyooggg",
-    "Codex": "ggggyggyyygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggg",
+    "Codex": "ggggyggyyygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggy",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggyyygggggg"
   },
@@ -170,6 +170,9 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "10-13": [
+      "Degraded performance in GPT-6.1 Sol Codex and Work mode"
+    ],
     "10-12": [
       "Delayed Costs data in the Compliance API"
     ],
@@ -1679,6 +1682,11 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
+      "10-13": {
+        "titles": [
+          "Degraded performance in GPT-6.1 Sol Codex and Work mode"
+        ]
+      },
       "10-12": {
         "titles": [
           "Delayed Costs data in the Compliance API"
@@ -2053,6 +2061,11 @@
       }
     },
     "Codex": {
+      "10-13": {
+        "titles": [
+          "Degraded performance in GPT-6.1 Sol Codex and Work mode"
+        ]
+      },
       "10-07": {
         "titles": [
           "Degraded performance in Codex and Work mode: Dot turn failures, delayed responses, and reduced proactivity",
