@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T00:16:27.395Z",
+  "updated": "2026-10-14T11:46:49.808Z",
   "startDate": "07-17",
   "dates": [
     "07-17",
@@ -170,6 +170,10 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "10-14": [
+      "Limited availability on gpt-image-2.5-flare and gpt-image-2.5-sunburst",
+      "Degraded performance in Codex and ChatGPT Work"
+    ],
     "10-13": [
       "Degraded performance in GPT-6.1 Sol Codex and Work mode"
     ],
@@ -1636,6 +1640,11 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
+      "10-14": {
+        "titles": [
+          "Limited availability on gpt-image-2.5-flare and gpt-image-2.5-sunburst"
+        ]
+      },
       "10-13": {
         "titles": [
           "Degraded performance in GPT-6.1 Sol Codex and Work mode"
@@ -2010,6 +2019,11 @@
       }
     },
     "Codex": {
+      "10-14": {
+        "titles": [
+          "Degraded performance in Codex and ChatGPT Work"
+        ]
+      },
       "10-13": {
         "titles": [
           "Degraded performance in GPT-6.1 Sol Codex and Work mode"
