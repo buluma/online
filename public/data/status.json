@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T04:32:59.645Z",
+  "updated": "2026-10-15T21:19:46.786Z",
   "startDate": "07-18",
   "dates": [
     "07-18",
@@ -170,6 +170,9 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "10-15": [
+      "Widespread feature degradation"
+    ],
     "10-14": [
       "Delayed Costs data in the Compliance API",
       "Limited availability on gpt-image-2.5-flare and gpt-image-2.5-sunburst",
@@ -1722,6 +1725,11 @@
       }
     },
     "ChatGPT": {
+      "10-15": {
+        "titles": [
+          "Widespread feature degradation"
+        ]
+      },
       "10-10": {
         "titles": [
           "Some ChatGPT content may be unavailable on Android"
