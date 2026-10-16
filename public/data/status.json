@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T11:17:48.346Z",
+  "updated": "2026-10-16T21:03:41.572Z",
   "startDate": "07-19",
   "dates": [
     "07-19",
@@ -152,8 +152,8 @@
     "Claude Code": 99.52,
     "Claude Cowork": 99.51,
     "Claude for Government": 100,
-    "OpenAI APIs": 99.96,
-    "ChatGPT": 99.49,
+    "OpenAI APIs": 99.95,
+    "ChatGPT": 99.48,
     "Codex": 99.95,
     "Sora": 100,
     "FedRAMP": 100,
