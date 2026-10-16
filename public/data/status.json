@@ -1,8 +1,7 @@
 {
-  "updated": "2026-10-15T21:19:46.786Z",
-  "startDate": "07-18",
+  "updated": "2026-10-16T04:26:28.780Z",
+  "startDate": "07-19",
   "dates": [
-    "07-18",
     "07-19",
     "07-20",
     "07-21",
@@ -91,7 +90,8 @@
     "10-12",
     "10-13",
     "10-14",
-    "10-15"
+    "10-15",
+    "10-16"
   ],
   "currentStatus": {
     "claude.ai": "g",
@@ -118,32 +118,32 @@
     "Copilot AI Model Providers": "g"
   },
   "claudeDaily": {
-    "Claude API": "ggyrygyooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggg",
-    "claude.ai": "ggyryyyooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggg",
-    "Claude Code": "ggyryyyooogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggg",
-    "platform.claude.com": "ggyrygygogggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyygg",
-    "Claude Cowork": "ggyrygyooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggg",
+    "Claude API": "gyrygyooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggoogggggggggg",
+    "claude.ai": "gyryyyooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggoogggggggggg",
+    "Claude Code": "gyryyyooogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggoogggggggggg",
+    "platform.claude.com": "gyrygygogggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggg",
+    "Claude Cowork": "gyrygyooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggoogggggggggg",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "gggggygygygygggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyyggggggggggggggg",
-    "ChatGPT": "gogggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyyggggyygyooggggg",
-    "Codex": "ggyggyyygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggygg",
+    "OpenAI APIs": "ggggygygygygggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggg",
+    "ChatGPT": "ogggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyyggggyygyoogggggg",
+    "Codex": "gyggyyygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggyyygggggggg"
+    "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggyyyggggggggg"
   },
   "githubDaily": {
-    "GitHub API": "gyogggyggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyyggggggggggggggggggggg",
-    "Git Operations": "ggggggggggggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrgggggggg",
-    "Actions": "gyogyoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggg",
-    "Copilot": "ggggggygggggggggygggggggggggggrggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Webhooks": "gggggyggggggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggg",
-    "Issues": "gyyggyyggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggyggg",
-    "Pull Requests": "gggggyrggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggg",
-    "Packages": "ggggggggggggggggggggggggggyggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Pages": "gyygggyggggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggg",
+    "GitHub API": "yogggyggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggg",
+    "Git Operations": "gggggggggggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggg",
+    "Actions": "yogyoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggygggg",
+    "Copilot": "gggggygggggggggygggggggggggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+    "Webhooks": "ggggyggggggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrggggggggg",
+    "Issues": "yyggyyggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggg",
+    "Pull Requests": "ggggyrggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggygggg",
+    "Packages": "gggggggggggggggggggggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+    "Pages": "yygggyggggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggyggggggggggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "ggyggggogggyygygggggggggggyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggg"
+    "Copilot AI Model Providers": "gyggggogggyygygggggggggggyggggggggggoggrgggyggygggggggggggyoyggggggggggggggggggggggggggggg"
   },
   "uptime": {
     "claude.ai": 99.54,
@@ -153,7 +153,7 @@
     "Claude Cowork": 99.51,
     "Claude for Government": 100,
     "OpenAI APIs": 99.96,
-    "ChatGPT": 99.53,
+    "ChatGPT": 99.49,
     "Codex": 99.95,
     "Sora": 100,
     "FedRAMP": 100,
@@ -171,10 +171,10 @@
   },
   "oaiIncidents": {
     "10-15": [
+      "Delayed Costs data in the Compliance API",
       "Widespread feature degradation"
     ],
     "10-14": [
-      "Delayed Costs data in the Compliance API",
       "Limited availability on gpt-image-2.5-flare and gpt-image-2.5-sunburst",
       "Degraded performance in Codex and ChatGPT Work"
     ],
@@ -359,10 +359,6 @@
     ],
     "07-19": [
       "Elevated errors affecting ChatGPT"
-    ],
-    "07-18": [
-      "Some users are unable to access Codex",
-      "New ChatGPT App Not Available For Enterprise Users Without Codex Permissions"
     ]
   },
   "githubIncidents": {
@@ -1591,9 +1587,13 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
+      "10-15": {
+        "titles": [
+          "Delayed Costs data in the Compliance API"
+        ]
+      },
       "10-14": {
         "titles": [
-          "Delayed Costs data in the Compliance API",
           "Limited availability on gpt-image-2.5-flare and gpt-image-2.5-sunburst"
         ]
       },
@@ -2050,12 +2050,6 @@
       "07-20": {
         "titles": [
           "Elevated errors for GitHub-dependent ChatGPT and Codex workflows"
-        ]
-      },
-      "07-18": {
-        "titles": [
-          "Some users are unable to access Codex",
-          "New ChatGPT App Not Available For Enterprise Users Without Codex Permissions"
         ]
       }
     },
