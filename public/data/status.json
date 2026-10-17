@@ -1,8 +1,7 @@
 {
-  "updated": "2026-10-16T21:03:41.572Z",
-  "startDate": "07-19",
+  "updated": "2026-10-17T04:20:34.981Z",
+  "startDate": "07-20",
   "dates": [
-    "07-19",
     "07-20",
     "07-21",
     "07-22",
@@ -91,7 +90,8 @@
     "10-13",
     "10-14",
     "10-15",
-    "10-16"
+    "10-16",
+    "10-17"
   ],
   "currentStatus": {
     "claude.ai": "g",
@@ -118,32 +118,32 @@
     "Copilot AI Model Providers": "g"
   },
   "claudeDaily": {
-    "Claude API": "gyrygyooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggoogggggggggg",
-    "claude.ai": "gyryyyooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggoogggggggggg",
-    "Claude Code": "gyryyyooogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggoogggggggggg",
-    "platform.claude.com": "gyrygygogggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggg",
-    "Claude Cowork": "gyrygyooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggoogggggggggg",
+    "Claude API": "yrygyooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggggg",
+    "claude.ai": "yryyyooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggg",
+    "Claude Code": "yryyyooogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggg",
+    "platform.claude.com": "yrygygogggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyygggg",
+    "Claude Cowork": "yrygyooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggg",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "ggggygygygygggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggg",
-    "ChatGPT": "ogggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyyggggyygyoogggggg",
-    "Codex": "gyggyyygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggg",
+    "OpenAI APIs": "gggygygygygggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyyggggggggggggggggg",
+    "ChatGPT": "gggygyggggyggggyyggggyygyggggggygggggggggggygoyggggyyggygyggggggyygggggyyggggyygyooggggggg",
+    "Codex": "yggyyygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggygggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggyyyggggggggg"
+    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggyyygggggggggg"
   },
   "githubDaily": {
-    "GitHub API": "yogggyggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggg",
-    "Git Operations": "gggggggggggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggg",
-    "Actions": "yogyoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggygggg",
-    "Copilot": "gggggygggggggggygggggggggggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Webhooks": "ggggyggggggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrggggggggg",
-    "Issues": "yyggyyggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggg",
-    "Pull Requests": "ggggyrggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggygggg",
-    "Packages": "gggggggggggggggggggggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Pages": "yygggyggggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggyggggggggggg",
+    "GitHub API": "ogggyggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyyggggggggggggggggggggggg",
+    "Git Operations": "ggggggggggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrgggggggggg",
+    "Actions": "ogyoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggg",
+    "Copilot": "ggggygggggggggygggggggggggggrggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+    "Webhooks": "gggyggggggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggg",
+    "Issues": "yggyyggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggyggggg",
+    "Pull Requests": "gggyrggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggg",
+    "Packages": "ggggggggggggggggggggggggyggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+    "Pages": "ygggyggggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "gyggggogggyygygggggggggggyggggggggggoggrgggyggygggggggggggyoyggggggggggggggggggggggggggggg"
+    "Copilot AI Model Providers": "yggggogggyygygggggggggggyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggg"
   },
   "uptime": {
     "claude.ai": 99.54,
@@ -153,7 +153,7 @@
     "Claude Cowork": 99.51,
     "Claude for Government": 100,
     "OpenAI APIs": 99.95,
-    "ChatGPT": 99.48,
+    "ChatGPT": 99.49,
     "Codex": 99.95,
     "Sora": 100,
     "FedRAMP": 100,
@@ -358,9 +358,6 @@
     ],
     "07-20": [
       "Elevated errors for GitHub-dependent ChatGPT and Codex workflows"
-    ],
-    "07-19": [
-      "Elevated errors affecting ChatGPT"
     ]
   },
   "githubIncidents": {
@@ -1965,11 +1962,6 @@
         "titles": [
           "Elevated errors for GitHub-dependent ChatGPT and Codex workflows"
         ]
-      },
-      "07-19": {
-        "titles": [
-          "Elevated errors affecting ChatGPT"
-        ]
       }
     },
     "Codex": {
@@ -2076,13 +2068,6 @@
   },
   "githubDetails": {
     "GitHub API": {
-      "07-19": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Incident with GitHub Actions"
-        ]
-      },
       "07-20": {
         "partialMinutes": 136,
         "majorMinutes": 0,
@@ -2165,13 +2150,6 @@
       }
     },
     "Actions": {
-      "07-19": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Incident with GitHub Actions"
-        ]
-      },
       "07-20": {
         "partialMinutes": 193,
         "majorMinutes": 0,
@@ -2356,13 +2334,6 @@
       }
     },
     "Issues": {
-      "07-19": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Incident with GitHub Actions"
-        ]
-      },
       "07-20": {
         "partialMinutes": 0,
         "majorMinutes": 0,
@@ -2533,13 +2504,6 @@
       }
     },
     "Pages": {
-      "07-19": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Incident with GitHub Actions"
-        ]
-      },
       "07-20": {
         "partialMinutes": 0,
         "majorMinutes": 0,
