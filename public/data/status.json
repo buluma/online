@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T13:05:45.884Z",
+  "updated": "2026-10-19T20:34:03.011Z",
   "startDate": "07-22",
   "dates": [
     "07-22",
@@ -135,13 +135,13 @@
   "githubDaily": {
     "GitHub API": "ggyggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyyggggggggggggggggggggggggg",
     "Git Operations": "ggggggggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrgggggggggggg",
-    "Actions": "yoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggg",
+    "Actions": "yoorgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggy",
     "Copilot": "ggygggggggggygggggggggggggrggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Webhooks": "gyggggggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggg",
+    "Webhooks": "gyggggggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggy",
     "Issues": "gyyggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggyggggggg",
     "Pull Requests": "gyrggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggg",
     "Packages": "ggggggggggggggggggggggyggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Pages": "ggyggggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggg",
+    "Pages": "ggyggggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggy",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Copilot AI Model Providers": "gggogggyygygggggggggggyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggg"
   },
@@ -170,6 +170,9 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "10-19": [
+      "File Download errors"
+    ],
     "10-16": [
       "Delayed Costs data in the Compliance API"
     ],
@@ -1475,6 +1478,11 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
+      "10-19": {
+        "titles": [
+          "File Download errors"
+        ]
+      },
       "10-16": {
         "titles": [
           "Delayed Costs data in the Compliance API"
@@ -1608,6 +1616,11 @@
       }
     },
     "ChatGPT": {
+      "10-19": {
+        "titles": [
+          "File Download errors"
+        ]
+      },
       "10-15": {
         "titles": [
           "Widespread feature degradation"
@@ -2125,6 +2138,13 @@
         "events": [
           "Incident with Actions, Pull Requests and Issues"
         ]
+      },
+      "10-19": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded availability for GitHub Actions, GitHub Pages and Webhooks"
+        ]
       }
     },
     "Copilot": {
@@ -2184,6 +2204,13 @@
         "majorMinutes": 11,
         "events": [
           "Incident with Git Operations, Pull Requests and Actions"
+        ]
+      },
+      "10-19": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded availability for GitHub Actions, GitHub Pages and Webhooks"
         ]
       }
     },
@@ -2399,6 +2426,13 @@
         "majorMinutes": 0,
         "events": [
           "Incident with Actions"
+        ]
+      },
+      "10-19": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded availability for GitHub Actions, GitHub Pages and Webhooks"
         ]
       }
     },
