@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T11:42:57.902Z",
+  "updated": "2026-10-21T17:07:57.977Z",
   "startDate": "07-24",
   "dates": [
     "07-24",
@@ -126,20 +126,20 @@
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "gygyyggggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyg",
-    "ChatGPT": "gyggggyggggyyggggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyg",
+    "OpenAI APIs": "gygyyggggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyy",
+    "ChatGPT": "gyggggyggggyyggggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyg",
     "Codex": "yygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggyg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggg"
+    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggy"
   },
   "githubDaily": {
     "GitHub API": "yggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyyggggggggggggggggggggggggggg",
     "Git Operations": "ggggggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrgggggggggggggg",
-    "Actions": "orgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygg",
+    "Actions": "orgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygy",
     "Copilot": "ygggggggggygggggggggggggrggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Webhooks": "ggggggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygg",
+    "Webhooks": "ggggggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygy",
     "Issues": "yggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggyggggggggg",
-    "Pull Requests": "rggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggg",
+    "Pull Requests": "rggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggy",
     "Packages": "ggggggggggggggggggggyggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Pages": "yggggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggygg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
@@ -171,6 +171,7 @@
   },
   "oaiIncidents": {
     "10-21": [
+      "Elevated error rates for gpt-5.6-luna API requests",
       "Degraded performance in ChatGPT, Codex, and APIs"
     ],
     "10-19": [
@@ -1413,6 +1414,7 @@
     "OpenAI APIs": {
       "10-21": {
         "titles": [
+          "Elevated error rates for gpt-5.6-luna API requests",
           "Degraded performance in ChatGPT, Codex, and APIs"
         ]
       },
@@ -1857,6 +1859,11 @@
     },
     "Sora": {},
     "FedRAMP": {
+      "10-21": {
+        "titles": [
+          "Elevated FedRAMP API error rates for Astra and Sol"
+        ]
+      },
       "10-08": {
         "titles": [
           "Elevated errors with GPT-5.6 Instant in FedRAMP workspaces"
@@ -2058,6 +2065,13 @@
         "events": [
           "Degraded availability for GitHub Actions, GitHub Pages and Webhooks"
         ]
+      },
+      "10-21": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Delays for Pull Requests and Webhook deliveries"
+        ]
       }
     },
     "Copilot": {
@@ -2117,6 +2131,13 @@
         "majorMinutes": 0,
         "events": [
           "Degraded availability for GitHub Actions, GitHub Pages and Webhooks"
+        ]
+      },
+      "10-21": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Delays for Pull Requests and Webhook deliveries"
         ]
       }
     },
@@ -2257,6 +2278,13 @@
         "majorMinutes": 0,
         "events": [
           "Incident with Actions, Pull Requests and Issues"
+        ]
+      },
+      "10-21": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Delays for Pull Requests and Webhook deliveries"
         ]
       }
     },
