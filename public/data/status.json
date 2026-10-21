@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T17:07:57.977Z",
+  "updated": "2026-10-21T21:38:41.343Z",
   "startDate": "07-24",
   "dates": [
     "07-24",
@@ -118,11 +118,11 @@
     "Copilot AI Model Providers": "g"
   },
   "claudeDaily": {
-    "Claude API": "yooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggggggggg",
-    "claude.ai": "yooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggg",
-    "Claude Code": "yooogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggg",
+    "Claude API": "yooogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggggggggy",
+    "claude.ai": "yooogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggy",
+    "Claude Code": "yooogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggy",
     "platform.claude.com": "ygogggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyygggggggg",
-    "Claude Cowork": "yooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggg",
+    "Claude Cowork": "yooogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggy",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
@@ -619,6 +619,13 @@
         "events": [
           "Elevated errors for Claude Opus 5.5"
         ]
+      },
+      "10-21": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Fable 5"
+        ]
       }
     },
     "claude.ai": {
@@ -842,6 +849,13 @@
         "events": [
           "Elevated errors for Claude Opus 5.5"
         ]
+      },
+      "10-21": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Fable 5"
+        ]
       }
     },
     "Claude Code": {
@@ -1054,6 +1068,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Opus 5.5"
+        ]
+      },
+      "10-21": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Fable 5"
         ]
       }
     },
@@ -1405,6 +1426,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Opus 5.5"
+        ]
+      },
+      "10-21": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Fable 5"
         ]
       }
     },
