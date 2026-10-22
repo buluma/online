@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T11:46:07.273Z",
+  "updated": "2026-10-22T17:06:51.468Z",
   "startDate": "07-25",
   "dates": [
     "07-25",
@@ -108,10 +108,10 @@
     "Git Operations": "g",
     "Webhooks": "g",
     "GitHub API": "g",
-    "Issues": "g",
-    "Pull Requests": "g",
-    "Actions": "g",
-    "Packages": "g",
+    "Issues": "y",
+    "Pull Requests": "y",
+    "Actions": "y",
+    "Packages": "y",
     "Pages": "g",
     "Copilot": "g",
     "Codespaces": "g",
@@ -127,20 +127,20 @@
   },
   "openaiDaily": {
     "OpenAI APIs": "ygyyggggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyyg",
-    "ChatGPT": "yggggyggggyyggggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyy",
+    "ChatGPT": "yggggyggggyyggggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyy",
     "Codex": "ygggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyg"
   },
   "githubDaily": {
-    "GitHub API": "ggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggg",
+    "GitHub API": "ggyggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggy",
     "Git Operations": "gggggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggg",
-    "Actions": "rgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyg",
+    "Actions": "rgggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyy",
     "Copilot": "gggggggggygggggggggggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Webhooks": "gggggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyg",
-    "Issues": "ggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggg",
-    "Pull Requests": "ggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyg",
-    "Packages": "gggggggggggggggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+    "Issues": "ggggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggy",
+    "Pull Requests": "ggggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyy",
+    "Packages": "gggggggggggggggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggy",
     "Pages": "ggggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Copilot AI Model Providers": "ogggyygygggggggggggyggggggggggoggrgggyggygggggggggggyoyggggggggggggggggggggggggggggggggggg"
@@ -1926,6 +1926,13 @@
         "events": [
           "Incident across several services"
         ]
+      },
+      "10-22": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Errors loading Issues, Pull Requests, and search results"
+        ]
       }
     },
     "Git Operations": {
@@ -2060,6 +2067,14 @@
         "events": [
           "Delays for Pull Requests and Webhook deliveries"
         ]
+      },
+      "10-22": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Errors loading Issues, Pull Requests, and search results",
+          "Incident with Actions Results"
+        ]
       }
     },
     "Copilot": {
@@ -2165,6 +2180,13 @@
         "events": [
           "Incident with Actions, Pull Requests and Issues"
         ]
+      },
+      "10-22": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Errors loading Issues, Pull Requests, and search results"
+        ]
       }
     },
     "Pull Requests": {
@@ -2252,6 +2274,13 @@
         "events": [
           "Delays for Pull Requests and Webhook deliveries"
         ]
+      },
+      "10-22": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Errors loading Issues, Pull Requests, and search results"
+        ]
       }
     },
     "Packages": {
@@ -2260,6 +2289,13 @@
         "majorMinutes": 0,
         "events": [
           "Incident with Webhooks"
+        ]
+      },
+      "10-22": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Errors loading Issues, Pull Requests, and search results"
         ]
       }
     },
