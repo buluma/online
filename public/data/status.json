@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T17:06:51.468Z",
+  "updated": "2026-10-22T21:32:07.380Z",
   "startDate": "07-25",
   "dates": [
     "07-25",
@@ -108,10 +108,10 @@
     "Git Operations": "g",
     "Webhooks": "g",
     "GitHub API": "g",
-    "Issues": "y",
-    "Pull Requests": "y",
-    "Actions": "y",
-    "Packages": "y",
+    "Issues": "g",
+    "Pull Requests": "g",
+    "Actions": "g",
+    "Packages": "g",
     "Pages": "g",
     "Copilot": "g",
     "Codespaces": "g",
@@ -171,6 +171,7 @@
   },
   "oaiIncidents": {
     "10-22": [
+      "New Ad Accounts failing to provision admins",
       "Elevated ChatGPT conversation and Responses API errors"
     ],
     "10-21": [
@@ -1419,6 +1420,7 @@
     "OpenAI APIs": {
       "10-22": {
         "titles": [
+          "New Ad Accounts failing to provision admins",
           "Elevated ChatGPT conversation and Responses API errors"
         ]
       },
