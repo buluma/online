@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T04:31:20.053Z",
+  "updated": "2026-10-24T10:53:26.466Z",
   "startDate": "07-27",
   "dates": [
     "07-27",
@@ -126,11 +126,11 @@
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "gyyggggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygg",
-    "ChatGPT": "ggggyggggyyggggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyg",
-    "Codex": "gggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggoggg",
+    "OpenAI APIs": "yyggggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyyggg",
+    "ChatGPT": "gggyggggyyggggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyygg",
+    "Codex": "ggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygg"
+    "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggg"
   },
   "githubDaily": {
     "GitHub API": "yggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyg",
@@ -399,7 +399,7 @@
     "10-05": 48,
     "10-06": 57,
     "10-23": 51,
-    "10-24": 18,
+    "10-24": 74,
     "08-28": 102
   },
   "claudeDetails": {
@@ -607,9 +607,10 @@
         ]
       },
       "10-24": {
-        "partialMinutes": 6,
+        "partialMinutes": 14,
         "majorMinutes": 0,
         "events": [
+          "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
           "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
           "Elevated errors for Claude Opus 5.5"
         ]
@@ -837,9 +838,10 @@
         ]
       },
       "10-24": {
-        "partialMinutes": 6,
+        "partialMinutes": 30,
         "majorMinutes": 0,
         "events": [
+          "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
           "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
           "Elevated errors for Claude Opus 5.5"
         ]
@@ -1050,9 +1052,10 @@
         ]
       },
       "10-24": {
-        "partialMinutes": 6,
+        "partialMinutes": 30,
         "majorMinutes": 0,
         "events": [
+          "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
           "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
           "Elevated errors for Claude Opus 5.5"
         ]
@@ -1394,9 +1397,10 @@
         ]
       },
       "10-24": {
-        "partialMinutes": 6,
+        "partialMinutes": 30,
         "majorMinutes": 0,
         "events": [
+          "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
           "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
           "Elevated errors for Claude Opus 5.5"
         ]
