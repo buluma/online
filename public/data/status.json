@@ -1,8 +1,7 @@
 {
-  "updated": "2026-10-24T15:53:17.679Z",
-  "startDate": "07-27",
+  "updated": "2026-10-25T04:35:45.646Z",
+  "startDate": "07-28",
   "dates": [
-    "07-27",
     "07-28",
     "07-29",
     "07-30",
@@ -91,7 +90,8 @@
     "10-21",
     "10-22",
     "10-23",
-    "10-24"
+    "10-24",
+    "10-25"
   ],
   "currentStatus": {
     "claude.ai": "g",
@@ -118,32 +118,32 @@
     "Copilot AI Model Providers": "g"
   },
   "claudeDaily": {
-    "Claude API": "ogroyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggggggggygro",
-    "claude.ai": "ogroyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyro",
-    "Claude Code": "ogroyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygro",
-    "platform.claude.com": "gggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggg",
-    "Claude Cowork": "ogroyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyro",
+    "Claude API": "groyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggggggggygrog",
+    "claude.ai": "groyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyrog",
+    "Claude Code": "groyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygrog",
+    "platform.claude.com": "ggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyygggggggggggg",
+    "Claude Cowork": "groyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyrog",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "yyggggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyyggg",
-    "ChatGPT": "gggyggggyyggggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyygg",
-    "Codex": "ggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggg",
+    "OpenAI APIs": "yggggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggg",
+    "ChatGPT": "ggyggggyyggggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggg",
+    "Codex": "gggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggoggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggg"
+    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggg"
   },
   "githubDaily": {
-    "GitHub API": "yggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyg",
-    "Git Operations": "gggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggg",
-    "Actions": "ggogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyg",
-    "Copilot": "gggggggygggggggggggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Webhooks": "gggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggg",
-    "Issues": "ggggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyg",
-    "Pull Requests": "ggggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyg",
-    "Packages": "gggggggggggggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyyg",
-    "Pages": "ggggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggg",
+    "GitHub API": "ggggggggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyygg",
+    "Git Operations": "ggggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrgggggggggggggggggg",
+    "Actions": "gogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyygg",
+    "Copilot": "ggggggygggggggggggggrggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+    "Webhooks": "ggggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygygggg",
+    "Issues": "gggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyygg",
+    "Pull Requests": "gggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyygg",
+    "Packages": "ggggggggggggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygg",
+    "Pages": "gggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggygggggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "ggyygygggggggggggyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyy"
+    "Copilot AI Model Providers": "gyygygggggggggggyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyg"
   },
   "uptime": {
     "claude.ai": 99.58,
@@ -348,10 +348,6 @@
     ],
     "07-28": [
       "Elevated Image Generation Error Rate in ChatGPT"
-    ],
-    "07-27": [
-      "Image generation unavailable in ChatGPT",
-      "We’re seeing elevated latency, timeouts, and interrupted streaming across gpt 5.1 mini model and gpt 4.1 mini"
     ]
   },
   "githubIncidents": {
@@ -380,7 +376,6 @@
     ]
   },
   "claudeMinutes": {
-    "07-27": 3,
     "07-29": 453,
     "07-30": 738,
     "08-04": 51,
@@ -404,15 +399,6 @@
   },
   "claudeDetails": {
     "Claude API": {
-      "07-27": {
-        "partialMinutes": 1,
-        "majorMinutes": 0,
-        "events": [
-          "Elevated errors on Claude Opus 5",
-          "Elevated errors on Claude Opus 5",
-          "Elevated errors on Claude Opus 5 and Haiku 4.5"
-        ]
-      },
       "07-29": {
         "partialMinutes": 42,
         "majorMinutes": 109,
@@ -617,15 +603,6 @@
       }
     },
     "claude.ai": {
-      "07-27": {
-        "partialMinutes": 1,
-        "majorMinutes": 0,
-        "events": [
-          "Elevated errors on Claude Opus 5",
-          "Elevated errors on Claude Opus 5",
-          "Elevated errors on Claude Opus 5 and Haiku 4.5"
-        ]
-      },
       "07-29": {
         "partialMinutes": 42,
         "majorMinutes": 109,
@@ -848,15 +825,6 @@
       }
     },
     "Claude Code": {
-      "07-27": {
-        "partialMinutes": 1,
-        "majorMinutes": 0,
-        "events": [
-          "Elevated errors on Claude Opus 5",
-          "Elevated errors on Claude Opus 5",
-          "Elevated errors on Claude Opus 5 and Haiku 4.5"
-        ]
-      },
       "07-29": {
         "partialMinutes": 42,
         "majorMinutes": 109,
@@ -1165,15 +1133,6 @@
       }
     },
     "Claude Cowork": {
-      "07-27": {
-        "partialMinutes": 1,
-        "majorMinutes": 0,
-        "events": [
-          "Elevated errors on Claude Opus 5",
-          "Elevated errors on Claude Opus 5",
-          "Elevated errors on Claude Opus 5 and Haiku 4.5"
-        ]
-      },
       "07-29": {
         "partialMinutes": 42,
         "majorMinutes": 109,
@@ -1538,12 +1497,6 @@
         "titles": [
           "Elevated error rates with the invalid_prompt error code"
         ]
-      },
-      "07-27": {
-        "titles": [
-          "Image generation unavailable in ChatGPT",
-          "We’re seeing elevated latency, timeouts, and interrupted streaming across gpt 5.1 mini model and gpt 4.1 mini"
-        ]
       }
     },
     "ChatGPT": {
@@ -1772,11 +1725,6 @@
         "titles": [
           "Elevated Image Generation Error Rate in ChatGPT"
         ]
-      },
-      "07-27": {
-        "titles": [
-          "Image generation unavailable in ChatGPT"
-        ]
       }
     },
     "Codex": {
@@ -1872,13 +1820,6 @@
   },
   "githubDetails": {
     "GitHub API": {
-      "07-27": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Incident with GraphQL API Requests"
-        ]
-      },
       "08-11": {
         "partialMinutes": 0,
         "majorMinutes": 0,
