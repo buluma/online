@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T04:35:45.646Z",
+  "updated": "2026-10-25T11:20:00.720Z",
   "startDate": "07-28",
   "dates": [
     "07-28",
@@ -118,16 +118,16 @@
     "Copilot AI Model Providers": "g"
   },
   "claudeDaily": {
-    "Claude API": "groyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggggggggygrog",
-    "claude.ai": "groyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyrog",
-    "Claude Code": "groyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygrog",
+    "Claude API": "groyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggggggggygroo",
+    "claude.ai": "groyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroo",
+    "Claude Code": "groyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroo",
     "platform.claude.com": "ggggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyygggggggggggg",
-    "Claude Cowork": "groyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyrog",
+    "Claude Cowork": "groyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroo",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
     "OpenAI APIs": "yggggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggg",
-    "ChatGPT": "ggyggggyyggggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggg",
+    "ChatGPT": "ggyggggyyggggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggg",
     "Codex": "gggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggoggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggg"
@@ -146,11 +146,11 @@
     "Copilot AI Model Providers": "gyygygggggggggggyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyg"
   },
   "uptime": {
-    "claude.ai": 99.58,
+    "claude.ai": 99.57,
     "platform.claude.com": 99.84,
-    "Claude API": 99.64,
-    "Claude Code": 99.58,
-    "Claude Cowork": 99.57,
+    "Claude API": 99.63,
+    "Claude Code": 99.57,
+    "Claude Cowork": 99.56,
     "Claude for Government": 100,
     "OpenAI APIs": 99.97,
     "ChatGPT": 99.7,
@@ -395,6 +395,7 @@
     "10-06": 57,
     "10-23": 51,
     "10-24": 74,
+    "10-25": 105,
     "08-28": 102
   },
   "claudeDetails": {
@@ -599,6 +600,14 @@
           "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
           "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
           "Elevated errors for Claude Opus 5.5"
+        ]
+      },
+      "10-25": {
+        "partialMinutes": 35,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Sonnet 5.5 and other models",
+          "Elevated errors for Claude Fable 5.1"
         ]
       }
     },
@@ -822,6 +831,14 @@
           "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
           "Elevated errors for Claude Opus 5.5"
         ]
+      },
+      "10-25": {
+        "partialMinutes": 35,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Sonnet 5.5 and other models",
+          "Elevated errors for Claude Fable 5.1"
+        ]
       }
     },
     "Claude Code": {
@@ -1026,6 +1043,14 @@
           "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
           "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
           "Elevated errors for Claude Opus 5.5"
+        ]
+      },
+      "10-25": {
+        "partialMinutes": 35,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Sonnet 5.5 and other models",
+          "Elevated errors for Claude Fable 5.1"
         ]
       }
     },
@@ -1362,6 +1387,14 @@
           "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
           "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
           "Elevated errors for Claude Opus 5.5"
+        ]
+      },
+      "10-25": {
+        "partialMinutes": 35,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Sonnet 5.5 and other models",
+          "Elevated errors for Claude Fable 5.1"
         ]
       }
     },
