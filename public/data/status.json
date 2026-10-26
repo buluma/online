@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T12:54:26.449Z",
+  "updated": "2026-10-26T20:27:14.915Z",
   "startDate": "07-29",
   "dates": [
     "07-29",
@@ -133,13 +133,13 @@
     "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggg"
   },
   "githubDaily": {
-    "GitHub API": "gggggggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggg",
+    "GitHub API": "gggggggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggy",
     "Git Operations": "gggggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggg",
-    "Actions": "ogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggg",
+    "Actions": "ogggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggy",
     "Copilot": "gggggygggggggggggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Webhooks": "gggggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggg",
-    "Issues": "ggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggg",
-    "Pull Requests": "ggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggg",
+    "Issues": "ggggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggy",
+    "Pull Requests": "ggggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggy",
     "Packages": "gggggggggggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggg",
     "Pages": "ggggggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
@@ -170,6 +170,9 @@
     "Copilot AI Model Providers": 99.85
   },
   "oaiIncidents": {
+    "10-26": [
+      "Elevated error rates for Ads POST requests"
+    ],
     "10-23": [
       "Degraded experience with ChatGPT app connections using CIMD",
       "New Ad Accounts failing to provision admins"
@@ -1399,6 +1402,11 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
+      "10-26": {
+        "titles": [
+          "Elevated error rates for Ads POST requests"
+        ]
+      },
       "10-23": {
         "titles": [
           "New Ad Accounts failing to provision admins"
@@ -1893,6 +1901,13 @@
         "events": [
           "Project updates delayed"
         ]
+      },
+      "10-26": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions, Issues, API Requests and Pull Requests"
+        ]
       }
     },
     "Git Operations": {
@@ -2035,6 +2050,13 @@
           "Project updates delayed",
           "Delayed Actions status check results"
         ]
+      },
+      "10-26": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions, Issues, API Requests and Pull Requests"
+        ]
       }
     },
     "Copilot": {
@@ -2154,6 +2176,13 @@
         "events": [
           "Project updates delayed"
         ]
+      },
+      "10-26": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions, Issues, API Requests and Pull Requests"
+        ]
       }
     },
     "Pull Requests": {
@@ -2254,6 +2283,13 @@
         "majorMinutes": 0,
         "events": [
           "Project updates delayed"
+        ]
+      },
+      "10-26": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions, Issues, API Requests and Pull Requests"
         ]
       }
     },
