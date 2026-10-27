@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T15:19:24.303Z",
+  "updated": "2026-10-27T22:09:33.277Z",
   "startDate": "07-30",
   "dates": [
     "07-30",
@@ -94,13 +94,13 @@
     "10-27"
   ],
   "currentStatus": {
-    "claude.ai": "o",
+    "claude.ai": "g",
     "platform.claude.com": "g",
-    "Claude API": "o",
-    "Claude Code": "o",
-    "Claude Cowork": "o",
+    "Claude API": "g",
+    "Claude Code": "g",
+    "Claude Cowork": "g",
     "Claude for Government": "g",
-    "OpenAI APIs": "y",
+    "OpenAI APIs": "g",
     "ChatGPT": "g",
     "Codex": "g",
     "Sora": "g",
@@ -146,11 +146,11 @@
     "Copilot AI Model Providers": "ygygggggggggggyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggg"
   },
   "uptime": {
-    "claude.ai": 99.66,
+    "claude.ai": 99.65,
     "platform.claude.com": 99.84,
-    "Claude API": 99.72,
-    "Claude Code": 99.66,
-    "Claude Cowork": 99.65,
+    "Claude API": 99.71,
+    "Claude Code": 99.65,
+    "Claude Cowork": 99.64,
     "Claude for Government": 100,
     "OpenAI APIs": 99.97,
     "ChatGPT": 99.7,
@@ -392,7 +392,7 @@
     "10-23": 51,
     "10-24": 74,
     "10-25": 105,
-    "10-27": 102,
+    "10-27": 195,
     "08-28": 102
   },
   "claudeDetails": {
@@ -603,7 +603,7 @@
         ]
       },
       "10-27": {
-        "partialMinutes": 34,
+        "partialMinutes": 65,
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Sonnet 5.5",
@@ -836,7 +836,7 @@
         ]
       },
       "10-27": {
-        "partialMinutes": 34,
+        "partialMinutes": 65,
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Sonnet 5.5",
@@ -1052,7 +1052,7 @@
         ]
       },
       "10-27": {
-        "partialMinutes": 34,
+        "partialMinutes": 65,
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Sonnet 5.5",
@@ -1399,7 +1399,7 @@
         ]
       },
       "10-27": {
-        "partialMinutes": 34,
+        "partialMinutes": 65,
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Sonnet 5.5",
