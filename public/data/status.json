@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T08:54:52.607Z",
+  "updated": "2026-10-27T15:19:24.303Z",
   "startDate": "07-30",
   "dates": [
     "07-30",
@@ -94,13 +94,13 @@
     "10-27"
   ],
   "currentStatus": {
-    "claude.ai": "g",
+    "claude.ai": "o",
     "platform.claude.com": "g",
-    "Claude API": "g",
-    "Claude Code": "g",
-    "Claude Cowork": "g",
+    "Claude API": "o",
+    "Claude Code": "o",
+    "Claude Cowork": "o",
     "Claude for Government": "g",
-    "OpenAI APIs": "g",
+    "OpenAI APIs": "y",
     "ChatGPT": "g",
     "Codex": "g",
     "Sora": "g",
@@ -118,16 +118,16 @@
     "Copilot AI Model Providers": "g"
   },
   "claudeDaily": {
-    "Claude API": "oyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggggggggygroogg",
-    "claude.ai": "oyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogg",
-    "Claude Code": "oyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogg",
+    "Claude API": "oyggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggggggggygroogo",
+    "claude.ai": "oyggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogo",
+    "Claude Code": "oyggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogo",
     "platform.claude.com": "ggggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyygggggggggggggg",
-    "Claude Cowork": "oyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogg",
+    "Claude Cowork": "oyggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogo",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "gggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggg",
-    "ChatGPT": "yggggyyggggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggg",
+    "OpenAI APIs": "gggggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggy",
+    "ChatGPT": "yggggyyggggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggg",
     "Codex": "gggggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggoggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggg"
@@ -150,7 +150,7 @@
     "platform.claude.com": 99.84,
     "Claude API": 99.72,
     "Claude Code": 99.66,
-    "Claude Cowork": 99.66,
+    "Claude Cowork": 99.65,
     "Claude for Government": 100,
     "OpenAI APIs": 99.97,
     "ChatGPT": 99.7,
@@ -170,6 +170,9 @@
     "Copilot AI Model Providers": 99.85
   },
   "oaiIncidents": {
+    "10-27": [
+      "6.1 Sol Degraded Model Performance"
+    ],
     "10-26": [
       "Elevated error rates for Ads POST requests"
     ],
@@ -389,6 +392,7 @@
     "10-23": 51,
     "10-24": 74,
     "10-25": 105,
+    "10-27": 102,
     "08-28": 102
   },
   "claudeDetails": {
@@ -596,6 +600,14 @@
         "events": [
           "Elevated errors for Claude Sonnet 5.5 and other models",
           "Elevated errors for Claude Fable 5.1"
+        ]
+      },
+      "10-27": {
+        "partialMinutes": 34,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Sonnet 5.5",
+          "Elevated errors for Claude Sonnet 5.5"
         ]
       }
     },
@@ -822,6 +834,14 @@
           "Elevated errors for Claude Sonnet 5.5 and other models",
           "Elevated errors for Claude Fable 5.1"
         ]
+      },
+      "10-27": {
+        "partialMinutes": 34,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Sonnet 5.5",
+          "Elevated errors for Claude Sonnet 5.5"
+        ]
       }
     },
     "Claude Code": {
@@ -1029,6 +1049,14 @@
         "events": [
           "Elevated errors for Claude Sonnet 5.5 and other models",
           "Elevated errors for Claude Fable 5.1"
+        ]
+      },
+      "10-27": {
+        "partialMinutes": 34,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Sonnet 5.5",
+          "Elevated errors for Claude Sonnet 5.5"
         ]
       }
     },
@@ -1369,12 +1397,25 @@
           "Elevated errors for Claude Sonnet 5.5 and other models",
           "Elevated errors for Claude Fable 5.1"
         ]
+      },
+      "10-27": {
+        "partialMinutes": 34,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Sonnet 5.5",
+          "Elevated errors for Claude Sonnet 5.5"
+        ]
       }
     },
     "Claude for Government": {}
   },
   "openaiDetails": {
     "OpenAI APIs": {
+      "10-27": {
+        "titles": [
+          "6.1 Sol Degraded Model Performance"
+        ]
+      },
       "10-26": {
         "titles": [
           "Elevated error rates for Ads POST requests"
