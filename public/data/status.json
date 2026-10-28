@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T05:35:12.800Z",
+  "updated": "2026-10-28T12:46:35.811Z",
   "startDate": "07-31",
   "dates": [
     "07-31",
@@ -94,11 +94,11 @@
     "10-28"
   ],
   "currentStatus": {
-    "claude.ai": "y",
+    "claude.ai": "g",
     "platform.claude.com": "g",
     "Claude API": "g",
-    "Claude Code": "y",
-    "Claude Cowork": "y",
+    "Claude Code": "g",
+    "Claude Cowork": "g",
     "Claude for Government": "g",
     "OpenAI APIs": "g",
     "ChatGPT": "g",
