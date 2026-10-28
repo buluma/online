@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T12:46:35.811Z",
+  "updated": "2026-10-28T20:14:40.873Z",
   "startDate": "07-31",
   "dates": [
     "07-31",
@@ -136,7 +136,7 @@
     "GitHub API": "gggggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygg",
     "Git Operations": "gggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggg",
     "Actions": "ggggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygg",
-    "Copilot": "gggygggggggggggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+    "Copilot": "gggygggggggggggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggy",
     "Webhooks": "gggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggg",
     "Issues": "ggggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygg",
     "Pull Requests": "ggggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggygg",
@@ -827,7 +827,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors affecting the Gmail connector"
+          "Elevated errors affecting the Gmail connector",
+          "Elevated errors affecting the Google Calendar connector"
         ]
       }
     },
@@ -1042,7 +1043,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors affecting the Gmail connector"
+          "Elevated errors affecting the Gmail connector",
+          "Elevated errors affecting the Google Calendar connector"
         ]
       }
     },
@@ -1388,7 +1390,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors affecting the Gmail connector"
+          "Elevated errors affecting the Gmail connector",
+          "Elevated errors affecting the Google Calendar connector"
         ]
       }
     },
@@ -2054,6 +2057,13 @@
         "majorMinutes": 404,
         "events": [
           "Incident with GitHub.com"
+        ]
+      },
+      "10-28": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with some Copilot services"
         ]
       }
     },
