@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T00:56:41.412Z",
+  "updated": "2026-10-30T09:56:25.011Z",
   "startDate": "08-02",
   "dates": [
     "08-02",
@@ -126,11 +126,11 @@
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "gggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggygg",
-    "ChatGPT": "gggyyggggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggg",
-    "Codex": "gggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggoggggggggg",
+    "OpenAI APIs": "ggggggggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggg",
+    "ChatGPT": "ggyyggggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyygggggggg",
+    "Codex": "ggggggggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggg"
+    "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggg"
   },
   "githubDaily": {
     "GitHub API": "gggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggg",
