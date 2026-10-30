@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T09:56:25.011Z",
+  "updated": "2026-10-30T17:58:45.878Z",
   "startDate": "08-02",
   "dates": [
     "08-02",
@@ -100,17 +100,17 @@
     "Claude Code": "g",
     "Claude Cowork": "g",
     "Claude for Government": "g",
-    "OpenAI APIs": "g",
+    "OpenAI APIs": "y",
     "ChatGPT": "g",
     "Codex": "g",
     "Sora": "g",
     "FedRAMP": "g",
     "Git Operations": "g",
-    "Webhooks": "g",
+    "Webhooks": "y",
     "GitHub API": "g",
     "Issues": "g",
     "Pull Requests": "g",
-    "Actions": "g",
+    "Actions": "y",
     "Packages": "g",
     "Pages": "g",
     "Copilot": "g",
@@ -135,13 +135,13 @@
   "githubDaily": {
     "GitHub API": "gggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggg",
     "Git Operations": "gggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggg",
-    "Actions": "ggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggg",
+    "Actions": "ggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggy",
     "Copilot": "gygggggggggggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygg",
-    "Webhooks": "gggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggg",
-    "Issues": "ggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggg",
+    "Webhooks": "gggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggy",
+    "Issues": "ggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggy",
     "Pull Requests": "ggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggygggg",
     "Packages": "gggggggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggggggg",
-    "Pages": "ggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggg",
+    "Pages": "ggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggy",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Copilot AI Model Providers": "gggggggggggyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyygggggg"
   },
@@ -170,6 +170,9 @@
     "Copilot AI Model Providers": 99.85
   },
   "oaiIncidents": {
+    "10-30": [
+      "Elevated errors for GPT Image 2 API image edits"
+    ],
     "10-27": [
       "6.1 Sol Degraded Model Performance"
     ],
@@ -1371,6 +1374,11 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
+      "10-30": {
+        "titles": [
+          "Elevated errors for GPT Image 2 API image edits"
+        ]
+      },
       "10-27": {
         "titles": [
           "6.1 Sol Degraded Model Performance"
@@ -2014,6 +2022,13 @@
         "events": [
           "Incident with Actions, Issues, API Requests and Pull Requests"
         ]
+      },
+      "10-30": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions, Pages, and Webhooks"
+        ]
       }
     },
     "Copilot": {
@@ -2081,6 +2096,13 @@
         "events": [
           "Delays for Pull Requests and Webhook deliveries"
         ]
+      },
+      "10-30": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions, Pages, and Webhooks"
+        ]
       }
     },
     "Issues": {
@@ -2146,6 +2168,13 @@
         "majorMinutes": 0,
         "events": [
           "Incident with Actions, Issues, API Requests and Pull Requests"
+        ]
+      },
+      "10-30": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with GitHub services"
         ]
       }
     },
@@ -2329,6 +2358,13 @@
         "majorMinutes": 0,
         "events": [
           "Degraded availability for GitHub Actions, GitHub Pages and Webhooks"
+        ]
+      },
+      "10-30": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Disruption with GitHub services"
         ]
       }
     },
