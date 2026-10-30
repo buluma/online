@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T17:58:45.878Z",
+  "updated": "2026-10-30T22:15:03.812Z",
   "startDate": "08-02",
   "dates": [
     "08-02",
@@ -100,17 +100,17 @@
     "Claude Code": "g",
     "Claude Cowork": "g",
     "Claude for Government": "g",
-    "OpenAI APIs": "y",
+    "OpenAI APIs": "g",
     "ChatGPT": "g",
     "Codex": "g",
     "Sora": "g",
     "FedRAMP": "g",
     "Git Operations": "g",
-    "Webhooks": "y",
+    "Webhooks": "g",
     "GitHub API": "g",
     "Issues": "g",
     "Pull Requests": "g",
-    "Actions": "y",
+    "Actions": "g",
     "Packages": "g",
     "Pages": "g",
     "Copilot": "g",
@@ -171,6 +171,7 @@
   },
   "oaiIncidents": {
     "10-30": [
+      "Elevated errors with search in Dots, ChatGPT Work, and certain ChatGPT thinking experiences",
       "Elevated errors for GPT Image 2 API image edits"
     ],
     "10-27": [
@@ -1515,6 +1516,11 @@
       }
     },
     "ChatGPT": {
+      "10-30": {
+        "titles": [
+          "Elevated errors with search in Dots, ChatGPT Work, and certain ChatGPT thinking experiences"
+        ]
+      },
       "10-23": {
         "titles": [
           "Degraded experience with ChatGPT app connections using CIMD"
@@ -2364,7 +2370,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Disruption with GitHub services"
+          "Disruption with GitHub services",
+          "Incident with Actions, Pages, and Webhooks"
         ]
       }
     },
