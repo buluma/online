@@ -1,8 +1,7 @@
 {
-  "updated": "2026-10-29T18:26:20.981Z",
-  "startDate": "08-01",
+  "updated": "2026-10-30T00:56:41.412Z",
+  "startDate": "08-02",
   "dates": [
-    "08-01",
     "08-02",
     "08-03",
     "08-04",
@@ -91,7 +90,8 @@
     "10-26",
     "10-27",
     "10-28",
-    "10-29"
+    "10-29",
+    "10-30"
   ],
   "currentStatus": {
     "claude.ai": "g",
@@ -118,11 +118,11 @@
     "Copilot AI Model Providers": "g"
   },
   "claudeDaily": {
-    "Claude API": "ggyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggggggggygroogogg",
-    "claude.ai": "ggyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyg",
-    "Claude Code": "ggyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyg",
-    "platform.claude.com": "ggyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyygggggggggggggggg",
-    "Claude Cowork": "ggyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyg",
+    "Claude API": "gyoyggggggyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggggggggygroogoggg",
+    "claude.ai": "gyoyggggggyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoygg",
+    "Claude Code": "gyoyggggggyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoygg",
+    "platform.claude.com": "gyygggggggggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggg",
+    "Claude Cowork": "gyoyggggggyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoygg",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
@@ -133,17 +133,17 @@
     "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggg"
   },
   "githubDaily": {
-    "GitHub API": "ggggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggyggg",
-    "Git Operations": "ggggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrgggggggggggggggggggggg",
-    "Actions": "gggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggyggg",
-    "Copilot": "ggygggggggggggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyg",
-    "Webhooks": "ggggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygygggggggg",
-    "Issues": "gggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggyggg",
-    "Pull Requests": "gggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggg",
-    "Packages": "ggggggggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygggggg",
-    "Pages": "gggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggygggggggggg",
+    "GitHub API": "gggggggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggg",
+    "Git Operations": "gggggggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggg",
+    "Actions": "ggggrrgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggg",
+    "Copilot": "gygggggggggggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygg",
+    "Webhooks": "gggggggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggg",
+    "Issues": "ggggggggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggg",
+    "Pull Requests": "ggggggggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggygggg",
+    "Packages": "gggggggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggggggg",
+    "Pages": "ggggrrgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "ygggggggggggyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggg"
+    "Copilot AI Model Providers": "gggggggggggyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyygggggg"
   },
   "uptime": {
     "claude.ai": 99.71,
@@ -2334,14 +2334,6 @@
     },
     "Codespaces": {},
     "Copilot AI Model Providers": {
-      "08-01": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Degraded availability GPT 5.6 Luna",
-          "Incident with Copilot AI Model Providers"
-        ]
-      },
       "08-13": {
         "partialMinutes": 0,
         "majorMinutes": 0,
