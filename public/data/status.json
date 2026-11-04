@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T14:26:42.251Z",
+  "updated": "2026-11-04T21:17:22.098Z",
   "startDate": "08-07",
   "dates": [
     "08-07",
@@ -127,7 +127,7 @@
   },
   "openaiDaily": {
     "OpenAI APIs": "gggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggygggggggg",
-    "ChatGPT": "gggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggg",
+    "ChatGPT": "gggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggg",
     "Codex": "gggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggoggggggggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggg"
@@ -135,13 +135,13 @@
   "githubDaily": {
     "GitHub API": "ggggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyy",
     "Git Operations": "ggggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyy",
-    "Actions": "rgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggy",
+    "Actions": "rgggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggo",
     "Copilot": "ggggggggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggyg",
-    "Webhooks": "ggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggg",
+    "Webhooks": "ggggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggy",
     "Issues": "gggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyy",
     "Pull Requests": "gggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggo",
     "Packages": "ggggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygggggggggggg",
-    "Pages": "rgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggg",
+    "Pages": "rgggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggy",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Copilot AI Model Providers": "ggggggyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggygg"
   },
@@ -162,7 +162,7 @@
     "GitHub API": 99.89,
     "Issues": 99.89,
     "Pull Requests": 99.81,
-    "Actions": 99.65,
+    "Actions": 99.64,
     "Packages": 100,
     "Pages": 99.99,
     "Copilot": 99.68,
@@ -362,6 +362,11 @@
       "Incident with Actions and Pull Requests"
     ],
     "10-05": [
+      "Incident with Actions"
+    ],
+    "11-04": [
+      "Incident with Pull Requests, Git Operations and Issues",
+      "Incident with Actions and Pages",
       "Incident with Actions"
     ]
   },
@@ -1934,10 +1939,12 @@
         ]
       },
       "11-04": {
-        "partialMinutes": 0,
+        "partialMinutes": 58,
         "majorMinutes": 0,
         "events": [
-          "Incident with Pull Requests, Git Operations and Issues"
+          "Incident with Pull Requests, Git Operations and Issues",
+          "Incident with Actions and Pages",
+          "Incident with Actions"
         ]
       }
     },
@@ -2012,6 +2019,13 @@
         "majorMinutes": 0,
         "events": [
           "Incident with Actions, Pages, and Webhooks"
+        ]
+      },
+      "11-04": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions and Pages"
         ]
       }
     },
@@ -2289,6 +2303,13 @@
         "events": [
           "Disruption with GitHub services",
           "Incident with Actions, Pages, and Webhooks"
+        ]
+      },
+      "11-04": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions and Pages"
         ]
       }
     },
