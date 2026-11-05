@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T17:21:28.401Z",
+  "updated": "2026-11-05T23:36:29.562Z",
   "startDate": "08-08",
   "dates": [
     "08-08",
@@ -110,9 +110,9 @@
     "GitHub API": "g",
     "Issues": "g",
     "Pull Requests": "g",
-    "Actions": "g",
+    "Actions": "y",
     "Packages": "g",
-    "Pages": "g",
+    "Pages": "y",
     "Copilot": "g",
     "Codespaces": "g",
     "Copilot AI Model Providers": "g"
@@ -141,7 +141,7 @@
     "Issues": "ggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyg",
     "Pull Requests": "ggggyygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggog",
     "Packages": "gggggygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggggggggggggg",
-    "Pages": "gggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyg",
+    "Pages": "gggggggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyy",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Copilot AI Model Providers": "gggggyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggg"
   },
@@ -1955,6 +1955,7 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
+          "Degraded performance for multiple GitHub services",
           "Incident with Actions"
         ]
       }
@@ -2314,6 +2315,13 @@
         "majorMinutes": 0,
         "events": [
           "Incident with Actions and Pages"
+        ]
+      },
+      "11-05": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for multiple GitHub services"
         ]
       }
     },
