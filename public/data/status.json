@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T06:39:35.733Z",
+  "updated": "2026-11-05T17:21:28.401Z",
   "startDate": "08-08",
   "dates": [
     "08-08",
@@ -126,16 +126,16 @@
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "gggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggygggggggg",
-    "ChatGPT": "gggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggy",
-    "Codex": "gggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggoggggggggggggggg",
+    "OpenAI APIs": "ggggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggg",
+    "ChatGPT": "ggyygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyg",
+    "Codex": "ggggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggy",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggg"
+    "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggg"
   },
   "githubDaily": {
     "GitHub API": "gggygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyyg",
     "Git Operations": "gggggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyg",
-    "Actions": "gggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggog",
+    "Actions": "gggggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoy",
     "Copilot": "gggggggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygg",
     "Webhooks": "gggggygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyg",
     "Issues": "ggggyygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyg",
@@ -171,6 +171,7 @@
   },
   "oaiIncidents": {
     "11-05": [
+      "ChatGPT Work and Dots Errors",
       "Elevated error rates across paid ChatGPT plans"
     ],
     "11-03": [
@@ -1625,6 +1626,11 @@
       }
     },
     "Codex": {
+      "11-05": {
+        "titles": [
+          "ChatGPT Work and Dots Errors"
+        ]
+      },
       "10-21": {
         "titles": [
           "Degraded performance in ChatGPT, Codex, and APIs"
@@ -1942,6 +1948,13 @@
         "events": [
           "Incident with Pull Requests, Git Operations and Issues",
           "Incident with Actions and Pages",
+          "Incident with Actions"
+        ]
+      },
+      "11-05": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
           "Incident with Actions"
         ]
       }
