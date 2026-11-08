@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T00:32:32.562Z",
+  "updated": "2026-11-08T10:13:44.214Z",
   "startDate": "08-11",
   "dates": [
     "08-11",
@@ -118,19 +118,19 @@
     "Copilot AI Model Providers": "g"
   },
   "claudeDaily": {
-    "Claude API": "gyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggggggggygroogogggggggggggg",
-    "claude.ai": "gyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggg",
-    "Claude Code": "gyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggg",
+    "Claude API": "gyoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggggggggygroogogggggggggggy",
+    "claude.ai": "gyoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggy",
+    "Claude Code": "gyoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggy",
     "platform.claude.com": "gggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyygggggggggggggggggggggggggg",
-    "Claude Cowork": "gyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggg",
+    "Claude Cowork": "gyoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggy",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "ggggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggg",
-    "ChatGPT": "yygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggg",
-    "Codex": "ggggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygg",
+    "OpenAI APIs": "gggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggygggggggggggg",
+    "ChatGPT": "ygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggygggg",
+    "Codex": "gggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggggg"
+    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggg"
   },
   "githubDaily": {
     "GitHub API": "ygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggg",
@@ -566,6 +566,13 @@
           "Elevated errors for Claude Sonnet 5.5",
           "Elevated errors for Claude Sonnet 5.5"
         ]
+      },
+      "11-08": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Fable 5.1"
+        ]
       }
     },
     "claude.ai": {
@@ -768,6 +775,13 @@
           "Elevated errors affecting the Gmail connector",
           "Elevated errors affecting the Google Calendar connector"
         ]
+      },
+      "11-08": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Fable 5.1"
+        ]
       }
     },
     "Claude Code": {
@@ -952,6 +966,13 @@
         "events": [
           "Elevated errors affecting the Gmail connector",
           "Elevated errors affecting the Google Calendar connector"
+        ]
+      },
+      "11-08": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Fable 5.1"
         ]
       }
     },
@@ -1256,6 +1277,13 @@
         "events": [
           "Elevated errors affecting the Gmail connector",
           "Elevated errors affecting the Google Calendar connector"
+        ]
+      },
+      "11-08": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Fable 5.1"
         ]
       }
     },
