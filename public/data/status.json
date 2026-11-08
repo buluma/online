@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T10:13:44.214Z",
+  "updated": "2026-11-08T17:54:20.733Z",
   "startDate": "08-11",
   "dates": [
     "08-11",
@@ -127,13 +127,13 @@
   },
   "openaiDaily": {
     "OpenAI APIs": "gggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggygggggggggggg",
-    "ChatGPT": "ygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggygggg",
+    "ChatGPT": "ygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggygggg",
     "Codex": "gggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggg"
   },
   "githubDaily": {
-    "GitHub API": "ygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggg",
+    "GitHub API": "ygggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggy",
     "Git Operations": "ggygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyygg",
     "Actions": "ggggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyygg",
     "Copilot": "ggggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggyggggg",
@@ -170,6 +170,9 @@
     "Copilot AI Model Providers": 99.85
   },
   "oaiIncidents": {
+    "11-08": [
+      "Elevated errors with image generation"
+    ],
     "11-06": [
       "ChatGPT Work and Dots Errors"
     ],
@@ -1432,6 +1435,11 @@
       }
     },
     "ChatGPT": {
+      "11-08": {
+        "titles": [
+          "Elevated errors with image generation"
+        ]
+      },
       "11-05": {
         "titles": [
           "Elevated error rates across paid ChatGPT plans"
@@ -1813,6 +1821,13 @@
         "majorMinutes": 0,
         "events": [
           "Incident with Pull Requests, Git Operations and Issues"
+        ]
+      },
+      "11-08": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Increase in timeouts for some unauthenticated users"
         ]
       }
     },
