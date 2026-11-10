@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T14:48:19.291Z",
+  "updated": "2026-11-10T21:16:44.102Z",
   "startDate": "08-13",
   "dates": [
     "08-13",
@@ -135,11 +135,11 @@
   "githubDaily": {
     "GitHub API": "ggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggygg",
     "Git Operations": "ygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyygggg",
-    "Actions": "ggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrg",
+    "Actions": "ggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggro",
     "Copilot": "ggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoy",
     "Webhooks": "ygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggog",
     "Issues": "ygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyygggg",
-    "Pull Requests": "ygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggg",
+    "Pull Requests": "ygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggr",
     "Packages": "ygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygggggggggggggggggg",
     "Pages": "ggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggyg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
@@ -161,8 +161,8 @@
     "Webhooks": 99.97,
     "GitHub API": 99.89,
     "Issues": 99.89,
-    "Pull Requests": 99.81,
-    "Actions": 99.62,
+    "Pull Requests": 99.77,
+    "Actions": 99.61,
     "Packages": 100,
     "Pages": 100,
     "Copilot": 99.68,
@@ -377,6 +377,9 @@
     "11-09": [
       "Incident with Webhooks and Actions",
       "Incident with Actions and Checks API"
+    ],
+    "11-10": [
+      "Incident with Git Operations and Pull Requests"
     ]
   },
   "claudeMinutes": {
@@ -2011,6 +2014,13 @@
           "Incident with Webhooks and Actions",
           "Incident with Actions and Checks API"
         ]
+      },
+      "11-10": {
+        "partialMinutes": 48,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Git Operations and Pull Requests"
+        ]
       }
     },
     "Copilot": {
@@ -2315,6 +2325,13 @@
         "majorMinutes": 0,
         "events": [
           "Incident with Pull Requests, Git Operations and Issues"
+        ]
+      },
+      "11-10": {
+        "partialMinutes": 0,
+        "majorMinutes": 46,
+        "events": [
+          "Incident with Git Operations and Pull Requests"
         ]
       }
     },
