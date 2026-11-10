@@ -3,13 +3,13 @@ export const OPENAI_COMPONENT_GROUPS = {
   'OpenAI APIs': [
     'Fine-tuning', 'Embeddings', 'Images', 'Batch', 'Audio', 'Moderations',
     'Compliance API', 'Codex API', 'Responses', 'Chat Completions', 'Realtime',
-    'Audit Logs', 'Ads API', 'Ads Manager',
+    'Audit Logs', 'Ads API', 'Ads Manager', 'Decisions', 'Live',
   ],
   'ChatGPT': [
     'Login', 'Conversations', 'Voice mode', 'GPTs', 'Image Generation',
-    'Deep Research', 'Agent', 'Connectors/Apps', 'App', 'Apps', 'ChatGPT Atlas',
+    'Deep Research', 'Agent', 'Agents', 'Connectors/Apps', 'App', 'Apps', 'ChatGPT Atlas',
     'Search', 'File uploads', 'Files', 'Shopping Research', 'Feed',
-    'Sites',
+    'Sites', 'ChatGPT Work',
   ],
   'Codex': [
     'Codex Web', 'CLI', 'VS Code extension', 'Codex in ChatGPT Desktop',

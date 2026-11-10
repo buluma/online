@@ -88,6 +88,10 @@ const CLAUDE_COMPONENT_MAP = {
   "Claude Code": "Claude Code",
   "Claude Cowork": "Claude Cowork",
   "Claude for Government": "Claude for Government",
+  "Claude Platform on AWS": "Claude API",
+  "Claude in Microsoft Foundry": "Claude API",
+  "Claude Models on Google Cloud (Anthropic managed)": "Claude API",
+  "Claude on Cloud Platforms": "Claude API",
 };
 
 const CLAUDE_SERVICES = [

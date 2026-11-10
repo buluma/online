@@ -1,8 +1,7 @@
 {
-  "updated": "2026-11-09T06:17:19.936Z",
-  "startDate": "08-12",
+  "updated": "2026-11-10T05:49:31.688Z",
+  "startDate": "08-13",
   "dates": [
-    "08-12",
     "08-13",
     "08-14",
     "08-15",
@@ -91,12 +90,13 @@
     "11-06",
     "11-07",
     "11-08",
-    "11-09"
+    "11-09",
+    "11-10"
   ],
   "currentStatus": {
     "claude.ai": "g",
-    "platform.claude.com": "g",
     "Claude API": "g",
+    "platform.claude.com": "g",
     "Claude Code": "g",
     "Claude Cowork": "g",
     "Claude for Government": "g",
@@ -118,37 +118,37 @@
     "Copilot AI Model Providers": "g"
   },
   "claudeDaily": {
-    "Claude API": "yoogoyyyogggoggggggggooggggggyogggoggggggoggggggygygggooggggggggggggggygroogogggggggggggyg",
-    "claude.ai": "yoooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggyg",
-    "Claude Code": "yoogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyg",
-    "platform.claude.com": "ggggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggg",
-    "Claude Cowork": "yoogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggyg",
+    "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+    "claude.ai": "oooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygg",
+    "Claude Code": "oogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggygg",
+    "platform.claude.com": "gggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyygggggggggggggggggggggggggggg",
+    "Claude Cowork": "oogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygg",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "gggggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggygggggggggggg",
-    "ChatGPT": "ygyggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggygggg",
-    "Codex": "gggggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggg",
+    "OpenAI APIs": "gggggggggggggggggggggggggggggygggggygggggggggggyyggggggggggggggggggggygggggygggggggggggggy",
+    "ChatGPT": "yygggggygggggggggggygoyggggyyggygyggggggyyyggggyyggggyygyooggggggggggyyggggggggggggyggggyg",
+    "Codex": "gggggggggggggggggggggyygggggggggggggggggggggrggyyggggggggggggyggggggoyggggggggggggggyggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggg"
+    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggyggyygyggggggggggggygggggggggggggggggggg"
   },
   "githubDaily": {
-    "GitHub API": "gggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggyg",
-    "Git Operations": "gygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyyggg",
-    "Actions": "gggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggg",
-    "Copilot": "gggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggg",
-    "Webhooks": "gygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggg",
-    "Issues": "yygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyyggg",
-    "Pull Requests": "yygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggoggggg",
-    "Packages": "gygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggggggggggggggggg",
-    "Pages": "gggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggg",
+    "GitHub API": "ggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggygg",
+    "Git Operations": "ygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyygggg",
+    "Actions": "ggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrg",
+    "Copilot": "ggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoy",
+    "Webhooks": "ygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggog",
+    "Issues": "ygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyygggg",
+    "Pull Requests": "ygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggg",
+    "Packages": "ygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygggggggggggggggggg",
+    "Pages": "ggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggyg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "gyggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggg"
+    "Copilot AI Model Providers": "yggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoy"
   },
   "uptime": {
     "claude.ai": 99.71,
     "platform.claude.com": 99.84,
-    "Claude API": 99.77,
+    "Claude API": 100,
     "Claude Code": 99.71,
     "Claude Cowork": 99.7,
     "Claude for Government": 100,
@@ -158,18 +158,25 @@
     "Sora": 100,
     "FedRAMP": 100,
     "Git Operations": 99.99,
-    "Webhooks": 99.98,
+    "Webhooks": 99.97,
     "GitHub API": 99.89,
     "Issues": 99.89,
     "Pull Requests": 99.81,
-    "Actions": 99.64,
+    "Actions": 99.62,
     "Packages": 100,
     "Pages": 100,
     "Copilot": 99.68,
     "Codespaces": 100,
-    "Copilot AI Model Providers": 99.85
+    "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "11-10": [
+      "Incorrect cost data in Costs API exports"
+    ],
+    "11-09": [
+      "Elevated Errors On API",
+      "Elevated ChatGPT Conversation Errors"
+    ],
     "11-08": [
       "Elevated errors with image generation"
     ],
@@ -241,6 +248,7 @@
       "Workspace Agents Degraded and Responses Impacted"
     ],
     "10-06": [
+      "Computer Use Is Experiencing Issues",
       "Errors processing large PDFs in the Responses API",
       "Elevated error rates in ChatGPT Go conversations",
       "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
@@ -365,6 +373,10 @@
       "Incident with Pull Requests, Git Operations and Issues",
       "Incident with Actions and Pages",
       "Incident with Actions"
+    ],
+    "11-09": [
+      "Incident with Webhooks and Actions",
+      "Incident with Actions and Checks API"
     ]
   },
   "claudeMinutes": {
@@ -390,13 +402,6 @@
   },
   "claudeDetails": {
     "Claude API": {
-      "08-12": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Degraded performance for multiple models"
-        ]
-      },
       "08-13": {
         "partialMinutes": 105,
         "majorMinutes": 0,
@@ -573,13 +578,6 @@
       }
     },
     "claude.ai": {
-      "08-12": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Degraded performance for multiple models"
-        ]
-      },
       "08-13": {
         "partialMinutes": 205,
         "majorMinutes": 0,
@@ -782,13 +780,6 @@
       }
     },
     "Claude Code": {
-      "08-12": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Degraded performance for multiple models"
-        ]
-      },
       "08-13": {
         "partialMinutes": 105,
         "majorMinutes": 0,
@@ -1062,13 +1053,6 @@
       }
     },
     "Claude Cowork": {
-      "08-12": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Degraded performance for multiple models"
-        ]
-      },
       "08-13": {
         "partialMinutes": 105,
         "majorMinutes": 0,
@@ -1288,6 +1272,16 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
+      "11-10": {
+        "titles": [
+          "Incorrect cost data in Costs API exports"
+        ]
+      },
+      "11-09": {
+        "titles": [
+          "Elevated Errors On API"
+        ]
+      },
       "10-30": {
         "titles": [
           "Elevated errors for GPT Image 2 API image edits"
@@ -1423,9 +1417,20 @@
       }
     },
     "ChatGPT": {
+      "11-09": {
+        "titles": [
+          "Elevated Errors On API",
+          "Elevated ChatGPT Conversation Errors"
+        ]
+      },
       "11-08": {
         "titles": [
           "Elevated errors with image generation"
+        ]
+      },
+      "11-06": {
+        "titles": [
+          "ChatGPT Work and Dots Errors"
         ]
       },
       "11-05": {
@@ -1473,6 +1478,16 @@
           "Widespread feature degradation"
         ]
       },
+      "10-14": {
+        "titles": [
+          "Degraded performance in Codex and ChatGPT Work"
+        ]
+      },
+      "10-13": {
+        "titles": [
+          "Degraded performance in GPT-6.1 Sol Codex and Work mode"
+        ]
+      },
       "10-10": {
         "titles": [
           "Some ChatGPT content may be unavailable on Android"
@@ -1495,9 +1510,11 @@
       },
       "10-06": {
         "titles": [
+          "Computer Use Is Experiencing Issues",
           "Elevated error rates in ChatGPT Go conversations",
           "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
           "Elevated errors affecting multiple products including ChatGPT (conversations), Image generations, Spaces and Pages, API rehydration, and Dots.",
+          "Elevated Work Mode errors",
           "Elevated errors in API Platform login and administration APIs.",
           "Elevated errors in ChatGPT conversations"
         ]
@@ -1986,6 +2003,14 @@
         "events": [
           "Degraded performance for multiple GitHub services"
         ]
+      },
+      "11-09": {
+        "partialMinutes": 2,
+        "majorMinutes": 28,
+        "events": [
+          "Incident with Webhooks and Actions",
+          "Incident with Actions and Checks API"
+        ]
       }
     },
     "Copilot": {
@@ -2008,6 +2033,20 @@
         "majorMinutes": 0,
         "events": [
           "Incident with API, Git, and Copilot requests"
+        ]
+      },
+      "11-09": {
+        "partialMinutes": 6,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded availability for GPT-5.3 Codex and GPT-5.6 models in Copilot"
+        ]
+      },
+      "11-10": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded availability for GPT-5.3 Codex and GPT-5.6 models in Copilot"
         ]
       }
     },
@@ -2067,16 +2106,17 @@
         "events": [
           "Incident with Actions and Pages"
         ]
+      },
+      "11-09": {
+        "partialMinutes": 25,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Webhooks and Actions",
+          "Incident with Actions and Checks API"
+        ]
       }
     },
     "Issues": {
-      "08-12": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Incident with Pull Requests and Issues"
-        ]
-      },
       "08-13": {
         "partialMinutes": 0,
         "majorMinutes": 0,
@@ -2171,13 +2211,6 @@
       }
     },
     "Pull Requests": {
-      "08-12": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Incident with Pull Requests and Issues"
-        ]
-      },
       "08-13": {
         "partialMinutes": 0,
         "majorMinutes": 0,
@@ -2372,6 +2405,13 @@
         "events": [
           "Degraded performance for multiple GitHub services"
         ]
+      },
+      "11-09": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Actions and Checks API"
+        ]
       }
     },
     "Codespaces": {},
@@ -2451,6 +2491,20 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors on GPT-5.4 Nano"
+        ]
+      },
+      "11-09": {
+        "partialMinutes": 25,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded availability for GPT-5.3 Codex and GPT-5.6 models in Copilot"
+        ]
+      },
+      "11-10": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded availability for GPT-5.3 Codex and GPT-5.6 models in Copilot"
         ]
       }
     }

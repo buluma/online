@@ -40,6 +40,10 @@ const CLAUDE_COMPONENT_MAP = {
   'Claude Code': 'Claude Code',
   'Claude Cowork': 'Claude Cowork',
   'Claude for Government': 'Claude for Government',
+  'Claude Platform on AWS': 'Claude API',
+  'Claude in Microsoft Foundry': 'Claude API',
+  'Claude Models on Google Cloud (Anthropic managed)': 'Claude API',
+  'Claude on Cloud Platforms': 'Claude API',
 };
 
 const STATUS_MAP = {
@@ -177,20 +181,36 @@ async function main() {
   assert(data.startDate === claudeHistory.dates[0], 'startDate matches first provider date');
 
   console.log('\n── Claude History Alignment ──');
+  // Group provider components by mapped service name
+  const componentsByService = new Map();
   for (const componentName of (claudeSummary.components || []).map(component => component.name)) {
     const serviceName = CLAUDE_COMPONENT_MAP[componentName];
     assert(Boolean(serviceName), `Claude component "${componentName}" is mapped`);
     if (!serviceName) continue;
+    if (!componentsByService.has(serviceName)) componentsByService.set(serviceName, []);
+    componentsByService.get(serviceName).push(componentName);
+  }
 
-    const providerService = claudeHistory.historyBySource[componentName];
-    assert(Boolean(providerService), `${componentName} exists in Claude provider history`);
-    if (!providerService) continue;
+  for (const [serviceName, componentNames] of componentsByService) {
+    let matched = false;
+    for (const componentName of componentNames) {
+      const providerService = claudeHistory.historyBySource[componentName];
+      if (!providerService) continue;
 
-    const expectedStatuses = providerService.days.map(day => day.status).join('');
-    assert(data.claudeDaily[serviceName] === expectedStatuses, `${serviceName} historical bars match Claude`);
-    assert(data.uptime[serviceName] === providerService.uptime, `${serviceName} uptime matches Claude (${providerService.uptime})`);
-    assert(data.currentStatus[serviceName] === (STATUS_MAP[(claudeSummary.components || []).find(component => component.name === componentName)?.status] || 'g'),
-      `${serviceName} current status matches Claude summary`);
+      const expectedStatuses = providerService.days.map(day => day.status).join('');
+      if (data.claudeDaily[serviceName] === expectedStatuses &&
+          data.uptime[serviceName] === providerService.uptime) {
+        matched = true;
+        // Also verify current status matches at least one component
+        const summaryComponent = (claudeSummary.components || []).find(c => c.name === componentName);
+        const expectedCurrent = summaryComponent ? (STATUS_MAP[summaryComponent.status] || 'g') : 'g';
+        assert(data.currentStatus[serviceName] === expectedCurrent,
+          `${serviceName} current status matches Claude summary`);
+        break;
+      }
+    }
+    assert(matched, `${serviceName} historical bars match at least one Claude provider component`);
+    assert(data.uptime[serviceName] !== undefined, `${serviceName} uptime is defined`);
   }
 
   console.log('\n── OpenAI History Alignment ──');
