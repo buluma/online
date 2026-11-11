@@ -1,8 +1,7 @@
 {
-  "updated": "2026-11-10T21:16:44.102Z",
-  "startDate": "08-13",
+  "updated": "2026-11-11T01:15:25.766Z",
+  "startDate": "08-14",
   "dates": [
-    "08-13",
     "08-14",
     "08-15",
     "08-16",
@@ -91,7 +90,8 @@
     "11-07",
     "11-08",
     "11-09",
-    "11-10"
+    "11-10",
+    "11-11"
   ],
   "currentStatus": {
     "claude.ai": "g",
@@ -119,10 +119,10 @@
   },
   "claudeDaily": {
     "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "claude.ai": "oooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygg",
-    "Claude Code": "oogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggygg",
-    "platform.claude.com": "gggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyygggggggggggggggggggggggggggg",
-    "Claude Cowork": "oogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygg",
+    "claude.ai": "ooryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggyggg",
+    "Claude Code": "ogryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggg",
+    "platform.claude.com": "ggrgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggg",
+    "Claude Cowork": "ogryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggyggg",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
@@ -133,24 +133,24 @@
     "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggg"
   },
   "githubDaily": {
-    "GitHub API": "ggggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggygg",
-    "Git Operations": "ygggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyygggg",
-    "Actions": "ggggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggro",
-    "Copilot": "ggggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoy",
-    "Webhooks": "ygggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggog",
-    "Issues": "ygggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyygggg",
-    "Pull Requests": "ygggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggr",
-    "Packages": "ygggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygggggggggggggggggg",
-    "Pages": "ggggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggyg",
+    "GitHub API": "gggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggyggg",
+    "Git Operations": "gggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyyggggg",
+    "Actions": "gggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrog",
+    "Copilot": "gggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyg",
+    "Webhooks": "gggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogg",
+    "Issues": "gggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyyggggg",
+    "Pull Requests": "gggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrg",
+    "Packages": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggg",
+    "Pages": "gggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "yggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoy"
+    "Copilot AI Model Providers": "ggggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyg"
   },
   "uptime": {
-    "claude.ai": 99.71,
+    "claude.ai": 99.76,
     "platform.claude.com": 99.84,
     "Claude API": 100,
-    "Claude Code": 99.71,
-    "Claude Cowork": 99.7,
+    "Claude Code": 99.73,
+    "Claude Cowork": 99.73,
     "Claude for Government": 100,
     "OpenAI APIs": 99.97,
     "ChatGPT": 99.7,
@@ -349,9 +349,6 @@
     ],
     "08-18": [
       "Elevated errors deploying Sites"
-    ],
-    "08-13": [
-      "Elevated errors in ChatGPT conversations for Free users"
     ]
   },
   "githubIncidents": {
@@ -383,7 +380,6 @@
     ]
   },
   "claudeMinutes": {
-    "08-13": 415,
     "08-14": 51,
     "08-15": 21,
     "08-16": 105,
@@ -405,13 +401,6 @@
   },
   "claudeDetails": {
     "Claude API": {
-      "08-13": {
-        "partialMinutes": 105,
-        "majorMinutes": 0,
-        "events": [
-          "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5"
-        ]
-      },
       "08-14": {
         "partialMinutes": 24,
         "majorMinutes": 0,
@@ -581,13 +570,6 @@
       }
     },
     "claude.ai": {
-      "08-13": {
-        "partialMinutes": 205,
-        "majorMinutes": 0,
-        "events": [
-          "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5"
-        ]
-      },
       "08-14": {
         "partialMinutes": 3,
         "majorMinutes": 0,
@@ -783,13 +765,6 @@
       }
     },
     "Claude Code": {
-      "08-13": {
-        "partialMinutes": 105,
-        "majorMinutes": 0,
-        "events": [
-          "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5"
-        ]
-      },
       "08-14": {
         "partialMinutes": 24,
         "majorMinutes": 0,
@@ -1056,13 +1031,6 @@
       }
     },
     "Claude Cowork": {
-      "08-13": {
-        "partialMinutes": 105,
-        "majorMinutes": 0,
-        "events": [
-          "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5"
-        ]
-      },
       "08-14": {
         "partialMinutes": 71,
         "majorMinutes": 0,
@@ -1650,11 +1618,6 @@
         "titles": [
           "Elevated errors deploying Sites"
         ]
-      },
-      "08-13": {
-        "titles": [
-          "Elevated errors in ChatGPT conversations for Free users"
-        ]
       }
     },
     "Codex": {
@@ -1822,13 +1785,6 @@
       }
     },
     "Git Operations": {
-      "08-13": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Incident with Webhooks"
-        ]
-      },
       "08-17": {
         "partialMinutes": 0,
         "majorMinutes": 0,
@@ -2061,13 +2017,6 @@
       }
     },
     "Webhooks": {
-      "08-13": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Incident with Webhooks"
-        ]
-      },
       "08-17": {
         "partialMinutes": 42,
         "majorMinutes": 0,
@@ -2127,13 +2076,6 @@
       }
     },
     "Issues": {
-      "08-13": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Incident with Webhooks"
-        ]
-      },
       "08-17": {
         "partialMinutes": 0,
         "majorMinutes": 130,
@@ -2221,13 +2163,6 @@
       }
     },
     "Pull Requests": {
-      "08-13": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Incident with Webhooks"
-        ]
-      },
       "08-17": {
         "partialMinutes": 8,
         "majorMinutes": 125,
@@ -2336,13 +2271,6 @@
       }
     },
     "Packages": {
-      "08-13": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Incident with Webhooks"
-        ]
-      },
       "10-22": {
         "partialMinutes": 0,
         "majorMinutes": 0,
@@ -2433,13 +2361,6 @@
     },
     "Codespaces": {},
     "Copilot AI Model Providers": {
-      "08-13": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Errors with the Fable 5 Model in Copilot"
-        ]
-      },
       "08-24": {
         "partialMinutes": 47,
         "majorMinutes": 0,
