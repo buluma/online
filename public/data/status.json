@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T02:14:15.742Z",
+  "updated": "2026-11-12T10:59:03.002Z",
   "startDate": "08-15",
   "dates": [
     "08-15",
@@ -126,11 +126,11 @@
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "ggggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygg",
-    "ChatGPT": "ggggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggygg",
-    "Codex": "ggggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggg",
+    "OpenAI APIs": "gggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggyggg",
+    "ChatGPT": "gggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggg",
+    "Codex": "gggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggggggggg"
+    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggggg"
   },
   "githubDaily": {
     "GitHub API": "ggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggygggg",
@@ -153,7 +153,7 @@
     "Claude Cowork": 99.74,
     "Claude for Government": 100,
     "OpenAI APIs": 99.97,
-    "ChatGPT": 99.55,
+    "ChatGPT": 99.26,
     "Codex": 99.94,
     "Sora": 100,
     "FedRAMP": 100,
@@ -170,8 +170,11 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "11-12": [
+      "GPT-image-2.5 and 2.6 Sunburst & Flare High error rate",
+      "Unable to start new Workspace Agent runs"
+    ],
     "11-11": [
-      "Unable to start new Workspace Agent runs",
       "Elevated errors affecting logins, sign-ups, and ChatGPT features"
     ],
     "11-10": [
@@ -1220,6 +1223,11 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
+      "11-12": {
+        "titles": [
+          "GPT-image-2.5 and 2.6 Sunburst & Flare High error rate"
+        ]
+      },
       "11-11": {
         "titles": [
           "Elevated errors affecting logins, sign-ups, and ChatGPT features"
@@ -1370,9 +1378,13 @@
       }
     },
     "ChatGPT": {
+      "11-12": {
+        "titles": [
+          "Unable to start new Workspace Agent runs"
+        ]
+      },
       "11-11": {
         "titles": [
-          "Unable to start new Workspace Agent runs",
           "Elevated errors affecting logins, sign-ups, and ChatGPT features"
         ]
       },
