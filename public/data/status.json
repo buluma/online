@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T10:59:03.002Z",
+  "updated": "2026-11-12T19:51:53.458Z",
   "startDate": "08-15",
   "dates": [
     "08-15",
@@ -94,11 +94,11 @@
     "11-12"
   ],
   "currentStatus": {
-    "claude.ai": "g",
+    "claude.ai": "o",
     "Claude API": "g",
     "platform.claude.com": "g",
     "Claude Code": "g",
-    "Claude Cowork": "g",
+    "Claude Cowork": "o",
     "Claude for Government": "g",
     "OpenAI APIs": "g",
     "ChatGPT": "g",
@@ -119,10 +119,10 @@
   },
   "claudeDaily": {
     "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "claude.ai": "oryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggg",
+    "claude.ai": "oryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggo",
     "Claude Code": "gryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggygggg",
     "platform.claude.com": "grgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyygggggggggggggggggggggggggggggg",
-    "Claude Cowork": "gryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggg",
+    "Claude Cowork": "gryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggo",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
@@ -137,7 +137,7 @@
     "Git Operations": "ggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyygggggg",
     "Actions": "ggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorg",
     "Copilot": "ggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyrg",
-    "Webhooks": "ggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyg",
+    "Webhooks": "ggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyy",
     "Issues": "ggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyygggggg",
     "Pull Requests": "ggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrgg",
     "Packages": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygggggggggggggggggggg",
@@ -146,11 +146,11 @@
     "Copilot AI Model Providers": "gggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoygg"
   },
   "uptime": {
-    "claude.ai": 99.76,
+    "claude.ai": 99.73,
     "platform.claude.com": 99.84,
     "Claude API": 100,
     "Claude Code": 99.74,
-    "Claude Cowork": 99.74,
+    "Claude Cowork": 99.72,
     "Claude for Government": 100,
     "OpenAI APIs": 99.97,
     "ChatGPT": 99.26,
@@ -171,6 +171,7 @@
   },
   "oaiIncidents": {
     "11-12": [
+      "Elevated errors affecting the Microsoft 365 connector",
       "GPT-image-2.5 and 2.6 Sunburst & Flare High error rate",
       "Unable to start new Workspace Agent runs"
     ],
@@ -406,6 +407,7 @@
     "10-24": 74,
     "10-25": 105,
     "10-27": 195,
+    "11-12": 119,
     "08-28": 102
   },
   "claudeDetails": {
@@ -756,6 +758,13 @@
         "majorMinutes": 0,
         "events": [
           "Degraded performance for Claude Fable 5.1"
+        ]
+      },
+      "11-12": {
+        "partialMinutes": 119,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors affecting the Microsoft 365 connector"
         ]
       }
     },
@@ -1217,6 +1226,13 @@
         "events": [
           "Degraded performance for Claude Fable 5.1"
         ]
+      },
+      "11-12": {
+        "partialMinutes": 78,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors affecting the Microsoft 365 connector"
+        ]
       }
     },
     "Claude for Government": {}
@@ -1380,6 +1396,7 @@
     "ChatGPT": {
       "11-12": {
         "titles": [
+          "Elevated errors affecting the Microsoft 365 connector",
           "Unable to start new Workspace Agent runs"
         ]
       },
@@ -2094,6 +2111,13 @@
         "events": [
           "Impact across multiple GitHub products including Actions, Pages, and Copilot products.",
           "Incident with Webhooks"
+        ]
+      },
+      "11-12": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Webhooks API"
         ]
       }
     },
