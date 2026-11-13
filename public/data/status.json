@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T01:47:38.619Z",
+  "updated": "2026-11-13T10:53:38.505Z",
   "startDate": "08-16",
   "dates": [
     "08-16",
@@ -94,10 +94,10 @@
     "11-13"
   ],
   "currentStatus": {
-    "claude.ai": "y",
+    "claude.ai": "r",
     "Claude API": "g",
-    "platform.claude.com": "g",
-    "Claude Code": "g",
+    "platform.claude.com": "o",
+    "Claude Code": "o",
     "Claude Cowork": "y",
     "Claude for Government": "g",
     "OpenAI APIs": "g",
@@ -119,18 +119,18 @@
   },
   "claudeDaily": {
     "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "claude.ai": "ryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyy",
-    "Claude Code": "ryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggg",
-    "platform.claude.com": "rgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggg",
+    "claude.ai": "ryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyr",
+    "Claude Code": "ryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggo",
+    "platform.claude.com": "rgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggo",
     "Claude Cowork": "ryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyy",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "gggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggyggg",
-    "ChatGPT": "gggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggyggggyggg",
-    "Codex": "gggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggggggg",
+    "OpenAI APIs": "ggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggg",
+    "ChatGPT": "ggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggyggggygggg",
+    "Codex": "ggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggggg"
+    "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggggggggggg"
   },
   "githubDaily": {
     "GitHub API": "grggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggyggggg",
@@ -146,10 +146,10 @@
     "Copilot AI Model Providers": "ggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggg"
   },
   "uptime": {
-    "claude.ai": 99.76,
-    "platform.claude.com": 99.84,
+    "claude.ai": 99.72,
+    "platform.claude.com": 99.82,
     "Claude API": 100,
-    "Claude Code": 99.74,
+    "Claude Code": 99.73,
     "Claude Cowork": 99.74,
     "Claude for Government": 100,
     "OpenAI APIs": 99.97,
@@ -170,6 +170,9 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "11-13": [
+      "Sites: Publishing failing"
+    ],
     "11-12": [
       "Elevated errors affecting the Microsoft 365 connector",
       "GPT-image-2.5 and 2.6 Sunburst & Flare High error rate",
@@ -406,6 +409,7 @@
     "10-24": 74,
     "10-25": 105,
     "10-27": 195,
+    "11-13": 110,
     "08-28": 102
   },
   "claudeDetails": {
@@ -760,9 +764,10 @@
       },
       "11-13": {
         "partialMinutes": 0,
-        "majorMinutes": 0,
+        "majorMinutes": 55,
         "events": [
-          "Elevated errors affecting the Microsoft 365 connector"
+          "Elevated errors affecting the Microsoft 365 connector",
+          "Elevated errors on claude.ai, Claude Code, and platform.claude.com"
         ]
       }
     },
@@ -935,6 +940,13 @@
         "events": [
           "Degraded performance for Claude Fable 5.1"
         ]
+      },
+      "11-13": {
+        "partialMinutes": 55,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors on claude.ai, Claude Code, and platform.claude.com"
+        ]
       }
     },
     "platform.claude.com": {
@@ -1022,6 +1034,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors on platform.claude.com"
+        ]
+      },
+      "11-13": {
+        "partialMinutes": 55,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors on claude.ai, Claude Code, and platform.claude.com"
         ]
       }
     },
@@ -1236,7 +1255,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors affecting the Microsoft 365 connector"
+          "Elevated errors affecting the Microsoft 365 connector",
+          "Elevated errors on claude.ai, Claude Code, and platform.claude.com"
         ]
       }
     },
@@ -1399,6 +1419,11 @@
       }
     },
     "ChatGPT": {
+      "11-13": {
+        "titles": [
+          "Sites: Publishing failing"
+        ]
+      },
       "11-12": {
         "titles": [
           "Elevated errors affecting the Microsoft 365 connector",
