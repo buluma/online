@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T10:53:38.505Z",
+  "updated": "2026-11-13T19:37:26.349Z",
   "startDate": "08-16",
   "dates": [
     "08-16",
@@ -94,13 +94,13 @@
     "11-13"
   ],
   "currentStatus": {
-    "claude.ai": "r",
+    "claude.ai": "y",
     "Claude API": "g",
-    "platform.claude.com": "o",
-    "Claude Code": "o",
+    "platform.claude.com": "g",
+    "Claude Code": "g",
     "Claude Cowork": "y",
     "Claude for Government": "g",
-    "OpenAI APIs": "g",
+    "OpenAI APIs": "y",
     "ChatGPT": "g",
     "Codex": "g",
     "Sora": "g",
@@ -127,7 +127,7 @@
   },
   "openaiDaily": {
     "OpenAI APIs": "ggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggg",
-    "ChatGPT": "ggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggyggggygggg",
+    "ChatGPT": "ggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggygggg",
     "Codex": "ggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggggggggggg"
@@ -139,17 +139,17 @@
     "Copilot": "grgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyrgg",
     "Webhooks": "gogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyyg",
     "Issues": "grggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyyggggggg",
-    "Pull Requests": "grggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggg",
+    "Pull Requests": "grggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggo",
     "Packages": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggg",
     "Pages": "gyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrgg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "Copilot AI Model Providers": "ggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggg"
   },
   "uptime": {
-    "claude.ai": 99.72,
+    "claude.ai": 99.54,
     "platform.claude.com": 99.82,
     "Claude API": 100,
-    "Claude Code": 99.73,
+    "Claude Code": 99.69,
     "Claude Cowork": 99.74,
     "Claude for Government": 100,
     "OpenAI APIs": 99.97,
@@ -171,10 +171,11 @@
   },
   "oaiIncidents": {
     "11-13": [
+      "Delayed Costs Data in the Compliance API",
+      "Elevated errors affecting the Microsoft 365 connector",
       "Sites: Publishing failing"
     ],
     "11-12": [
-      "Elevated errors affecting the Microsoft 365 connector",
       "GPT-image-2.5 and 2.6 Sunburst & Flare High error rate",
       "Unable to start new Workspace Agent runs"
     ],
@@ -409,7 +410,7 @@
     "10-24": 74,
     "10-25": 105,
     "10-27": 195,
-    "11-13": 110,
+    "11-13": 687,
     "08-28": 102
   },
   "claudeDetails": {
@@ -572,6 +573,13 @@
         "majorMinutes": 0,
         "events": [
           "Degraded performance for Claude Fable 5.1"
+        ]
+      },
+      "11-13": {
+        "partialMinutes": 143,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors on claude.ai, the Claude API, and Claude Code"
         ]
       }
     },
@@ -763,11 +771,12 @@
         ]
       },
       "11-13": {
-        "partialMinutes": 0,
-        "majorMinutes": 55,
+        "partialMinutes": 57,
+        "majorMinutes": 277,
         "events": [
           "Elevated errors affecting the Microsoft 365 connector",
-          "Elevated errors on claude.ai, Claude Code, and platform.claude.com"
+          "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+          "Elevated errors on claude.ai, the Claude API, and Claude Code"
         ]
       }
     },
@@ -942,10 +951,11 @@
         ]
       },
       "11-13": {
-        "partialMinutes": 55,
+        "partialMinutes": 210,
         "majorMinutes": 0,
         "events": [
-          "Elevated errors on claude.ai, Claude Code, and platform.claude.com"
+          "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+          "Elevated errors on claude.ai, the Claude API, and Claude Code"
         ]
       }
     },
@@ -1037,7 +1047,7 @@
         ]
       },
       "11-13": {
-        "partialMinutes": 55,
+        "partialMinutes": 66,
         "majorMinutes": 0,
         "events": [
           "Elevated errors on claude.ai, Claude Code, and platform.claude.com"
@@ -1256,7 +1266,8 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors affecting the Microsoft 365 connector",
-          "Elevated errors on claude.ai, Claude Code, and platform.claude.com"
+          "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+          "Elevated errors on claude.ai, the Claude API, and Claude Code"
         ]
       }
     },
@@ -1264,6 +1275,11 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
+      "11-13": {
+        "titles": [
+          "Delayed Costs Data in the Compliance API"
+        ]
+      },
       "11-12": {
         "titles": [
           "GPT-image-2.5 and 2.6 Sunburst & Flare High error rate"
@@ -1421,12 +1437,12 @@
     "ChatGPT": {
       "11-13": {
         "titles": [
+          "Elevated errors affecting the Microsoft 365 connector",
           "Sites: Publishing failing"
         ]
       },
       "11-12": {
         "titles": [
-          "Elevated errors affecting the Microsoft 365 connector",
           "Unable to start new Workspace Agent runs"
         ]
       },
@@ -2343,6 +2359,13 @@
         "majorMinutes": 46,
         "events": [
           "Incident with Git Operations and Pull Requests"
+        ]
+      },
+      "11-13": {
+        "partialMinutes": 22,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Pull Requests"
         ]
       }
     },
