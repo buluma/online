@@ -1,8 +1,7 @@
 {
-  "updated": "2026-11-12T19:51:53.458Z",
-  "startDate": "08-15",
+  "updated": "2026-11-13T01:47:38.619Z",
+  "startDate": "08-16",
   "dates": [
-    "08-15",
     "08-16",
     "08-17",
     "08-18",
@@ -91,14 +90,15 @@
     "11-09",
     "11-10",
     "11-11",
-    "11-12"
+    "11-12",
+    "11-13"
   ],
   "currentStatus": {
-    "claude.ai": "o",
+    "claude.ai": "y",
     "Claude API": "g",
     "platform.claude.com": "g",
     "Claude Code": "g",
-    "Claude Cowork": "o",
+    "Claude Cowork": "y",
     "Claude for Government": "g",
     "OpenAI APIs": "g",
     "ChatGPT": "g",
@@ -119,38 +119,38 @@
   },
   "claudeDaily": {
     "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "claude.ai": "oryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggo",
-    "Claude Code": "gryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggygggg",
-    "platform.claude.com": "grgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyygggggggggggggggggggggggggggggg",
-    "Claude Cowork": "gryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggo",
+    "claude.ai": "ryyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyy",
+    "Claude Code": "ryyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggg",
+    "platform.claude.com": "rgggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggg",
+    "Claude Cowork": "ryyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyy",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
     "OpenAI APIs": "gggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggyggg",
-    "ChatGPT": "gggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggg",
+    "ChatGPT": "gggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggyggggyggg",
     "Codex": "gggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggggg"
   },
   "githubDaily": {
-    "GitHub API": "ggrggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggygggg",
-    "Git Operations": "ggyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyygggggg",
-    "Actions": "ggrggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorg",
-    "Copilot": "ggrgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyrg",
-    "Webhooks": "ggogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyy",
-    "Issues": "ggrggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyygggggg",
-    "Pull Requests": "ggrggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrgg",
-    "Packages": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygggggggggggggggggggg",
-    "Pages": "ggyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrg",
+    "GitHub API": "grggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggyggggg",
+    "Git Operations": "gyggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyyggggggg",
+    "Actions": "grggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorgg",
+    "Copilot": "grgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyrgg",
+    "Webhooks": "gogggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyyg",
+    "Issues": "grggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyyggggggg",
+    "Pull Requests": "grggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggg",
+    "Packages": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggg",
+    "Pages": "gyggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrgg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "gggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoygg"
+    "Copilot AI Model Providers": "ggggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggg"
   },
   "uptime": {
-    "claude.ai": 99.73,
+    "claude.ai": 99.76,
     "platform.claude.com": 99.84,
     "Claude API": 100,
     "Claude Code": 99.74,
-    "Claude Cowork": 99.72,
+    "Claude Cowork": 99.74,
     "Claude for Government": 100,
     "OpenAI APIs": 99.97,
     "ChatGPT": 99.26,
@@ -391,7 +391,6 @@
     ]
   },
   "claudeMinutes": {
-    "08-15": 21,
     "08-16": 105,
     "08-20": 78,
     "08-24": 612,
@@ -407,7 +406,6 @@
     "10-24": 74,
     "10-25": 105,
     "10-27": 195,
-    "11-12": 119,
     "08-28": 102
   },
   "claudeDetails": {
@@ -574,13 +572,6 @@
       }
     },
     "claude.ai": {
-      "08-15": {
-        "partialMinutes": 21,
-        "majorMinutes": 0,
-        "events": [
-          "Elevated errors for Claude Fable 5"
-        ]
-      },
       "08-16": {
         "partialMinutes": 0,
         "majorMinutes": 36,
@@ -761,7 +752,14 @@
         ]
       },
       "11-12": {
-        "partialMinutes": 119,
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors affecting the Microsoft 365 connector"
+        ]
+      },
+      "11-13": {
+        "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
           "Elevated errors affecting the Microsoft 365 connector"
@@ -1228,7 +1226,14 @@
         ]
       },
       "11-12": {
-        "partialMinutes": 78,
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors affecting the Microsoft 365 connector"
+        ]
+      },
+      "11-13": {
+        "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
           "Elevated errors affecting the Microsoft 365 connector"
