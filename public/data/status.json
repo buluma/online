@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T01:25:33.725Z",
+  "updated": "2026-11-14T10:17:02.475Z",
   "startDate": "08-17",
   "dates": [
     "08-17",
@@ -94,7 +94,7 @@
     "11-14"
   ],
   "currentStatus": {
-    "claude.ai": "g",
+    "claude.ai": "y",
     "Claude API": "g",
     "platform.claude.com": "g",
     "Claude Code": "g",
@@ -119,18 +119,18 @@
   },
   "claudeDaily": {
     "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "claude.ai": "yyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyrg",
+    "claude.ai": "yyyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyry",
     "Claude Code": "yyyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggog",
     "platform.claude.com": "gggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggog",
     "Claude Cowork": "yyyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyg",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "ggggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggg",
-    "ChatGPT": "ggggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggygggg",
-    "Codex": "ggggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggg",
+    "OpenAI APIs": "gggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggyggggg",
+    "ChatGPT": "gggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggg",
+    "Codex": "gggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggggggggggg"
+    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggggggg"
   },
   "githubDaily": {
     "GitHub API": "rggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggygggggg",
@@ -171,10 +171,11 @@
   },
   "oaiIncidents": {
     "11-14": [
+      "Delayed Costs Data in the Compliance API",
+      "Elevated errors with ChatGPT billing and Ads billing",
       "Elevated errors affecting the Microsoft 365 connector"
     ],
     "11-13": [
-      "Delayed Costs Data in the Compliance API",
       "Sites: Publishing failing"
     ],
     "11-12": [
@@ -765,6 +766,14 @@
           "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
           "Elevated errors on claude.ai, the Claude API, and Claude Code"
         ]
+      },
+      "11-14": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated purchasing errors on claude.ai",
+          "Some users unable to sign up with Apple on the Claude iOS app"
+        ]
       }
     },
     "Claude Code": {
@@ -1241,7 +1250,7 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
-      "11-13": {
+      "11-14": {
         "titles": [
           "Delayed Costs Data in the Compliance API"
         ]
@@ -1403,6 +1412,7 @@
     "ChatGPT": {
       "11-14": {
         "titles": [
+          "Elevated errors with ChatGPT billing and Ads billing",
           "Elevated errors affecting the Microsoft 365 connector"
         ]
       },
