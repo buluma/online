@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T06:20:38.247Z",
+  "updated": "2026-11-16T19:32:59.692Z",
   "startDate": "08-19",
   "dates": [
     "08-19",
@@ -120,26 +120,26 @@
   "claudeDaily": {
     "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "claude.ai": "yogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyy",
-    "Claude Code": "yogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggg",
+    "Claude Code": "yogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggo",
     "platform.claude.com": "gggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggoggg",
-    "Claude Cowork": "yogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggg",
+    "Claude Cowork": "yogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggo",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "ggggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggggg",
-    "ChatGPT": "ggyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggygggggg",
-    "Codex": "ggggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggggg",
+    "OpenAI APIs": "gggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggyggggggg",
+    "ChatGPT": "gyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggyggggyggggggg",
+    "Codex": "gggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggggggggggggg"
+    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggggggggg"
   },
   "githubDaily": {
     "GitHub API": "gggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggygggggggg",
     "Git Operations": "gggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyygggggggggg",
-    "Actions": "gggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorggggg",
+    "Actions": "gggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorggggy",
     "Copilot": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyrggggg",
     "Webhooks": "ggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyygggg",
     "Issues": "gggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyygggggggggg",
-    "Pull Requests": "gggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggoggg",
+    "Pull Requests": "gggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggoggy",
     "Packages": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygggggggggggggggggggggggg",
     "Pages": "gggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrggggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
@@ -149,8 +149,8 @@
     "claude.ai": 99.56,
     "platform.claude.com": 99.85,
     "Claude API": 100,
-    "Claude Code": 99.72,
-    "Claude Cowork": 99.77,
+    "Claude Code": 99.7,
+    "Claude Cowork": 99.75,
     "Claude for Government": 100,
     "OpenAI APIs": 99.97,
     "ChatGPT": 99.26,
@@ -409,6 +409,7 @@
     "10-25": 105,
     "10-27": 195,
     "11-13": 687,
+    "11-16": 150,
     "08-28": 102
   },
   "claudeDetails": {
@@ -557,6 +558,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors on claude.ai, the Claude API, and Claude Code"
+        ]
+      },
+      "11-16": {
+        "partialMinutes": 75,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2"
         ]
       }
     },
@@ -754,7 +762,9 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Some users unable to sign up with Apple on the Claude iOS app"
+          "Some users unable to sign up with Apple on the Claude iOS app",
+          "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
+          "Claude unable to join meetings"
         ]
       }
     },
@@ -913,6 +923,13 @@
         "events": [
           "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
           "Elevated errors on claude.ai, the Claude API, and Claude Code"
+        ]
+      },
+      "11-16": {
+        "partialMinutes": 75,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2"
         ]
       }
     },
@@ -1197,6 +1214,13 @@
           "Elevated errors affecting the Microsoft 365 connector",
           "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
           "Elevated errors on claude.ai, the Claude API, and Claude Code"
+        ]
+      },
+      "11-16": {
+        "partialMinutes": 75,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2"
         ]
       }
     },
@@ -1955,6 +1979,13 @@
         "events": [
           "Impact across multiple GitHub products including Actions, Pages, and Copilot products."
         ]
+      },
+      "11-16": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Pull Requests"
+        ]
       }
     },
     "Copilot": {
@@ -2243,6 +2274,13 @@
       },
       "11-13": {
         "partialMinutes": 22,
+        "majorMinutes": 0,
+        "events": [
+          "Incident with Pull Requests"
+        ]
+      },
+      "11-16": {
+        "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
           "Incident with Pull Requests"
