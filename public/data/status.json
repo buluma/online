@@ -1,8 +1,7 @@
 {
-  "updated": "2026-11-15T16:18:16.115Z",
-  "startDate": "08-18",
+  "updated": "2026-11-16T06:20:38.247Z",
+  "startDate": "08-19",
   "dates": [
-    "08-18",
     "08-19",
     "08-20",
     "08-21",
@@ -91,7 +90,8 @@
     "11-12",
     "11-13",
     "11-14",
-    "11-15"
+    "11-15",
+    "11-16"
   ],
   "currentStatus": {
     "claude.ai": "y",
@@ -100,7 +100,7 @@
     "Claude Code": "g",
     "Claude Cowork": "g",
     "Claude for Government": "g",
-    "OpenAI APIs": "y",
+    "OpenAI APIs": "g",
     "ChatGPT": "g",
     "Codex": "g",
     "Sora": "g",
@@ -119,10 +119,10 @@
   },
   "claudeDaily": {
     "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "claude.ai": "yyogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryy",
-    "Claude Code": "yyogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggogg",
-    "platform.claude.com": "ggggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggogg",
-    "Claude Cowork": "yyogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyygg",
+    "claude.ai": "yogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyy",
+    "Claude Code": "yogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggg",
+    "platform.claude.com": "gggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggoggg",
+    "Claude Cowork": "yogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggg",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
@@ -133,17 +133,17 @@
     "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggggggggggggg"
   },
   "githubDaily": {
-    "GitHub API": "ggggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggyggggggg",
-    "Git Operations": "ggggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyyggggggggg",
-    "Actions": "ggggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorgggg",
-    "Copilot": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyrgggg",
-    "Webhooks": "gggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyyggg",
-    "Issues": "ggggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyyggggggggg",
-    "Pull Requests": "ggggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggogg",
-    "Packages": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggggg",
-    "Pages": "ggggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrgggg",
+    "GitHub API": "gggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggygggggggg",
+    "Git Operations": "gggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyygggggggggg",
+    "Actions": "gggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorggggg",
+    "Copilot": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyrggggg",
+    "Webhooks": "ggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyygggg",
+    "Issues": "gggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyygggggggggg",
+    "Pull Requests": "gggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggoggg",
+    "Packages": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygggggggggggggggggggggggg",
+    "Pages": "gggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrggggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "ggggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggygg"
+    "Copilot AI Model Providers": "gggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggg"
   },
   "uptime": {
     "claude.ai": 99.56,
@@ -170,8 +170,10 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "11-16": [
+      "Delayed Costs Data in the Compliance API"
+    ],
     "11-14": [
-      "Delayed Costs Data in the Compliance API",
       "Elevated errors with ChatGPT billing and Ads billing",
       "Elevated errors affecting the Microsoft 365 connector"
     ],
@@ -361,9 +363,6 @@
       "Elevated Codex API authentication errors",
       "Elevated Errors for Thinking mode in ChatGPT",
       "Chatgpt.com is down - all signups and logins are down as of right now"
-    ],
-    "08-18": [
-      "Elevated errors deploying Sites"
     ]
   },
   "githubIncidents": {
@@ -414,13 +413,6 @@
   },
   "claudeDetails": {
     "Claude API": {
-      "08-18": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Degraded performance for multiple models"
-        ]
-      },
       "08-19": {
         "partialMinutes": 0,
         "majorMinutes": 0,
@@ -569,13 +561,6 @@
       }
     },
     "claude.ai": {
-      "08-18": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Degraded performance for multiple models"
-        ]
-      },
       "08-19": {
         "partialMinutes": 0,
         "majorMinutes": 0,
@@ -764,16 +749,16 @@
         "events": [
           "Some users unable to sign up with Apple on the Claude iOS app"
         ]
-      }
-    },
-    "Claude Code": {
-      "08-18": {
+      },
+      "11-16": {
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Degraded performance for multiple models"
+          "Some users unable to sign up with Apple on the Claude iOS app"
         ]
-      },
+      }
+    },
+    "Claude Code": {
       "08-19": {
         "partialMinutes": 0,
         "majorMinutes": 0,
@@ -1020,13 +1005,6 @@
       }
     },
     "Claude Cowork": {
-      "08-18": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Degraded performance for multiple models"
-        ]
-      },
       "08-19": {
         "partialMinutes": 0,
         "majorMinutes": 0,
@@ -1226,7 +1204,7 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
-      "11-14": {
+      "11-16": {
         "titles": [
           "Delayed Costs Data in the Compliance API"
         ]
@@ -1631,11 +1609,6 @@
         "titles": [
           "Elevated Errors for Thinking mode in ChatGPT",
           "Chatgpt.com is down - all signups and logins are down as of right now"
-        ]
-      },
-      "08-18": {
-        "titles": [
-          "Elevated errors deploying Sites"
         ]
       }
     },
