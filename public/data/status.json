@@ -1,8 +1,7 @@
 {
-  "updated": "2026-11-16T19:32:59.692Z",
-  "startDate": "08-19",
+  "updated": "2026-11-17T03:47:43.611Z",
+  "startDate": "08-20",
   "dates": [
-    "08-19",
     "08-20",
     "08-21",
     "08-22",
@@ -91,7 +90,8 @@
     "11-13",
     "11-14",
     "11-15",
-    "11-16"
+    "11-16",
+    "11-17"
   ],
   "currentStatus": {
     "claude.ai": "y",
@@ -119,31 +119,31 @@
   },
   "claudeDaily": {
     "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "claude.ai": "yogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyy",
-    "Claude Code": "yogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggo",
-    "platform.claude.com": "gggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggoggg",
-    "Claude Cowork": "yogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggo",
+    "claude.ai": "ogggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyyy",
+    "Claude Code": "ogggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggog",
+    "platform.claude.com": "ggggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggogggg",
+    "Claude Cowork": "ogggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggog",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
     "OpenAI APIs": "gggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggyggggggg",
-    "ChatGPT": "gyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggyggggyggggggg",
+    "ChatGPT": "gyggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggggg",
     "Codex": "gggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggggggggg"
   },
   "githubDaily": {
-    "GitHub API": "gggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggygggggggg",
-    "Git Operations": "gggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyygggggggggg",
-    "Actions": "gggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorggggy",
-    "Copilot": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyrggggg",
-    "Webhooks": "ggggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyygggg",
-    "Issues": "gggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyygggggggggg",
-    "Pull Requests": "gggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggoggy",
-    "Packages": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygggggggggggggggggggggggg",
-    "Pages": "gggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrggggg",
+    "GitHub API": "ggggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggyggggggggg",
+    "Git Operations": "ggggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyyggggggggggg",
+    "Actions": "ggggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorggggyg",
+    "Copilot": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyrgggggg",
+    "Webhooks": "gggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyyggggg",
+    "Issues": "ggggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyyggggggggggg",
+    "Pull Requests": "ggggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggoggyg",
+    "Packages": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggggggg",
+    "Pages": "ggggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrgggggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "gggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggg"
+    "Copilot AI Model Providers": "ggggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggygggg"
   },
   "uptime": {
     "claude.ai": 99.56,
@@ -414,13 +414,6 @@
   },
   "claudeDetails": {
     "Claude API": {
-      "08-19": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Degraded performance for Claude Opus 5 and Claude Haiku 4.5"
-        ]
-      },
       "08-20": {
         "partialMinutes": 26,
         "majorMinutes": 0,
@@ -569,13 +562,6 @@
       }
     },
     "claude.ai": {
-      "08-19": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Degraded performance for Claude Opus 5 and Claude Haiku 4.5"
-        ]
-      },
       "08-20": {
         "partialMinutes": 26,
         "majorMinutes": 0,
@@ -766,16 +752,16 @@
           "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
           "Claude unable to join meetings"
         ]
-      }
-    },
-    "Claude Code": {
-      "08-19": {
+      },
+      "11-17": {
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Degraded performance for Claude Opus 5 and Claude Haiku 4.5"
+          "Claude unable to join meetings"
         ]
-      },
+      }
+    },
+    "Claude Code": {
       "08-20": {
         "partialMinutes": 26,
         "majorMinutes": 0,
@@ -1022,13 +1008,6 @@
       }
     },
     "Claude Cowork": {
-      "08-19": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Degraded performance for Claude Opus 5 and Claude Haiku 4.5"
-        ]
-      },
       "08-20": {
         "partialMinutes": 26,
         "majorMinutes": 0,
