@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T11:33:35.453Z",
+  "updated": "2026-11-18T20:26:48.164Z",
   "startDate": "08-21",
   "dates": [
     "08-21",
@@ -100,7 +100,7 @@
     "Claude Code": "g",
     "Claude Cowork": "g",
     "Claude for Government": "g",
-    "OpenAI APIs": "y",
+    "OpenAI APIs": "g",
     "ChatGPT": "g",
     "Codex": "g",
     "Sora": "g",
@@ -127,7 +127,7 @@
   },
   "openaiDaily": {
     "OpenAI APIs": "gggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggyggggggggg",
-    "ChatGPT": "ggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggggggg",
+    "ChatGPT": "ggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggggggy",
     "Codex": "gggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggggggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggggggggggg"
@@ -170,8 +170,9 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
-    "11-17": [
-      "Costs API data is delayed"
+    "11-18": [
+      "Costs API data is delayed",
+      "Elevated conversation errors for Free and Go users"
     ],
     "11-16": [
       "Delayed Costs Data in the Compliance API"
@@ -1181,7 +1182,7 @@
   },
   "openaiDetails": {
     "OpenAI APIs": {
-      "11-17": {
+      "11-18": {
         "titles": [
           "Costs API data is delayed"
         ]
@@ -1341,6 +1342,11 @@
       }
     },
     "ChatGPT": {
+      "11-18": {
+        "titles": [
+          "Elevated conversation errors for Free and Go users"
+        ]
+      },
       "11-14": {
         "titles": [
           "Elevated errors with ChatGPT billing and Ads billing",
