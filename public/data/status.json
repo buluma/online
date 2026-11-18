@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T00:55:51.073Z",
+  "updated": "2026-11-18T11:33:35.453Z",
   "startDate": "08-21",
   "dates": [
     "08-21",
@@ -126,11 +126,11 @@
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "ggggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggggggg",
-    "ChatGPT": "yggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggygggggggg",
-    "Codex": "ggggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggggggg",
+    "OpenAI APIs": "gggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggyggggggggg",
+    "ChatGPT": "ggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggggggg",
+    "Codex": "gggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggggggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggggggggggggggg"
+    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggggggggggg"
   },
   "githubDaily": {
     "GitHub API": "gggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggygggggggggg",
@@ -143,7 +143,7 @@
     "Packages": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygggggggggggggggggggggggggg",
     "Pages": "gggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrggggggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "gggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggggg"
+    "Copilot AI Model Providers": "gggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggggy"
   },
   "uptime": {
     "claude.ai": 99.57,
@@ -746,7 +746,8 @@
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Claude unable to join meetings"
+          "Claude unable to join meetings",
+          "Elevated errors affecting the Google Docs connector"
         ]
       }
     },
@@ -2413,6 +2414,13 @@
         "majorMinutes": 0,
         "events": [
           "Copilot experiencing degraded model availability for some GPT models"
+        ]
+      },
+      "11-18": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded Availability for MAI Code 2 Flash in Copilot"
         ]
       }
     }
