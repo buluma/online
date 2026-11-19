@@ -1,8 +1,7 @@
 {
-  "updated": "2026-11-18T20:26:48.164Z",
-  "startDate": "08-21",
+  "updated": "2026-11-19T02:31:39.390Z",
+  "startDate": "08-22",
   "dates": [
-    "08-21",
     "08-22",
     "08-23",
     "08-24",
@@ -91,10 +90,11 @@
     "11-15",
     "11-16",
     "11-17",
-    "11-18"
+    "11-18",
+    "11-19"
   ],
   "currentStatus": {
-    "claude.ai": "y",
+    "claude.ai": "g",
     "Claude API": "g",
     "platform.claude.com": "g",
     "Claude Code": "g",
@@ -119,31 +119,31 @@
   },
   "claudeDaily": {
     "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "claude.ai": "gggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyyoy",
-    "Claude Code": "gggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggogg",
-    "platform.claude.com": "gggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggoggggg",
-    "Claude Cowork": "gggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggogg",
+    "claude.ai": "ggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyyoyy",
+    "Claude Code": "ggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggoggg",
+    "platform.claude.com": "ggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggogggggg",
+    "Claude Cowork": "ggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggoggg",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
     "OpenAI APIs": "gggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggyggggggggg",
-    "ChatGPT": "ggggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggggggy",
+    "ChatGPT": "ggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggyggggyggggggggy",
     "Codex": "gggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggggggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggggggggggg"
   },
   "githubDaily": {
-    "GitHub API": "gggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggygggggggggg",
-    "Git Operations": "gggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyygggggggggggg",
-    "Actions": "gggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorggggygg",
-    "Copilot": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyrggggggg",
-    "Webhooks": "ggggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyygggggg",
-    "Issues": "gggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyygggggggggggg",
-    "Pull Requests": "gggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggoggygg",
-    "Packages": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygggggggggggggggggggggggggg",
-    "Pages": "gggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrggggggg",
+    "GitHub API": "ggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggyggggggggggg",
+    "Git Operations": "ggggggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyyggggggggggggg",
+    "Actions": "ggygryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorggggyggg",
+    "Copilot": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyrgggggggg",
+    "Webhooks": "gggggggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyyggggggg",
+    "Issues": "ggggggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyyggggggggggggg",
+    "Pull Requests": "ggggyyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggoggyggg",
+    "Packages": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggggggggg",
+    "Pages": "ggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrgggggggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "gggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggggy"
+    "Copilot AI Model Providers": "ggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggggyg"
   },
   "uptime": {
     "claude.ai": 99.57,
@@ -359,9 +359,6 @@
     ],
     "08-27": [
       "Users may experience an increase in error rates in Workspace Agents and ChatGPT Work on Web and Mobile"
-    ],
-    "08-21": [
-      "Unexpected logouts for some ChatGPT web users"
     ]
   },
   "githubIncidents": {
@@ -732,7 +729,7 @@
         "events": [
           "Some users unable to sign up with Apple on the Claude iOS app",
           "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
-          "Claude unable to join meetings"
+          "Claude Meetings auto-join limited on the Team plan"
         ]
       },
       "11-17": {
@@ -740,15 +737,22 @@
         "majorMinutes": 0,
         "events": [
           "Some users unable to sign in with Apple on claude.ai and the Claude iOS app",
-          "Claude unable to join meetings"
+          "Claude Meetings auto-join limited on the Team plan"
         ]
       },
       "11-18": {
         "partialMinutes": 0,
         "majorMinutes": 0,
         "events": [
-          "Claude unable to join meetings",
+          "Claude Meetings auto-join limited on the Team plan",
           "Elevated errors affecting the Google Docs connector"
+        ]
+      },
+      "11-19": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Claude Meetings auto-join limited on the Team plan"
         ]
       }
     },
@@ -1581,11 +1585,6 @@
       "08-27": {
         "titles": [
           "Users may experience an increase in error rates in Workspace Agents and ChatGPT Work on Web and Mobile"
-        ]
-      },
-      "08-21": {
-        "titles": [
-          "Unexpected logouts for some ChatGPT web users"
         ]
       }
     },
