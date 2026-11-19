@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T02:31:39.390Z",
+  "updated": "2026-11-19T11:31:44.418Z",
   "startDate": "08-22",
   "dates": [
     "08-22",
@@ -119,18 +119,18 @@
   },
   "claudeDaily": {
     "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "claude.ai": "ggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyyoyy",
-    "Claude Code": "ggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggoggg",
+    "claude.ai": "ggoggggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyyoyo",
+    "Claude Code": "ggogggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggoggo",
     "platform.claude.com": "ggggggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggogggggg",
-    "Claude Cowork": "ggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggoggg",
+    "Claude Cowork": "ggogggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggoggo",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "gggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggyggggggggg",
-    "ChatGPT": "ggggggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggyggggyggggggggy",
-    "Codex": "gggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggggggggggggg",
+    "OpenAI APIs": "ggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggggggggg",
+    "ChatGPT": "gggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggggggyg",
+    "Codex": "ggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggggggggggg"
+    "FedRAMP": "gggggggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggggggggggggggggg"
   },
   "githubDaily": {
     "GitHub API": "ggggggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggyggggggggggg",
@@ -146,11 +146,11 @@
     "Copilot AI Model Providers": "ggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggggyg"
   },
   "uptime": {
-    "claude.ai": 99.57,
+    "claude.ai": 99.56,
     "platform.claude.com": 99.85,
     "Claude API": 100,
-    "Claude Code": 99.71,
-    "Claude Cowork": 99.76,
+    "Claude Code": 99.7,
+    "Claude Cowork": 99.75,
     "Claude for Government": 100,
     "OpenAI APIs": 99.97,
     "ChatGPT": 99.26,
@@ -170,8 +170,10 @@
     "Copilot AI Model Providers": 99.84
   },
   "oaiIncidents": {
+    "11-19": [
+      "Costs API data is delayed"
+    ],
     "11-18": [
-      "Costs API data is delayed",
       "Elevated conversation errors for Free and Go users"
     ],
     "11-16": [
@@ -404,6 +406,7 @@
     "10-25": 105,
     "10-27": 195,
     "11-13": 687,
+    "11-19": 69,
     "11-16": 150,
     "08-28": 102
   },
@@ -545,6 +548,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2"
+        ]
+      },
+      "11-19": {
+        "partialMinutes": 23,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2"
         ]
       }
     },
@@ -749,10 +759,11 @@
         ]
       },
       "11-19": {
-        "partialMinutes": 0,
+        "partialMinutes": 23,
         "majorMinutes": 0,
         "events": [
-          "Claude Meetings auto-join limited on the Team plan"
+          "Claude Meetings auto-join limited on the Team plan",
+          "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2"
         ]
       }
     },
@@ -903,6 +914,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2"
+        ]
+      },
+      "11-19": {
+        "partialMinutes": 23,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2"
         ]
       }
     },
@@ -1180,13 +1198,20 @@
         "events": [
           "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2"
         ]
+      },
+      "11-19": {
+        "partialMinutes": 23,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2"
+        ]
       }
     },
     "Claude for Government": {}
   },
   "openaiDetails": {
     "OpenAI APIs": {
-      "11-18": {
+      "11-19": {
         "titles": [
           "Costs API data is delayed"
         ]
