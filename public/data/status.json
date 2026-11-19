@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T11:31:44.418Z",
+  "updated": "2026-11-19T20:30:06.479Z",
   "startDate": "08-22",
   "dates": [
     "08-22",
@@ -126,7 +126,7 @@
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "ggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggggggggg",
+    "OpenAI APIs": "ggggggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggggggggo",
     "ChatGPT": "gggggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggggggyg",
     "Codex": "ggggggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
@@ -143,7 +143,7 @@
     "Packages": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggggggggg",
     "Pages": "ggggygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrgggggggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "ggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggggyg"
+    "Copilot AI Model Providers": "ggoggrgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggggyy"
   },
   "uptime": {
     "claude.ai": 99.56,
@@ -171,6 +171,7 @@
   },
   "oaiIncidents": {
     "11-19": [
+      "Elevated error rates for gpt-6 Luna API requests",
       "Costs API data is delayed"
     ],
     "11-18": [
@@ -1213,6 +1214,7 @@
     "OpenAI APIs": {
       "11-19": {
         "titles": [
+          "Elevated error rates for gpt-6 Luna API requests",
           "Costs API data is delayed"
         ]
       },
@@ -2451,6 +2453,13 @@
         "majorMinutes": 0,
         "events": [
           "Degraded Availability for MAI Code 2 Flash in Copilot"
+        ]
+      },
+      "11-19": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded availability for GPT-6 Luna in Copilot"
         ]
       }
     }
