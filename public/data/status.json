@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T11:14:14.702Z",
+  "updated": "2026-11-22T19:31:54.931Z",
   "startDate": "08-25",
   "dates": [
     "08-25",
@@ -127,7 +127,7 @@
   },
   "openaiDaily": {
     "OpenAI APIs": "gggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggggggggoggg",
-    "ChatGPT": "ggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggyggggyggggggggygggg",
+    "ChatGPT": "ggggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggggggygggg",
     "Codex": "gggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggggggggggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "ggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggggggggggggggg"
