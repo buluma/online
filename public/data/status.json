@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T01:38:46.508Z",
+  "updated": "2026-11-23T14:15:25.723Z",
   "startDate": "08-26",
   "dates": [
     "08-26",
@@ -119,18 +119,18 @@
   },
   "claudeDaily": {
     "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "claude.ai": "gggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyyoyogggg",
-    "Claude Code": "ggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggoggogggg",
+    "claude.ai": "gggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyyoyogggo",
+    "Claude Code": "ggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggoggogggo",
     "platform.claude.com": "ggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggogggggggggg",
-    "Claude Cowork": "ggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggoggogggg",
+    "Claude Cowork": "ggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggoggogggo",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "gggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggggggggoggg",
-    "ChatGPT": "ggggggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggyggggyggggggggygggg",
-    "Codex": "gggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggyggggggggggggggggg",
+    "OpenAI APIs": "ggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggggggggogggg",
+    "ChatGPT": "gggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggggggyggggg",
+    "Codex": "ggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggggggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "ggggggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggggggggggggggg"
+    "FedRAMP": "gggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggggggggggggggggggggg"
   },
   "githubDaily": {
     "GitHub API": "ggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggyggggggggggggggg",
@@ -407,6 +407,7 @@
     "10-27": 195,
     "11-13": 687,
     "11-19": 69,
+    "11-23": 21,
     "11-16": 150,
     "08-28": 102
   },
@@ -548,6 +549,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2"
+        ]
+      },
+      "11-23": {
+        "partialMinutes": 7,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for multiple models"
         ]
       }
     },
@@ -749,6 +757,13 @@
           "Claude Meetings auto-join limited on the Team plan",
           "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2"
         ]
+      },
+      "11-23": {
+        "partialMinutes": 7,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for multiple models"
+        ]
       }
     },
     "Claude Code": {
@@ -897,6 +912,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2"
+        ]
+      },
+      "11-23": {
+        "partialMinutes": 7,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for multiple models"
         ]
       }
     },
@@ -1172,6 +1194,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2"
+        ]
+      },
+      "11-23": {
+        "partialMinutes": 7,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for multiple models"
         ]
       }
     },
