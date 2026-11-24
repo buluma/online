@@ -1,8 +1,7 @@
 {
-  "updated": "2026-11-23T14:15:25.723Z",
-  "startDate": "08-26",
+  "updated": "2026-11-24T02:35:25.389Z",
+  "startDate": "08-27",
   "dates": [
-    "08-26",
     "08-27",
     "08-28",
     "08-29",
@@ -91,10 +90,11 @@
     "11-20",
     "11-21",
     "11-22",
-    "11-23"
+    "11-23",
+    "11-24"
   ],
   "currentStatus": {
-    "claude.ai": "g",
+    "claude.ai": "y",
     "Claude API": "g",
     "platform.claude.com": "g",
     "Claude Code": "g",
@@ -119,31 +119,31 @@
   },
   "claudeDaily": {
     "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "claude.ai": "gggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyyoyogggo",
-    "Claude Code": "ggoggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggoggogggo",
-    "platform.claude.com": "ggggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggogggggggggg",
-    "Claude Cowork": "ggoggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggoggogggo",
+    "claude.ai": "ggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyyoyogggoy",
+    "Claude Code": "goggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggoggogggog",
+    "platform.claude.com": "gggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggoggggggggggg",
+    "Claude Cowork": "goggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggoggogggog",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
     "OpenAI APIs": "ggggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggggggggogggg",
-    "ChatGPT": "gggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggggggyggggg",
+    "ChatGPT": "gggggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggggggyggggy",
     "Codex": "ggggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggggggggggggg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "gggggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggggggggggggggggggggg"
   },
   "githubDaily": {
-    "GitHub API": "ggggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggyggggggggggggggg",
-    "Git Operations": "ggggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyyggggggggggggggggg",
-    "Actions": "ryggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorggggyggggggg",
-    "Copilot": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyrgggggggggggg",
-    "Webhooks": "gggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyyggggggggggg",
-    "Issues": "ggggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyyggggggggggggggggg",
-    "Pull Requests": "yyggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggoggyggggggg",
-    "Packages": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggggggggggggg",
-    "Pages": "ygggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrgggggggggggg",
+    "GitHub API": "gggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggygggggggggggggggg",
+    "Git Operations": "gggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyygggggggggggggggggg",
+    "Actions": "yggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorggggygggggggg",
+    "Copilot": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyrggggggggggggg",
+    "Webhooks": "ggggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyygggggggggggg",
+    "Issues": "gggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyygggggggggggggggggg",
+    "Pull Requests": "yggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggoggygggggggg",
+    "Packages": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygggggggggggggggggggggggggggggggg",
+    "Pages": "gggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrggggggggggggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "grgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggggyygggg"
+    "Copilot AI Model Providers": "rgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggggyyggggg"
   },
   "uptime": {
     "claude.ai": 99.61,
@@ -162,7 +162,7 @@
     "GitHub API": 100,
     "Issues": 100,
     "Pull Requests": 99.87,
-    "Actions": 99.69,
+    "Actions": 99.82,
     "Packages": 100,
     "Pages": 99.98,
     "Copilot": 99.99,
@@ -170,6 +170,9 @@
     "Copilot AI Model Providers": 99.85
   },
   "oaiIncidents": {
+    "11-23": [
+      "Elevated errors with GPT-6 conversations on paid ChatGPT plans"
+    ],
     "11-19": [
       "Elevated error rates for gpt-6 Luna API requests",
       "Costs API data is delayed"
@@ -368,10 +371,6 @@
     "10-07": [
       "Incident with Git Operations, Issues, Actions and Pull Requests",
       "Incident with Git Operations, Pull Requests and Actions"
-    ],
-    "08-26": [
-      "Incident with Actions",
-      "Incident with Actions and Pull Requests"
     ],
     "10-05": [
       "Incident with Actions"
@@ -763,6 +762,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for multiple models"
+        ]
+      },
+      "11-24": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Claude for Microsoft 365 add-in missing for some users"
         ]
       }
     },
@@ -1369,6 +1375,11 @@
       }
     },
     "ChatGPT": {
+      "11-23": {
+        "titles": [
+          "Elevated errors with GPT-6 conversations on paid ChatGPT plans"
+        ]
+      },
       "11-18": {
         "titles": [
           "Elevated conversation errors for Free and Go users"
@@ -1807,14 +1818,6 @@
       }
     },
     "Actions": {
-      "08-26": {
-        "partialMinutes": 0,
-        "majorMinutes": 163,
-        "events": [
-          "Incident with Actions",
-          "Incident with Actions and Pull Requests"
-        ]
-      },
       "08-27": {
         "partialMinutes": 0,
         "majorMinutes": 0,
@@ -2141,13 +2144,6 @@
       }
     },
     "Pull Requests": {
-      "08-26": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Incident with Actions and Pull Requests"
-        ]
-      },
       "08-27": {
         "partialMinutes": 0,
         "majorMinutes": 0,
@@ -2272,13 +2268,6 @@
       }
     },
     "Pages": {
-      "08-26": {
-        "partialMinutes": 0,
-        "majorMinutes": 0,
-        "events": [
-          "Incident with Actions"
-        ]
-      },
       "09-13": {
         "partialMinutes": 0,
         "majorMinutes": 0,
