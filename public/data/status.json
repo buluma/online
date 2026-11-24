@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T13:36:09.878Z",
+  "updated": "2026-11-24T23:52:32.721Z",
   "startDate": "08-27",
   "dates": [
     "08-27",
@@ -119,10 +119,10 @@
   },
   "claudeDaily": {
     "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "claude.ai": "ggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyyoyogggoy",
-    "Claude Code": "goggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggoggogggog",
+    "claude.ai": "ggggyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyyoyogggoo",
+    "Claude Code": "goggygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggoggogggoo",
     "platform.claude.com": "gggggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggoggggggggggg",
-    "Claude Cowork": "goggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggoggogggog",
+    "Claude Cowork": "goggggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggoggogggoo",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
@@ -143,7 +143,7 @@
     "Packages": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggyygggggggggggggggggggggggggggggggg",
     "Pages": "gggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrggggggggggggg",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "rgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggggyyggggg"
+    "Copilot AI Model Providers": "rgggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggggyyggggy"
   },
   "uptime": {
     "claude.ai": 99.61,
@@ -407,6 +407,7 @@
     "11-13": 687,
     "11-19": 69,
     "11-23": 21,
+    "11-24": 24,
     "11-16": 150,
     "08-28": 102
   },
@@ -555,6 +556,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for multiple models"
+        ]
+      },
+      "11-24": {
+        "partialMinutes": 8,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Haiku 5.5"
         ]
       }
     },
@@ -765,10 +773,11 @@
         ]
       },
       "11-24": {
-        "partialMinutes": 0,
+        "partialMinutes": 8,
         "majorMinutes": 0,
         "events": [
-          "Claude for Microsoft 365 add-in missing for some users"
+          "Claude for Microsoft 365 add-in missing for some users",
+          "Elevated errors for Claude Haiku 5.5"
         ]
       }
     },
@@ -925,6 +934,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for multiple models"
+        ]
+      },
+      "11-24": {
+        "partialMinutes": 8,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Haiku 5.5"
         ]
       }
     },
@@ -1207,6 +1223,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for multiple models"
+        ]
+      },
+      "11-24": {
+        "partialMinutes": 8,
+        "majorMinutes": 0,
+        "events": [
+          "Elevated errors for Claude Haiku 5.5"
         ]
       }
     },
@@ -2431,6 +2454,13 @@
         "majorMinutes": 0,
         "events": [
           "Degraded availability for GPT-6 Luna in Copilot"
+        ]
+      },
+      "11-24": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded Availability for MAI Code 2 in Copilot"
         ]
       }
     }
