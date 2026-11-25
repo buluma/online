@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T08:24:27.119Z",
+  "updated": "2026-11-25T19:12:53.799Z",
   "startDate": "08-28",
   "dates": [
     "08-28",
@@ -127,23 +127,23 @@
   },
   "openaiDaily": {
     "OpenAI APIs": "ggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggggggggogggggg",
-    "ChatGPT": "gggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggyggggyggggggggyggggygg",
-    "Codex": "ggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggggggggggggggg",
+    "ChatGPT": "gggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggggggyggggygy",
+    "Codex": "ggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggggggggggggggy",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
     "FedRAMP": "gggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggggggggggggggggggggggg"
   },
   "githubDaily": {
-    "GitHub API": "ggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggyggggggggggggggggg",
-    "Git Operations": "ggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyyggggggggggggggggggg",
-    "Actions": "ggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorggggyggggggggg",
+    "GitHub API": "ggggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggyggggggggggggggggy",
+    "Git Operations": "ggggggggggggggggggggggggggggggggggggggggrggggggggggggggggggggggggggyyyyggggggggggggggggggo",
+    "Actions": "ggggggggggggggggygggggggggggggggggygggrgrggggyggggggygyyyggygggyggggoyyggrorggggyggggggggo",
     "Copilot": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggygggggygggggoyrgggggggggggggg",
-    "Webhooks": "gggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyyggggggggggggg",
-    "Issues": "ggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyyggggggggggggggggggg",
-    "Pull Requests": "ggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggoggyggggggggg",
-    "Packages": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggggggggggggggg",
-    "Pages": "ggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrgggggggggggggg",
+    "Webhooks": "gggggggggggggggggggggggggggggggggggggggyrgggggggggggygyggggggggyggggyggggogyyggggggggggggy",
+    "Issues": "ggggggggggggggggygggggggggggggggggggggggyggggygggggggggyyggygggygggyyyyggggggggggggggggggr",
+    "Pull Requests": "ggggygggggggggggrggggggygggggggggggggggyrggggyggggggggyyyggyggggggggogggggrggoggyggggggggr",
+    "Packages": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggyyggggggggggggggggggggggggggggggggo",
+    "Pages": "ggggggggggggggggygggggggggggggggggggggygggggggggggggyggggggggggyggggyyyggygrgggggggggggggo",
     "Codespaces": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "Copilot AI Model Providers": "gggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggggyyggggyg"
+    "Copilot AI Model Providers": "gggyggygggggggggggyoygggggggggggggggggggggggggggggggggggyyggggggggyggggggoyggyggggyyggggyy"
   },
   "uptime": {
     "claude.ai": 99.61,
@@ -160,16 +160,20 @@
     "Git Operations": 99.99,
     "Webhooks": 99.98,
     "GitHub API": 100,
-    "Issues": 100,
-    "Pull Requests": 99.87,
-    "Actions": 99.82,
-    "Packages": 100,
+    "Issues": 99.98,
+    "Pull Requests": 99.85,
+    "Actions": 99.81,
+    "Packages": 99.99,
     "Pages": 99.98,
     "Copilot": 99.99,
     "Codespaces": 100,
     "Copilot AI Model Providers": 99.94
   },
   "oaiIncidents": {
+    "11-25": [
+      "Elevated errors with Codex GitHub reviews and pull request merges",
+      "ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors"
+    ],
     "11-23": [
       "Elevated errors with GPT-6 conversations on paid ChatGPT plans"
     ],
@@ -368,6 +372,9 @@
     "10-07": [
       "Incident with Git Operations, Issues, Actions and Pull Requests",
       "Incident with Git Operations, Pull Requests and Actions"
+    ],
+    "11-25": [
+      "Investigating degraded experiences across GitHub products"
     ],
     "10-05": [
       "Incident with Actions"
@@ -1402,6 +1409,11 @@
       }
     },
     "ChatGPT": {
+      "11-25": {
+        "titles": [
+          "ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors"
+        ]
+      },
       "11-23": {
         "titles": [
           "Elevated errors with GPT-6 conversations on paid ChatGPT plans"
@@ -1645,6 +1657,12 @@
       }
     },
     "Codex": {
+      "11-25": {
+        "titles": [
+          "Elevated errors with Codex GitHub reviews and pull request merges",
+          "ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors"
+        ]
+      },
       "11-06": {
         "titles": [
           "ChatGPT Work and Dots Errors"
@@ -1799,6 +1817,13 @@
         "events": [
           "Increase in timeouts for some unauthenticated users"
         ]
+      },
+      "11-25": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Investigating degraded experiences across GitHub products"
+        ]
       }
     },
     "Git Operations": {
@@ -1836,6 +1861,13 @@
         "majorMinutes": 0,
         "events": [
           "Degraded performance for multiple GitHub services"
+        ]
+      },
+      "11-25": {
+        "partialMinutes": 4,
+        "majorMinutes": 0,
+        "events": [
+          "Investigating degraded experiences across GitHub products"
         ]
       }
     },
@@ -1972,6 +2004,13 @@
         "events": [
           "Incident with Pull Requests"
         ]
+      },
+      "11-25": {
+        "partialMinutes": 29,
+        "majorMinutes": 0,
+        "events": [
+          "Investigating degraded experiences across GitHub products"
+        ]
       }
     },
     "Copilot": {
@@ -2076,6 +2115,13 @@
         "events": [
           "Incident with Webhooks API"
         ]
+      },
+      "11-25": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "Investigating degraded experiences across GitHub products"
+        ]
       }
     },
     "Issues": {
@@ -2155,6 +2201,13 @@
         "majorMinutes": 0,
         "events": [
           "Degraded performance for multiple GitHub services"
+        ]
+      },
+      "11-25": {
+        "partialMinutes": 0,
+        "majorMinutes": 21,
+        "events": [
+          "Investigating degraded experiences across GitHub products"
         ]
       }
     },
@@ -2257,6 +2310,13 @@
         "events": [
           "Incident with Pull Requests"
         ]
+      },
+      "11-25": {
+        "partialMinutes": 10,
+        "majorMinutes": 21,
+        "events": [
+          "Investigating degraded experiences across GitHub products"
+        ]
       }
     },
     "Packages": {
@@ -2272,6 +2332,13 @@
         "majorMinutes": 0,
         "events": [
           "Project updates delayed"
+        ]
+      },
+      "11-25": {
+        "partialMinutes": 29,
+        "majorMinutes": 0,
+        "events": [
+          "Investigating degraded experiences across GitHub products"
         ]
       }
     },
@@ -2338,6 +2405,13 @@
         "majorMinutes": 11,
         "events": [
           "Impact across multiple GitHub products including Actions, Pages, and Copilot products."
+        ]
+      },
+      "11-25": {
+        "partialMinutes": 17,
+        "majorMinutes": 0,
+        "events": [
+          "Investigating degraded experiences across GitHub products"
         ]
       }
     },
@@ -2439,6 +2513,13 @@
         "majorMinutes": 0,
         "events": [
           "Degraded Availability for MAI Code 2 in Copilot"
+        ]
+      },
+      "11-25": {
+        "partialMinutes": 0,
+        "majorMinutes": 0,
+        "events": [
+          "MAI Code 2 Degredation"
         ]
       }
     }
