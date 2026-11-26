@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T03:31:28.578Z",
+  "updated": "2026-11-26T16:49:15.733Z",
   "startDate": "08-29",
   "dates": [
     "08-29",
@@ -126,11 +126,11 @@
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "ggggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggggggggogggggg",
-    "ChatGPT": "gggygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggggggyggggygy",
-    "Codex": "ggggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggggggggggggggy",
+    "OpenAI APIs": "gggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggggggggoggggggg",
+    "ChatGPT": "ggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggyggggyggggggggyggggygyg",
+    "Codex": "gggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggggggggggggggyy",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "gggggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggggggggggggggggggggggg"
+    "FedRAMP": "ggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggggggggggggggggggg"
   },
   "githubDaily": {
     "GitHub API": "gggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggyggggggggggggggggyg",
@@ -170,8 +170,10 @@
     "Copilot AI Model Providers": 99.94
   },
   "oaiIncidents": {
+    "11-26": [
+      "Elevated errors with Codex GitHub reviews and pull request merges"
+    ],
     "11-25": [
-      "Elevated errors with Codex GitHub reviews and pull request merges",
       "ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors"
     ],
     "11-23": [
@@ -1649,9 +1651,13 @@
       }
     },
     "Codex": {
+      "11-26": {
+        "titles": [
+          "Elevated errors with Codex GitHub reviews and pull request merges"
+        ]
+      },
       "11-25": {
         "titles": [
-          "Elevated errors with Codex GitHub reviews and pull request merges",
           "ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors"
         ]
       },
