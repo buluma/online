@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T01:41:22.053Z",
+  "updated": "2026-11-27T12:08:43.563Z",
   "startDate": "08-30",
   "dates": [
     "08-30",
@@ -119,18 +119,18 @@
   },
   "claudeDaily": {
     "Claude API": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "claude.ai": "gyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyyoyogggooyyy",
-    "Claude Code": "gygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggoggogggooggg",
+    "claude.ai": "gyyoogggggggogggoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyryyyoyogggooyyo",
+    "Claude Code": "gygoogggggggogggoggggggoggggggogggggooggggggggggggggygroogoyggggggggggyggggoggoggogggooggo",
     "platform.claude.com": "ggyyggggggggggggggggggggggggggygygggggoyyyyyyggggggggggggggggggggggggggggggogggggggggggggg",
-    "Claude Cowork": "gggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggoggogggooggg",
+    "Claude Cowork": "gggooggggggyyyyyoggggggoggggggogggggooggggggggggggggyyroogoyggggggggggygggyyggoggogggooggo",
     "Claude for Government": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
   },
   "openaiDaily": {
-    "OpenAI APIs": "gggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggggggggoggggggg",
-    "ChatGPT": "ggygoyyggggyyggygyggggggyygggggyyggggyyyyoggggggggggyyyggggggggggggyggggyggggggggyggggygyg",
-    "Codex": "gggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggggggggggggggyy",
+    "OpenAI APIs": "ggggggggggggygggggygggggggggggyygggggggggggggggggggyygggggyggggggggggggygggggggggogggggggg",
+    "ChatGPT": "gygoyyggggyyggygyggggggyygggggyyggggyyygoggggggggggyyyggggggggggggyggggyggggggggyggggygygg",
+    "Codex": "ggggyyggggggggggggggggggggrgggygggggggggggggyggggggogggggggggggggggygggggggggggggggggggyyg",
     "Sora": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
-    "FedRAMP": "ggggggggggggggggggggggggggggggggggyggygygggggggggggggygggggggggggggggggggggggggggggggggggg"
+    "FedRAMP": "gggggggggggggggggggggggggggggggggyggygygggggggggggggyggggggggggggggggggggggggggggggggggggg"
   },
   "githubDaily": {
     "GitHub API": "ggggggggggggggygggggggggyygggggggggggggggggggggggggggyyggygggggggyygggyggggggggggggggggygg",
@@ -414,6 +414,7 @@
     "11-19": 69,
     "11-23": 21,
     "11-24": 24,
+    "11-27": 15,
     "11-16": 150
   },
   "claudeDetails": {
@@ -568,6 +569,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Haiku 5.5"
+        ]
+      },
+      "11-27": {
+        "partialMinutes": 5,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Fable 5.2"
         ]
       }
     },
@@ -800,9 +808,10 @@
         ]
       },
       "11-27": {
-        "partialMinutes": 0,
+        "partialMinutes": 5,
         "majorMinutes": 0,
         "events": [
+          "Degraded performance for Claude Fable 5.2",
           "Claude for Microsoft 365 add-in missing for some users"
         ]
       }
@@ -960,6 +969,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Haiku 5.5"
+        ]
+      },
+      "11-27": {
+        "partialMinutes": 5,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Fable 5.2"
         ]
       }
     },
@@ -1242,6 +1258,13 @@
         "majorMinutes": 0,
         "events": [
           "Elevated errors for Claude Haiku 5.5"
+        ]
+      },
+      "11-27": {
+        "partialMinutes": 5,
+        "majorMinutes": 0,
+        "events": [
+          "Degraded performance for Claude Fable 5.2"
         ]
       }
     },
